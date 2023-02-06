@@ -1,5 +1,4 @@
-
-import { ExamplesTree, isExamplesTree, isExamplesArray } from "./tree.ts";
+import { ExamplesTree, isExamplesArray, isExamplesTree } from "./tree.ts";
 
 function generateLinkForTag(tag: string): string {
   return `#${tag.replace(/ /g, "-").toLowerCase().replace(/[^a-z0-9-]/g, "")}`;
@@ -46,7 +45,10 @@ function generateLinkForTag(tag: string): string {
  * // #### Subcategory 2
  * // - [Example 3](examples/category2/example3.ts) - This is an example.
  */
-export function generateContent(examplesByTags: ExamplesTree, level = 0): string {
+export function generateContent(
+  examplesByTags: ExamplesTree,
+  level = 0,
+): string {
   let content = "";
 
   for (const [tag, examples] of Object.entries(examplesByTags)) {
@@ -56,8 +58,7 @@ export function generateContent(examplesByTags: ExamplesTree, level = 0): string
     } else if (isExamplesArray(examples)) {
       content += examples
         .map((example) =>
-          `- [${example.name}](${example.url}) - ${example.description
-          }`
+          `- [${example.name}](${example.url}) - ${example.description}`
         )
         .join("\n");
       content += "\n";
@@ -110,7 +111,7 @@ export function generateToc(examplesByTags: ExamplesTree, level = 0): string {
 
   for (const [tag, examples] of Object.entries(examplesByTags)) {
     if (isExamplesArray(examples)) {
-      continue
+      continue;
     }
 
     if (isExamplesTree(examples)) {

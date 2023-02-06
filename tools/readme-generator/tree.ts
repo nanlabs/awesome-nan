@@ -3,7 +3,7 @@ export type Example = {
   description: string;
   tags: string[];
   labels: string[];
-}
+};
 
 export const isExample = (example: unknown): example is Example => {
   return (
@@ -17,17 +17,22 @@ export const isExample = (example: unknown): example is Example => {
 };
 
 export const isExamplesArray = (examples: unknown): examples is Example[] => {
-  return Array.isArray(examples) && examples.every((example) => isExample(example));
+  return Array.isArray(examples) &&
+    examples.every((example) => isExample(example));
 };
 
 export type ExamplesTree = {
   [key: string]: ExamplesTree | Example[];
-}
+};
 
-export const isExamplesTree = (exampleTree: unknown): exampleTree is ExamplesTree => {
+export const isExamplesTree = (
+  exampleTree: unknown,
+): exampleTree is ExamplesTree => {
   return (
     typeof exampleTree === "object" &&
     exampleTree !== null &&
-    Object.values(exampleTree).every((value) => isExamplesTree(value) || Array.isArray(value))
+    Object.values(exampleTree).every((value) =>
+      isExamplesTree(value) || Array.isArray(value)
+    )
   );
 };

@@ -1,18 +1,20 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write --allow-run
 
-import { readExamplesFromJsonPath, groupExamplesByTagsRecursive } from "./transform.ts";
+import { groupExamplesByTags, readExamplesFromJsonPaths } from "./transform.ts";
 import { generateContent, generateToc } from "./generator.ts";
 
 async function main() {
   if (Deno.args.length < 2) {
-    console.log("Usage: generate.ts README.md.tmpl examples.json");
+    console.log(
+      "Usage: generate.ts README.md.tmpl examples1.json [examples2.json ...]",
+    );
     Deno.exit(1);
   }
 
   console.log("Reading examples.json...");
 
-  const examples = await readExamplesFromJsonPath(Deno.args[1]);
-  const examplesByTags = await groupExamplesByTagsRecursive(examples);
+  const examples = await readExamplesFromJsonPaths([...Deno.args.slice(1)]);
+  const examplesByTags = await groupExamplesByTags(examples);
 
   const content = generateContent(examplesByTags);
   const toc = generateToc(examplesByTags);
