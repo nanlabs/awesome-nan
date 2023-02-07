@@ -36,7 +36,7 @@ jobs:
   update-readme:
     if: github.event_name == 'push' && github.event.head_commit.message != 'Update README'
     name: Update README
-    uses: ./.github/workflows/generate-readme.yml@main
+    uses: ./.github/workflows/generate-readme.yml
 
   pr-review:
     if: github.event_name == 'pull_request' && github.event.pull_request.draft == false
