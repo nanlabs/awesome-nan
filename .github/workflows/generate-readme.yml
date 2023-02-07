@@ -1,0 +1,58 @@
+name: Generate README
+
+on:
+  workflow_call:
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.30
+
+      - name: Download indexes
+        run: |
+          URLS=(
+            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
+          )
+
+          # Download files preventing duplicated names (e.g. examples.json)
+          i=0
+          for url in "${URLS[@]}"; do
+            filename=$(basename "$url")
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            filename="$filename-$i.$extension"
+            curl -s "$url" -o "$filename"
+            i=$((i + 1))
+          done
+
+      - name: Generate README
+        run: |
+          # Get the list of examples previously downloaded
+          EXAMPLES=$(ls examples-*.json)
+
+          # Generate the README
+          ./tools/readme-generator/main.ts README.md.tmpl $EXAMPLES
+
+          # Remove the downloaded files
+          rm examples-*.json
+
+      - name: Run prettier
+        run: npx prettier --write README.md
+
+      - name: Run markdownlint
+        uses: articulate/actions-markdownlint@v1
+        with:
+          fix: true
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: "Update README"
