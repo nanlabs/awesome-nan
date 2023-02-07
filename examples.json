@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
+  "list": [
+    {
+      "name": "Automation Seed",
+      "description": "Automation Seed is a e2e automation framework built on top of WebdriverIO v7 and Selenium that uses Selenoid for execution",
+      "url": "https://github.com/nanlabs/automation-seed",
+      "tags": ["Applications"],
+      "labels": [
+        "Automation",
+        "Selenium",
+        "WebdriverIO",
+        "Selenoid",
+        "Allure",
+        "Typescript",
+        "GitHub Actions",
+        "GitHub Pages"
+      ]
+    }
+  ]
+}
