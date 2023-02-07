@@ -115,7 +115,7 @@ export function generateToc(examplesByTags: ExamplesTree, level = 0): string {
     }
 
     if (isExamplesTree(examples)) {
-      toc += `${"  ".repeat(level)}- [${tag}](${generateLinkForTag(tag)}})\n`;
+      toc += `${"  ".repeat(level)}- [${tag}](${generateLinkForTag(tag)})\n`;
       toc += generateToc(examples as ExamplesTree, level + 1);
     }
   }
