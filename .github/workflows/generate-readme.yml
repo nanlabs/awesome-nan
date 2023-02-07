@@ -24,9 +24,10 @@ jobs:
       - name: Download indexes
         run: |
           URLS=(
-            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
             https://raw.githubusercontent.com/nanlabs/nancy.js/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
           )
 
           # Download files preventing duplicated names (e.g. examples.json)
@@ -46,7 +47,7 @@ jobs:
           EXAMPLES=$(ls examples-*.json)
 
           # Generate the README
-          ./tools/readme-generator/main.ts README.md.tmpl $EXAMPLES
+          ./tools/readme-generator/main.ts README.md.tmpl examples.json $EXAMPLES
 
           # Remove the downloaded files
           rm examples-*.json
