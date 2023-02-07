@@ -34,7 +34,7 @@ jobs:
     uses: nanlabs/devops-reference/.github/workflows/todo.yml@main
 
   update-readme:
-    if: github.event_name == 'push' && github.event.head_commit.message != 'Update README'
+    if: github.event_name == 'push'
     name: Update README
     uses: ./.github/workflows/generate-readme.yml
 
