@@ -59,6 +59,7 @@ jobs:
         uses: articulate/actions-markdownlint@v1
         with:
           fix: true
+          files: README.md
 
       - name: Run Awesome Lint
         run: npx awesome-lint README.md
