@@ -39,11 +39,11 @@ function generateLinkForTag(tag: string): string {
  * // Returns:
  * // ## Examples
  * // ### Category 1
- * // - [Example 1](examples/category1/example1.ts) - This is an example.
- * // - [Example 2](examples/category1/example2.ts) - This is another example.
+ * // - [Example 1](examples/category1/example1.ts) - This is an example. _Keywords: label1, label2_
+ * // - [Example 2](examples/category1/example2.ts) - This is another example. _Keywords: label1, label2_
  * // ### Category 2
  * // #### Subcategory 2
- * // - [Example 3](examples/category2/example3.ts) - This is an example.
+ * // - [Example 3](examples/category2/example3.ts) - This is an example. _Keywords: label1, label2_
  */
 export function generateContent(
   examplesByTags: ExamplesTree,
@@ -58,7 +58,11 @@ export function generateContent(
     } else if (isExamplesArray(examples)) {
       content += examples
         .map((example) =>
-          `- [${example.name}](${example.url}) - ${example.description}`
+          `- [${example.name}](${example.url}) - ${example.description} _Keywords: ${
+            example.labels.join(
+              ", ",
+            )
+          }_`
         )
         .join("\n");
       content += "\n";
