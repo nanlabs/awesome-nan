@@ -25,6 +25,7 @@ jobs:
     uses: nanlabs/devops-reference/.github/workflows/shellcheck.yml@main
 
   markdownlint:
+    if: github.event_name == 'pull_request' && github.event.pull_request.draft == false
     name: Markdownlint
     uses: nanlabs/devops-reference/.github/workflows/markdownlint.yml@main
 
