@@ -24,19 +24,19 @@
 This repository contains different infrastructure components, CI/CD pipelines, automation tools
 among other resources that are used in different projects here at [NaN Labs](https://www.nanlabs.com/).
 
-- [Applications](#applications})
-- [Examples](#examples})
+- [Applications](#applications)
+- [Examples](#examples)
 
-  - [A/B Testing](#ab-testing})
-  - [Shell Scripting and Utilities](#shell-scripting-and-utilities})
-  - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment})
-  - [Containers, Orchestration (Kubernetes, ECS, EKS, Fargate, ...) and Serverless](#containers-orchestration-kubernetes-ecs-eks-fargate--and-serverless})
-    - [Containers and Compositions (Docker, Docker Compose, Buildpacks, ...)](#containers-and-compositions-docker-docker-compose-buildpacks-})
-    - [DevContainers and Codespaces](#devcontainers-and-codespaces})
-    - [Kubernetes](#kubernetes})
-  - [Infrastructure as Code (Terraform, Serverless Framework, ...)](#infrastructure-as-code-terraform-serverless-framework-})
-    - [AWS Amplify](#aws-amplify})
-    - [Serverless Framework and CloudFormation](#serverless-framework-and-cloudformation})
+  - [A/B Testing](#ab-testing)
+  - [Shell Scripting and Utilities](#shell-scripting-and-utilities)
+  - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment)
+  - [Containers, Orchestration and Serverless](#containers-orchestration-and-serverless)
+    - [Containers and Compositions (Docker, Docker Compose, Buildpacks, ...)](#containers-and-compositions-docker-docker-compose-buildpacks-)
+    - [DevContainers and Codespaces](#devcontainers-and-codespaces)
+    - [Kubernetes](#kubernetes)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [AWS Amplify](#aws-amplify)
+    - [Serverless Framework and CloudFormation](#serverless-framework-and-cloudformation)
 
 - [Contributing](#contributing)
 - [License](#license)
@@ -70,7 +70,7 @@ among other resources that are used in different projects here at [NaN Labs](htt
 - [Terraform Check](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/tf-check.yml) - This workflow validates the Terraform files in the repository using the [terraform action](https://github.com/dflook/terraform-fmt-check).
 - [Todo to Issue](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/todo.yml) - This workflow scans new commits on the main branch looking for `TODO`s in the code and creates new Github issues.
 
-### Containers, Orchestration (Kubernetes, ECS, EKS, Fargate, ...) and Serverless
+### Containers, Orchestration and Serverless
 
 #### Containers and Compositions (Docker, Docker Compose, Buildpacks, ...)
 
@@ -92,7 +92,7 @@ among other resources that are used in different projects here at [NaN Labs](htt
 
 - [Ingress](https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes/ingress/) - Ingress example using NGINX Ingress Controller. You can run this example locally using [Minikube](https://minikube.sigs.k8s.io/docs/start/).
 
-### Infrastructure as Code (Terraform, Serverless Framework, ...)
+### Infrastructure as Code
 
 #### AWS Amplify
 
