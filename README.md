@@ -1,3 +1,5 @@
+<!--lint disable double-link awesome-heading awesome-git-repo-age awesome-toc-->
+
 <div align="center">
 <p>
     <img
@@ -22,6 +24,8 @@
 This repository contains different infrastructure components, CI/CD pipelines, automation tools
 among other resources that are used in different projects here at [NaN Labs](https://www.nanlabs.com/).
 
+## Contents
+
 - [Applications](#applications)
 - [Examples](#examples)
 
@@ -29,7 +33,7 @@ among other resources that are used in different projects here at [NaN Labs](htt
   - [Shell Scripting and Utilities](#shell-scripting-and-utilities)
   - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment)
   - [Containers, Orchestration and Serverless](#containers-orchestration-and-serverless)
-    - [Containers and Compositions (Docker, Docker Compose, Buildpacks, ...)](#containers-and-compositions-docker-docker-compose-buildpacks-)
+    - [Containers and Compositions (Docker, Docker Compose, Buildpacks and more)](#containers-and-compositions-docker-docker-compose-buildpacks-and-more)
     - [DevContainers and Codespaces](#devcontainers-and-codespaces)
     - [Kubernetes](#kubernetes)
   - [Infrastructure as Code](#infrastructure-as-code)
@@ -37,7 +41,6 @@ among other resources that are used in different projects here at [NaN Labs](htt
     - [Serverless Framework and CloudFormation](#serverless-framework-and-cloudformation)
 
 - [Contributing](#contributing)
-- [License](#license)
 - [Contributors](#contributors)
 
 ## Applications
@@ -49,28 +52,28 @@ among other resources that are used in different projects here at [NaN Labs](htt
 ### A/B Testing
 
 - [AWS CloudWatch Evidently](https://github.com/nanlabs/devops-reference/tree/main/examples/services/aws-cloudwatch-evidently/) - A complete analysis of the service and a Proof of Concept on how to integrate it with a Node.js application.
-- [Feature flags post](https://www.atlassian.com/continuous-delivery/principles/feature-flags)) - How to progressively expose your features with feature flags by IAN BUCHANNAN.
+- [Feature flags post](https://www.atlassian.com/continuous-delivery/principles/feature-flags) - How to progressively expose your features with feature flags by IAN BUCHANNAN.
 
 ### Shell Scripting and Utilities
 
 - [Bash as a Wrapper Utility](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/bash-as-a-wrapper-utility-basic/) - Bash as a wrapper utility for other languages and tools.
-- [Bash as a Wrapper Utility with Easy Options](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/bash-as-a-wrapper-utility-with-easy-options/) - Bash as a wrapper utility for other languages and tools using Easy Options
+- [Bash as a Wrapper Utility with Easy Options](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/bash-as-a-wrapper-utility-with-easy-options/) - Bash as a wrapper utility for other languages and tools using Easy Options.
 - [Easy Options](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/easy-options/) - Easy options for shell scripts.
 - [When to use shell](https://google.github.io/styleguide/shellguide.html#when-to-use-shell) - A guide from Google on when to use shell scripts.
 
 ### Continuous Integration, Delivery and Deployment
 
-- [Actionlint Playground](https://rhysd.github.io/actionlint/)) - Static checker for GitHub Actions workflow files.
-- [Automation Seed example](https://github.com/nanlabs/automation-seed/tree/main/.github/workflows) - This example contains the following workflows:
+- [Actionlint Playground](https://rhysd.github.io/actionlint/) - Static checker for GitHub Actions workflow files.
+- [Automation Seed example](https://github.com/nanlabs/automation-seed/tree/main/.github/workflows) - Different workflows to validate the code and deploy an automation report page.
 - [Markdown Lint](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/markdownlint.yml) - This workflow validates the Markdown files in the repository using the [markdownlint action](https://github.com/marketplace/actions/markdown-lint).
-- [React Webpack Boilerplate](https://github.com/nanlabs/react-webpack-boilerplate/tree/main/.github/workflows) - This example contains the following workflows:
+- [React Webpack Boilerplate](https://github.com/nanlabs/react-webpack-boilerplate/tree/main/.github/workflows) - Different workflows to validate the code and deploy a React application.
 - [Shell Check](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/shellcheck.yml) - This workflow validates the shell scripts in the repository using the [shellcheck action](https://github.com/ludeeus/action-shellcheck).
 - [Terraform Check](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/tf-check.yml) - This workflow validates the Terraform files in the repository using the [terraform action](https://github.com/dflook/terraform-fmt-check).
-- [Todo to Issue](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/todo.yml) - This workflow scans new commits on the main branch looking for `TODO`s in the code and creates new Github issues.
+- [Todo to Issue](https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/todo.yml) - This workflow scans new commits on the main branch looking for `TODO`s in the code and creates new GitHub issues.
 
 ### Containers, Orchestration and Serverless
 
-#### Containers and Compositions (Docker, Docker Compose, Buildpacks, ...)
+#### Containers and Compositions (Docker, Docker Compose, Buildpacks and more)
 
 - [Airflow and Spark environment using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/docker/airflow/) - Dockerfile and docker-compose.yml to run Airflow locally with initialization scripts.
 - [AWS Glue using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/docker/glue/) - Dockerfile and docker-compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.
@@ -84,7 +87,7 @@ among other resources that are used in different projects here at [NaN Labs](htt
 #### DevContainers and Codespaces
 
 - [AWS Glue](https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers/glue/) - DevContainer for AWS Glue development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop AWS Glue jobs such us AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.
-- [NodeJS](https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers/nodejs/) - DevContainer for NodeJS development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop NodeJS applications.
+- [Node.js](https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers/nodejs/) - DevContainer for Node.js development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop Node.js applications.
 
 #### Kubernetes
 
@@ -113,10 +116,6 @@ among other resources that are used in different projects here at [NaN Labs](htt
 - Contributions make the open source community such an amazing place to learn, inspire, and create.
 - Any contributions you make are **truly appreciated**.
 - Check out our [contribution guidelines](./CONTRIBUTING.md) for more information.
-
-## License
-
-This project is Licensed under the [MIT License](./LICENSE). Please go through the License at least once before making your contribution. </p>
 
 ## Contributors
 
