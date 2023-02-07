@@ -11,6 +11,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
       - name: Setup Deno
         uses: denolib/setup-deno@v2
         with:
@@ -51,6 +56,9 @@ jobs:
         uses: articulate/actions-markdownlint@v1
         with:
           fix: true
+
+      - name: Run Awesome Lint
+        run: npx awesome-lint README.md
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
