@@ -21,13 +21,14 @@
 
 </div>
 
-This is a curated list of all the Open Source examples and projects we have at [NaN Labs](https://www.nanlabs.com/).
+This repository contains different infrastructure components, CI/CD pipelines, automation tools
+among other resources that are used in different projects here at [NaN Labs](https://www.nanlabs.com/).
 
 ## Contents
 
-- [Contents](#contents)
 - [Applications](#applications)
 - [Examples](#examples)
+
   - [A/B Testing](#ab-testing)
   - [Shell Scripting and Utilities](#shell-scripting-and-utilities)
   - [Continuous Integration, Delivery and Deployment](#continuous-integration-delivery-and-deployment)
@@ -38,6 +39,9 @@ This is a curated list of all the Open Source examples and projects we have at [
   - [Infrastructure as Code](#infrastructure-as-code)
     - [AWS Amplify](#aws-amplify)
     - [Serverless Framework and CloudFormation](#serverless-framework-and-cloudformation)
+  - [Golang](#golang)
+    - [REST API](#rest-api)
+
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
@@ -108,6 +112,12 @@ This is a curated list of all the Open Source examples and projects we have at [
 - [Serverless Middy](https://github.com/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy/) - Serverless Framework example to deploy a lambda function using [Middy](https://middy.js.org/), the stylish Node.js middleware engine for AWS Lambda.
 - [Serverless Middy with Custom Middleware](https://github.com/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy-custom-middleware/) - Serverless Framework example to deploy a lambda function using [Middy](https://middy.js.org/), the stylish Node.js middleware engine for AWS Lambda.
 - [Serverless S3 Local](https://github.com/nanlabs/devops-reference/tree/main/examples/serverless/serverless-s3-local/) - Serverless Framework example to run a lambda function locally using [Serverless S3 Local](https://www.serverless.com/plugins/serverless-s3-local).
+
+### Golang
+
+#### REST API
+
+- [Basic REST API boilerplate](https://github.com/nanlabs/nancy.go/tree/main/examples/golang-todo-rest-crud/) - EST API to create, update and retrieve ToDos, including grateful shutdown, rate limiting, structured logging, unit tests, integration tests, environment variables, health check and API documentation with swagger. Technologies: Golang 1.19, MongoDB (with Docker Compose), Gorilla Mux, Go Swagger, Tollbooth (rate limiting), Zap (logging), Viper, Mockery, Makefile, Pre-commit, and DockerTest (integration tests).
 
 ## Contributing
 
