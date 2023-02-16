@@ -73,8 +73,8 @@ This is a curated list of all the Open Source examples and projects we have at [
 - [Bash as a Wrapper Utility](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/bash-as-a-wrapper-utility-basic/) - Bash as a wrapper utility for other languages and tools. _Keywords: Shell Scripting, Utilities_
 - [Bash as a Wrapper Utility with Easy Options](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/bash-as-a-wrapper-utility-with-easy-options/) - Bash as a wrapper utility for other languages and tools using Easy Options. _Keywords: Shell Scripting, Utilities, Easy Options_
 - [Easy Options](https://github.com/nanlabs/devops-reference/tree/main/examples/scripts/easy-options/) - Easy options for shell scripts. _Keywords: Shell Scripting, Utilities, Easy Options_
-- [Python CLI Basic Example](https://github.com/python-reference/tree/main/examples/cli-base) - Basic structure to create a command without passing the python command and the python file's path. _Keywords: Python3, PyCMD_
-- [Python CLI with Typer + Rich Example](https://github.com/python-reference/tree/main/examples/cli-typer-base) - Interaction with an external API, to retrieve some currencies exchange rates, make conversion returning styled console output. _Keywords: Python3, Requests, Rich, Typer_
+- [Python CLI Basic Example](https://github.com/nanlabs/python-reference/tree/main/examples/cli-base) - Basic structure to create a command without passing the python command and the python file's path. _Keywords: Python3, PyCMD_
+- [Python CLI with Typer + Rich Example](https://github.com/nanlabs/python-reference/tree/main/examples/cli-typer-base) - Interaction with an external API, to retrieve some currencies exchange rates, make conversion returning styled console output. _Keywords: Python3, Requests, Rich, Typer_
 - [When to use shell](https://google.github.io/styleguide/shellguide.html#when-to-use-shell) - A guide from Google on when to use shell scripts. _Keywords: Shell Scripting, Utilities_
 
 #### Continuous Integration, Delivery and Deployment
@@ -159,9 +159,9 @@ This is a curated list of all the Open Source examples and projects we have at [
 
 #### FastAPI
 
-- [FastAPI Basic Example](https://github.com/python-reference/tree/main/examples/fastapi-base) - Rest API that retrieves mock data using Faker library. _Keywords: Python3, Faker, Factory-Boy, FastAPI, Pydantic_
-- [FastAPI Complete CRUD Example](https://github.com/python-reference/tree/main/examples/fastapi-crud) - Rest API that allows to create, read, update and delete employees and companies in the db, besides that, has endpoints to populate the db with Mock Data using faker. _Keywords: Python3, Faker, FastAPI, Pydantic, SQLAlchemy, Alembic, Docker, Docker Compose, PGAdmin, PostgreSQL_
-- [FastAPI GraphQL](https://github.com/python-reference/tree/main/examples/fastapi-gql) - GraphQL API that retrieves fake companies using Faker library. _Keywords: Python3, Factory-boy, Faker, FastAPI, Pydantic, Strawberry-graphql_
+- [FastAPI Basic Example](https://github.com/nanlabs/python-reference/tree/main/examples/fastapi-base) - Rest API that retrieves mock data using Faker library. _Keywords: Python3, Faker, Factory-Boy, FastAPI, Pydantic_
+- [FastAPI Complete CRUD Example](https://github.com/nanlabs/python-reference/tree/main/examples/fastapi-crud) - Rest API that allows to create, read, update and delete employees and companies in the db, besides that, has endpoints to populate the db with Mock Data using faker. _Keywords: Python3, Faker, FastAPI, Pydantic, SQLAlchemy, Alembic, Docker, Docker Compose, PGAdmin, PostgreSQL_
+- [FastAPI GraphQL](https://github.com/nanlabs/python-reference/tree/main/examples/fastapi-gql) - GraphQL API that retrieves fake companies using Faker library. _Keywords: Python3, Factory-boy, Faker, FastAPI, Pydantic, Strawberry-graphql_
 
 ## Contributing
 
