@@ -39,11 +39,15 @@ function generateLinkForTag(tag: string): string {
  * // Returns:
  * // ## Examples
  * // ### Category 1
- * // - [Example 1](examples/category1/example1.ts) - This is an example. _Keywords: label1, label2_
- * // - [Example 2](examples/category1/example2.ts) - This is another example. _Keywords: label1, label2_
+ * // | Name | Description | Keywords |
+ * // | ---- | ----------- | -------- |
+ * // | [Example 1](examples/category1/example1.ts) | This is an example. | _label1_, _label2_ |
+ * // | [Example 2](examples/category1/example2.ts) | This is another example. | _label1_, _label2_ |
  * // ### Category 2
  * // #### Subcategory 2
- * // - [Example 3](examples/category2/example3.ts) - This is an example. _Keywords: label1, label2_
+ * // | Name | Description | Keywords |
+ * // | ---- | ----------- | -------- |
+ * // | [Example 3](examples/category2/subcategory2/example3.ts) | This is an example. | _label1_, _label2_ |
  */
 export function generateContent(
   examplesByTags: ExamplesTree,
@@ -56,15 +60,12 @@ export function generateContent(
       content += `${"#".repeat(level + 2)} ${tag}\n`;
       content += generateContent(examples, level + 1);
     } else if (isExamplesArray(examples)) {
-      content += examples
-        .map((example) =>
-          `- [${example.name}](${example.url}) - ${example.description} _Keywords: ${
-            example.labels.join(
-              ", ",
-            )
-          }_`
-        )
-        .join("\n");
+      content += `| Name | Description | Keywords |\n`;
+      content += `| ---- | ----------- | -------- |\n`;
+      content += examples.map((example) => {
+        const keywords = example.labels.map((label) => `_${label}_`).join(", ");
+        return `| [${example.name}](${example.url}) | ${example.description} | ${keywords} |`;
+      }).join("\n");
       content += "\n";
     }
   }
