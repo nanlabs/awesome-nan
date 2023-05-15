@@ -37,8 +37,9 @@ This is a curated list of all the Open Source examples and projects we have at [
       - [Containers and Compositions (Docker, Docker Compose, Buildpacks and more)](#containers-and-compositions-docker-docker-compose-buildpacks-and-more)
       - [DevContainers and Codespaces](#devcontainers-and-codespaces)
       - [Kubernetes](#kubernetes)
-    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Low Code solutions](#low-code-solutions)
       - [AWS Amplify](#aws-amplify)
+    - [Infrastructure as Code](#infrastructure-as-code)
       - [Serverless Framework, SAM and CloudFormation](#serverless-framework-sam-and-cloudformation)
       - [Terraform](#terraform)
   - [Frontend](#frontend)
@@ -129,13 +130,15 @@ This is a curated list of all the Open Source examples and projects we have at [
 | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | [Ingress](https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example/) | Ingress example using NGINX Ingress Controller. You can run this example locally using [Minikube](https://minikube.sigs.k8s.io/docs/start/). | _Kubernetes_, _Ingress_, _NGINX Ingress Controller_ |
 
-#### Infrastructure as Code
+#### Low Code solutions
 
 ##### AWS Amplify
 
 | Name                                                                                                                 | Description                                                          | Keywords                             |
 | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------ |
 | [AWS Amplify + NextJS 13](https://github.com/nanlabs/devops-reference/tree/main/examples/amplify-nextjs-deployment/) | AWS Amplify example to deploy a NextJS v13 application to the Cloud. | _AWS Amplify_, _NextJS_, _NextJS 13_ |
+
+#### Infrastructure as Code
 
 ##### Serverless Framework, SAM and CloudFormation
 
