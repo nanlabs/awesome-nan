@@ -25,7 +25,7 @@ jobs:
         run: |
           URLS=(
             https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
-            https://raw.githubusercontent.com/nanlabs/nancy.js/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
           )
