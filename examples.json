@@ -5,7 +5,7 @@
       "name": "Automation Seed",
       "description": "Automation Seed is a e2e automation framework built on top of WebdriverIO v7 and Selenium that uses Selenoid for execution",
       "url": "https://github.com/nanlabs/automation-seed",
-      "tags": ["Applications"],
+      "tags": ["Apps and Boilerplates"],
       "labels": [
         "Automation",
         "Selenium",
