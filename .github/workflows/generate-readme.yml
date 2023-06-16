@@ -62,7 +62,10 @@ jobs:
           files: README.md
 
       - name: Run Awesome Lint
-        run: npx awesome-lint README.md
+        # TODO: Enable Awesome Lint as soon as it works again
+        # Related issue: https://github.com/sindresorhus/awesome-lint/issues/166
+        continue-on-error: true
+        run: npx awesome-lint
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
