@@ -43,8 +43,11 @@ This is a curated list of all the Open Source examples and projects we have at [
     - [Infrastructure as Code](#infrastructure-as-code)
       - [Serverless Framework, SAM and CloudFormation](#serverless-framework-sam-and-cloudformation)
       - [Terraform](#terraform)
+    - [Infrastructure from Code](#infrastructure-from-code)
+      - [Klotho and more!](#klotho-and-more)
   - [Frontend](#frontend)
     - [React State Management](#react-state-management)
+    - [Microfrontend](#microfrontend)
   - [Backend](#backend)
     - [FastAPI](#fastapi)
 
@@ -126,6 +129,7 @@ This is a curated list of all the Open Source examples and projects we have at [
 | [AWS Cognito local using Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-cognito/)                        | compose.yml to run Cognito locally.                                                                                                                                                                                                     | _Docker_, _Docker Compose_, _Cognito_, _AWS_                                   |
 | [AWS Glue using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-glue/)                         | Dockerfile and compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.                                                                                                             | _Docker_, _Docker Compose_, _AWS Glue_, _Spark_, _Jupyter Notebook_, _AWS CLI_ |
 | [AWS Neptune using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-neptune/)                   | Dockerfile and compose.yml to run AWS Neptune locally with initialization scripts.                                                                                                                                                      | _Docker_, _Docker Compose_, _AWS Neptune_                                      |
+| [Docker Compose NestJS Starter App](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-nestjs)                               | Docker Compose starter app for NestJS.                                                                                                                                                                                                  | _Docker_, _Docker Compose_, _NestJS_, _Node.js_                                |
 | [Localstack using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-localstack/)                 | Dockerfile and compose.yml to run Localstack locally with all the necessary services. This example also includes a script to create the necessary resources in Localstack. The provided examples are for DynamoDB, S3, SQS and Kinesis. | _Docker_, _Docker Compose_, _Localstack_, _DynamoDB_, _S3_, _SQS_, _Kinesis_   |
 | [Microsoft SQL Server using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-mssql/)            | Dockerfile and compose.yml to run Microsoft SQL Server locally with initialization scripts.                                                                                                                                             | _Docker_, _Docker Compose_, _Microsoft SQL Server_                             |
 | [MongoDB + Mongo Express using Docker and Docker Compose](https://github.com/nanlabs/devops-reference/tree/main/examples/compose-mongodb/)       | Dockerfile and compose.yml to run MongoDB and Mongo Express locally with initialization scripts.                                                                                                                                        | _Docker_, _Docker Compose_, _MongoDB_, _Mongo Express_                         |
@@ -189,6 +193,14 @@ This is a curated list of all the Open Source examples and projects we have at [
 | [Terraform Starter Kit for AWS VPC, RDS instance, and Bastion Host](https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-vpc-rds-instance-bastion-starter) | Terraform Starter kit for creating AWS infrastructure using Terraform that contains a VPC, RDS instance, and a bastion host. | _Terraform_, _AWS_, _VPC_, _RDS_, _Bastion_      |
 | [Using Serverless Framework with Terraform](https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example)                                       | The definitive example of how to use Terraform and Serverless Framework together.                                            | _Serverless Framework_, _Terraform_, _AWS_       |
 
+#### Infrastructure from Code
+
+##### Klotho and more
+
+| Name                                                                                      | Description                                                                                             | Keywords                                |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [Klotho](https://github.com/nanlabs/devops-reference/tree/main/examples/klotho-analysis/) | A complete analysis of the service and a Proof of Concept on how to integrate it with a GO application. | _AWS_, _Pulumi_, _Deployment_, _Klotho_ |
+
 ### Frontend
 
 #### React State Management
@@ -217,6 +229,14 @@ This is a curated list of all the Open Source examples and projects we have at [
 | [Valtio](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/)                   | This example shows how to use Valtio to manage state.                                         | _React_, _Valtio_           |
 | [XState](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/)                             | This example shows how to use XState to manage state.                                         | _React_, _XState_           |
 | [Zustand](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/)                | This example shows how to use Zustand to manage state.                                        | _React_, _Zustand_          |
+
+#### Microfrontend
+
+| Name                                                                                                                                                                                 | Description                                                                                                                                                                              | Keywords                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [Microfrontend with Shared React Router and React Application](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-app-shared-routing/) | project that demonstrates the usage of a shared router in a container application made with React and an independent application made with React and Vite                                | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
+| [Microfrontend with Shared React Router and React Components](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-app-react-components/)            | This example has a microfrontend project that demonstrates the usage of a shared router in a React application                                                                           | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
+| [Microfrontend with Shared React Router and Vue Application](https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/)              | This example has a microfrontend project that demonstrates the usage of a shared router in a container application made with React and an independent application made with Vue and Vite | _React_, _Vue_, _Module federation_, _Vite_, _Webpack_, _Shared router_, _Microfrontend_ |
 
 ### Backend
 
