@@ -56,12 +56,11 @@ jobs:
           i=0
           for repo in "${REPOS[@]}"; do
             github_url="https://github.com/nanlabs/$repo"
-            branch=main
             file_path=examples.json
             filename=examples
             extension=json
             filename="$filename-$i.$extension"
-            git clone "$github_url" --branch "$branch" --single-branch --depth 1 --quiet repo-$i
+            git clone "$github_url" repo-$i
             cd repo-$i
             hash=$(git log --before="${COMPARE_DATE}" --format="%H" -n 1)
             cd ..
