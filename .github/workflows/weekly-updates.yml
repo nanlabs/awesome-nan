@@ -137,12 +137,8 @@ jobs:
         # previous week JSON file with the current week JSON file. We can do
         # this with jq, which is a command-line JSON processor.
         run: |
-          # Get the list of new elements
-          NEW_EXAMPLES=$(jq -n --argfile a previous-week-examples.json --argfile b new-examples.json '$a as $old | $b as $new | $new - $old')
+          # Get the list of new examples
+          NEW_EXAMPLES=$(jq -s '.[1] as $new | .[0] as $old | $new | to_entries | map(select(.key as $category | $old | has($category) | not)) | map(.value | to_entries | map(select(.key as $subcategory | $old[$category] | has($subcategory) | not)) | map(.value | map(select(.name as $name | $old[$category][$subcategory] | map(.name) | index($name) | not)))) | flatten(2)' previous-week-examples.json new-examples.json)
 
-          # Log the new elements
+          # Log the new examples
           echo "$NEW_EXAMPLES"
-
-          # Set the output variable
-          echo "::set-output name=new-examples::$NEW_EXAMPLES"
-
