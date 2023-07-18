@@ -1,7 +1,19 @@
 name: Generate README
 
+concurrency:
+  group: generate-readme-${{ github.event.number }}
+  cancel-in-progress: true
+
 on:
-  workflow_call:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  schedule:
+    - cron: "31 1,12 * * *"
+
+  push:
+    branches:
+      - main
 
 jobs:
   generate-readme:

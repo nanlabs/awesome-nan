@@ -1,0 +1,120 @@
+name: Weekly Slack Updates
+
+concurrency:
+  group: notify-${{ github.event.number }}
+  cancel-in-progress: true
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  schedule:
+    - cron: "31 1,12 * * *"
+
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Setup Deno
+        uses: denolib/setup-deno@v2
+        with:
+          deno-version: v1.30
+
+      - name: Download indexes from last week
+        run: |
+          URLS=(
+            https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
+          )
+
+          # For each, extract the repository url, the branch and the file path
+          # and then clone the repo, checkout the branch and get the file from
+          # the last week commit.
+          i=0
+          for url in "${URLS[@]}"; do
+            github_url=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\1/')
+            branch=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\2/')
+            file_path=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\3/')
+            filename=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\4/')
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            filename="$filename-$i.$extension"
+            git clone "$github_url" --branch "$branch" --single-branch --depth 1 --quiet repo-$i
+            cd repo-$i
+            git checkout $(git log --before="1 week ago" --format="%H" -n 1)
+            cd ..
+            cp "repo-$i/$file_path" "$filename"
+            rm -rf "repo-$i"
+            i=$((i + 1))
+          done
+
+          # Get the list of examples previously downloaded
+          EXAMPLES=$(ls examples-*.json)
+
+          # Generate the JSON file
+          ./tools/readme-generator/main.ts --json examples.json $EXAMPLES > previous-week-examples.json
+
+          # Remove the downloaded files
+          rm examples-*.json
+
+          # Log the previous week examples
+          cat previous-week-examples.json
+
+      - name: Download current indexes
+        run: |
+          URLS=(
+            https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
+          )
+
+          # Download files preventing duplicated names (e.g. examples.json)
+          i=0
+          for url in "${URLS[@]}"; do
+            filename=$(basename "$url")
+            extension="${filename##*.}"
+            filename="${filename%.*}"
+            filename="$filename-$i.$extension"
+            curl -s "$url" -o "$filename"
+            i=$((i + 1))
+          done
+
+          # Get the list of examples previously downloaded
+          EXAMPLES=$(ls examples-*.json)
+
+          # Generate the JSON file
+          ./tools/readme-generator/main.ts --json examples.json $EXAMPLES > new-examples.json
+
+          # Remove the downloaded files
+          rm examples-*.json
+
+          # Log the new examples
+          cat new-examples.json
+
+      - name: Create a list of the new elements from the JSON!
+        run: |
+          # Get the list of new elements
+          NEW_ELEMENTS=$(jq -s '.[0] - .[1]' previous-week-examples.json new-examples.json)
+
+          # If there are new elements, create a new JSON file with them
+          if [ "$NEW_ELEMENTS" != "[]" ]; then
+            echo "$NEW_ELEMENTS" > new-elements.json
+          fi
+
+          # Log the new elements
