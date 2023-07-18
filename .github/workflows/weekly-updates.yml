@@ -114,6 +114,7 @@ jobs:
           cat new-examples.json
 
       - name: Create a list of the new elements from the JSON!
+        id: slack-message
         # Both JSON files have the following structure:
         # [
         #   {
@@ -151,12 +152,17 @@ jobs:
           # Log the new elements
           echo "$NEW_ELEMENTS"
 
+          if [[ "$NEW_ELEMENTS" == "[]" ]]; then
+            echo "No new elements found!"
+            exit 0
+          fi
+
           # Iterate over the new elements and create a beautiful slack message
           # with the new elements as a list containing the name, description and a link.
           # The link should be added to the name. Also concatenate the labels after joining
           # them with a comma.
 
-          SLACK_MESSAGE=":wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
+          SLACK_MESSAGE="@here :wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
 
           for row in $(echo "${NEW_ELEMENTS}" | jq -r '.[] | @base64'); do
             _jq() {
@@ -177,3 +183,15 @@ jobs:
 
           # Log the slack message
           echo "$SLACK_MESSAGE"
+
+          # Save the slack message as an output variable
+          echo "slack_message=$SLACK_MESSAGE" >> $GITHUB_OUTPUT
+
+      - name: Send slack message
+        if: steps.slack-message.outputs.slack_message != ''
+        run: |
+          SLACK_USERNAME="Awesome NaN Bot"
+          curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$SLACK_MESSAGE\",\"username\":\"$SLACK_USERNAME\"}" $SLACK_WEBHOOK
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_MESSAGE: ${{ steps.slack-message.outputs.slack_message }}
