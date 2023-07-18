@@ -28,12 +28,13 @@ async function main() {
   const shouldGenerateJson = Deno.args.includes("--json");
 
   const examples = await readExamplesFromJsonPaths([...Deno.args.slice(1)]);
-  const examplesByTags = await groupExamplesByTags(examples);
 
   if (shouldGenerateJson) {
-    console.log(JSON.stringify(examplesByTags, null, 2));
+    console.log(JSON.stringify(examples, null, 2));
     return;
   }
+
+  const examplesByTags = await groupExamplesByTags(examples);
 
   const content = generateContent(examplesByTags);
   const toc = generateToc(examplesByTags);
