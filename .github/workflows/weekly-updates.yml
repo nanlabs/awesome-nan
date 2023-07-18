@@ -158,6 +158,10 @@ jobs:
             exit 0
           fi
 
+          ORIGINAL_NEW_ELEMENTS_LENGTH=$(echo "$NEW_ELEMENTS" | jq length)
+          NEW_ELEMENTS_SLICE=$(echo "$NEW_ELEMENTS" | jq '.[0:10]')
+          SHOULD_SHOW_MORE_BEFORE_FOOTER=$(echo "$ORIGINAL_NEW_ELEMENTS_LENGTH > 10" | bc -l)
+
           # Iterate over the new elements and create a beautiful slack message
           # with the new elements as a list containing the name, description and a link.
           # The link should be added to the name. Also concatenate the labels after joining
@@ -165,7 +169,7 @@ jobs:
 
           SLACK_MESSAGE="@here :wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
 
-          for row in $(echo "${NEW_ELEMENTS}" | jq -r '.[] | @base64'); do
+          for row in $(echo "${NEW_ELEMENTS_SLICE}" | jq -r '.[] | @base64'); do
             _jq() {
               echo "${row}" | base64 --decode | jq -r "${1}"
             }
@@ -178,8 +182,11 @@ jobs:
             SLACK_MESSAGE="$SLACK_MESSAGE\n• <$url|$name>: $description ($labels)"
           done
 
-          # Add a footer to the message
+          if [[ "$SHOULD_SHOW_MORE_BEFORE_FOOTER" == "1" ]]; then
+            SLACK_MESSAGE="$SLACK_MESSAGE\n\n:point_right: There are more examples, but we are only showing the first 10. Check the full list <https://github.com/nanlabs/awesome-nan|here>."
+          fi
 
+          # Add a footer to the message
           SLACK_MESSAGE="$SLACK_MESSAGE\n\n:wave: If you have any questions, please reach out to R&D team! :heart:"
 
           # Log the slack message
