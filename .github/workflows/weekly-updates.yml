@@ -105,77 +105,44 @@ jobs:
       - name: Create a list of the new elements from the JSON!
         # Both JSON files have the following structure:
         # {
-        #   "Examples": {
-        #     "Category 1": {
-        #       "Subcategory 1": [
-        #         {
-        #           name: "Example 1",
-        #           description: "This is an example.",
-        #           tags: ["Examples > Category 1 > Subcategory 1"],
-        #           labels: ["label1", "label2"]
-        #         },
-        #         {
-        #           name: "Example 2",
-        #           description: "This is another example.",
-        #           tags: ["Examples > Category 1 > Subcategory 1"],
-        #           labels: ["label1", "label2"]
-        #         }
-        #       ]
-        #     },
-        #     "Category 2": {
-        #       "Subcategory 2": [
-        #         {
-        #           name: "Example 3",
-        #           description: "This is an example.",
-        #           tags: ["Examples > Category 2 > Subcategory 2"],
-        #           labels: ["label1", "label2"]
-        #         }
-        #       ]
-        #     }
+        #   "Category 1": {
+        #     "Subcategory 1": [
+        #       {
+        #         name: "Example 1",
+        #         description: "This is an example.",
+        #         tags: ["Examples > Category 1 > Subcategory 1"],
+        #         labels: ["label1", "label2"]
+        #       },
+        #       {
+        #         name: "Example 2",
+        #         description: "This is another example.",
+        #         tags: ["Examples > Category 1 > Subcategory 1"],
+        #         labels: ["label1", "label2"]
+        #       }
+        #     ]
+        #   },
+        #   "Category 2": {
+        #     "Subcategory 2": [
+        #       {
+        #         name: "Example 3",
+        #         description: "This is an example.",
+        #         tags: ["Examples > Category 2 > Subcategory 2"],
+        #         labels: ["label1", "label2"]
+        #       }
+        #     ]
         #   }
         # }
         #
         # We need to list which elements are new, so we need to compare the
         # previous week JSON file with the current week JSON file. We can do
         # this with jq, which is a command-line JSON processor.
-        #
-        # Do it using javascript!
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const fs = require('fs');
-            const path = require('path');
+        run: |
+          # Get the list of new elements
+          NEW_EXAMPLES=$(jq -n --argfile a previous-week-examples.json --argfile b new-examples.json '$a as $old | $b as $new | $new - $old')
 
-            const previousWeekExamples = JSON.parse(fs.readFileSync(path.join(__dirname, 'previous-week-examples.json'), 'utf8'));
-            const newExamples = JSON.parse(fs.readFileSync(path.join(__dirname, 'new-examples.json'), 'utf8'));
+          # Log the new elements
+          echo "$NEW_EXAMPLES"
 
-            const previousWeekExamplesKeys = Object.keys(previousWeekExamples.Examples);
-            const newExamplesKeys = Object.keys(newExamples.Examples);
+          # Set the output variable
+          echo "::set-output name=new-examples::$NEW_EXAMPLES"
 
-            const newElements = [];
-
-            for (const key of newExamplesKeys) {
-              if (!previousWeekExamplesKeys.includes(key)) {
-                newElements.push(key);
-              } else {
-                const previousWeekSubcategories = Object.keys(previousWeekExamples.Examples[key]);
-                const newSubcategories = Object.keys(newExamples.Examples[key]);
-
-                for (const subcategory of newSubcategories) {
-                  if (!previousWeekSubcategories.includes(subcategory)) {
-                    newElements.push(`${key} > ${subcategory}`);
-                  } else {
-                    const previousWeekExamplesInSubcategory = previousWeekExamples.Examples[key][subcategory];
-                    const newExamplesInSubcategory = newExamples.Examples[key][subcategory];
-
-                    for (const example of newExamplesInSubcategory) {
-                      if (!previousWeekExamplesInSubcategory.includes(example)) {
-                        newElements.push(`${key} > ${subcategory} > ${example.name}`);
-                      }
-                    }
-                  }
-                }
-              }
-            }
-
-            core.setOutput('new-elements', newElements.join('\n'));
