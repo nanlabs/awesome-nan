@@ -31,24 +31,23 @@ jobs:
 
       - name: Download indexes from last week
         run: |
-          URLS=(
-            https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
-            https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
-            https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
-            https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
+          REPOS=(
+            nancy.go
+            frontend-reference
+            devops-reference
+            python-reference
           )
 
           # For each, extract the repository url, the branch and the file path
           # and then clone the repo, checkout the branch and get the file from
           # the last week commit.
           i=0
-          for url in "${URLS[@]}"; do
-            github_url=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\1/')
-            branch=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\2/')
-            file_path=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\3/')
-            filename=$(echo "$url" | sed -E 's/https:\/\/raw.githubusercontent.com\/(.*)\/(.*)\/(.*)\/(.*)/\4/')
-            extension="${filename##*.}"
-            filename="${filename%.*}"
+          for repo in "${REPOS[@]}"; do
+            github_url="https://github.com/nanlabs/$repo"
+            branch=main
+            file_path=examples.json
+            filename=examples
+            extension=json
             filename="$filename-$i.$extension"
             git clone "$github_url" --branch "$branch" --single-branch --depth 1 --quiet repo-$i
             cd repo-$i
