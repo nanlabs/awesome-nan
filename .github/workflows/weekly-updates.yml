@@ -7,6 +7,18 @@ concurrency:
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Comparation date'
+        required: true
+        default: '1 week ago'
+        type: choice
+        options:
+          - '1 week ago'
+          - '2 weeks ago'
+          - '3 weeks ago'
+          - '4 weeks ago'
+          - '8 weeks ago'
 
   schedule:
     - cron: "31 1,12 * * *"
@@ -38,6 +50,9 @@ jobs:
             python-reference
           )
 
+          COMPARE_DATE="${{ github.event.inputs.date }}"
+          [[ -z "$COMPARE_DATE" ]] && COMPARE_DATE="1 week ago"
+
           # For each, extract the repository url, the branch and the file path
           # and then clone the repo, checkout the branch and get the file from
           # the last week commit.
@@ -51,7 +66,7 @@ jobs:
             filename="$filename-$i.$extension"
             git clone "$github_url" --branch "$branch" --single-branch --depth 1 --quiet repo-$i
             cd repo-$i
-            git checkout $(git log --before="1 week ago" --format="%H" -n 1)
+            git checkout $(git log --before="${COMPARE_DATE}" --format="%H" -n 1)
             cd ..
             cp "repo-$i/$file_path" "$filename"
             rm -rf "repo-$i"
@@ -108,18 +123,21 @@ jobs:
         #   {
         #     name: "Example 1",
         #     description: "This is an example.",
+        #     url: "URL",
         #     tags: ["Examples > Category 1 > Subcategory 1"],
         #     labels: ["label1", "label2"],
         #   },
         #   {
         #     name: "Example 2",
         #     description: "This is another example.",
+        #     url: "URL",
         #     tags: ["Examples > Category 1 > Subcategory 1"],
         #     labels: ["label1", "label2"],
         #   },
         #   {
         #     name: "Example 3",
         #     description: "This is an example.",
+        #     url: "URL",
         #     tags: ["Examples > Category 2 > Subcategory 2"],
         #     labels: ["label1", "label2"],
         #   },
@@ -132,7 +150,34 @@ jobs:
         # with the tags as the unique identifier. Do it for each tag.
         run: |
           # Get the list of new elements
-          DIFF=$(jq -s '.[0] as $o | .[1] | map(select(.name as $n | $o | map(.name) | index($n) | not))' previous-week-examples.json new-examples.json)
+          NEW_ELEMENTS=$(jq -s '.[0] as $o | .[1] | map(select(.name as $n | $o | map(.name) | index($n) | not))' previous-week-examples.json new-examples.json)
 
           # Log the new elements
-          echo "$DIFF"
+          echo "$NEW_ELEMENTS"
+
+          # Iterate over the new elements and create a beautiful slack message
+          # with the new elements as a list containing the name, description and a link.
+          # The link should be added to the name. Also concatenate the labels after joining
+          # them with a comma.
+
+          SLACK_MESSAGE=":wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
+
+          for row in $(echo "${NEW_ELEMENTS}" | jq -r '.[] | @base64'); do
+            _jq() {
+              echo "${row}" | base64 --decode | jq -r "${1}"
+            }
+
+            name=$(_jq '.name')
+            description=$(_jq '.description')
+            url=$(_jq '.url')
+            labels=$(_jq '.labels | join(", ")')
+
+            SLACK_MESSAGE="$SLACK_MESSAGE\n• <$url|$name>: $description ($labels)"
+          done
+
+          # Add a footer to the message
+
+          SLACK_MESSAGE="$SLACK_MESSAGE\n\n:wave: If you have any questions, please reach out to R&D team! :heart:"
+
+          # Log the slack message
+          echo "$SLACK_MESSAGE"
