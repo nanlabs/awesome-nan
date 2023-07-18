@@ -132,7 +132,7 @@ jobs:
         # with the tags as the unique identifier. Do it for each tag.
         run: |
           # Get the list of new elements
-          NEW_ELEMENTS=$(jq -s '.[1] - .[0] | map({name: .name, tags: .tags})' previous-week-examples.json new-examples.json)
+          DIFF=$(jq -s '.[0] as $o | .[1] | map(select(.name as $n | $o | map(.name) | index($n) | not))' previous-week-examples.json new-examples.json)
 
           # Log the new elements
-          echo "$NEW_ELEMENTS"
+          echo "$DIFF"
