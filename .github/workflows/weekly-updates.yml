@@ -21,7 +21,8 @@ on:
           - '8 weeks ago'
 
   schedule:
-    - cron: "31 1,12 * * *"
+    # Weekly updates on Monday at 1:00 PM
+    - cron: "0 13 * * 1"
 
 jobs:
   notify:
