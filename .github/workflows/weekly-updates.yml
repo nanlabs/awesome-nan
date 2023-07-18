@@ -138,18 +138,44 @@ jobs:
         # We need to list which elements are new, so we need to compare the
         # previous week JSON file with the current week JSON file. We can do
         # this with jq, which is a command-line JSON processor.
-        run: |
-          # Get the list of examples previously downloaded
-          PREVIOUS_WEEK_EXAMPLES=$(ls previous-week-examples.json)
+        #
+        # Do it using javascript!
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
 
-          # Get the list of examples previously downloaded
-          NEW_EXAMPLES=$(ls new-examples.json)
+            const previousWeekExamples = JSON.parse(fs.readFileSync(path.join(__dirname, 'previous-week-examples.json'), 'utf8'));
+            const newExamples = JSON.parse(fs.readFileSync(path.join(__dirname, 'new-examples.json'), 'utf8'));
 
-          # Get the list of new examples
-          NEW_EXAMPLES=$(jq -s '.[0] as $old | .[1] as $new | $new.Examples | to_entries | map(select(.key as $category | $old.Examples[$category] | to_entries | map(select(.key as $subcategory | $old.Examples[$category][$subcategory] | to_entries | map(select(.key as $index | $old.Examples[$category][$subcategory][$index] | .name != $new.Examples[$category][$subcategory][$index].name) | any) | not) | any) | not) | .key) | .[]' previous-week-examples.json new-examples.json)
+            const previousWeekExamplesKeys = Object.keys(previousWeekExamples.Examples);
+            const newExamplesKeys = Object.keys(newExamples.Examples);
 
-          # Log the new examples
-          echo "$NEW_EXAMPLES"
+            const newElements = [];
 
-          # Save the new examples in a file
-          echo "$NEW_EXAMPLES" > new-examples.txt
+            for (const key of newExamplesKeys) {
+              if (!previousWeekExamplesKeys.includes(key)) {
+                newElements.push(key);
+              } else {
+                const previousWeekSubcategories = Object.keys(previousWeekExamples.Examples[key]);
+                const newSubcategories = Object.keys(newExamples.Examples[key]);
+
+                for (const subcategory of newSubcategories) {
+                  if (!previousWeekSubcategories.includes(subcategory)) {
+                    newElements.push(`${key} > ${subcategory}`);
+                  } else {
+                    const previousWeekExamplesInSubcategory = previousWeekExamples.Examples[key][subcategory];
+                    const newExamplesInSubcategory = newExamples.Examples[key][subcategory];
+
+                    for (const example of newExamplesInSubcategory) {
+                      if (!previousWeekExamplesInSubcategory.includes(example)) {
+                        newElements.push(`${key} > ${subcategory} > ${example.name}`);
+                      }
+                    }
+                  }
+                }
+              }
+            }
+
+            core.setOutput('new-elements', newElements.join('\n'));
