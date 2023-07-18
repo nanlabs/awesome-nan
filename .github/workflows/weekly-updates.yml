@@ -1,7 +1,7 @@
 name: Weekly Slack Updates
 
 concurrency:
-  group: notify-${{ github.event.number }}
+  group: notify-weekly-updates
   cancel-in-progress: true
 
 on:
@@ -10,10 +10,6 @@ on:
 
   schedule:
     - cron: "31 1,12 * * *"
-
-  push:
-    branches:
-      - main
 
 jobs:
   notify:
