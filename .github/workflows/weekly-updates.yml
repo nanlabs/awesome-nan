@@ -104,41 +104,35 @@ jobs:
 
       - name: Create a list of the new elements from the JSON!
         # Both JSON files have the following structure:
-        # {
-        #   "Category 1": {
-        #     "Subcategory 1": [
-        #       {
-        #         name: "Example 1",
-        #         description: "This is an example.",
-        #         tags: ["Examples > Category 1 > Subcategory 1"],
-        #         labels: ["label1", "label2"]
-        #       },
-        #       {
-        #         name: "Example 2",
-        #         description: "This is another example.",
-        #         tags: ["Examples > Category 1 > Subcategory 1"],
-        #         labels: ["label1", "label2"]
-        #       }
-        #     ]
+        # [
+        #   {
+        #     name: "Example 1",
+        #     description: "This is an example.",
+        #     tags: ["Examples > Category 1 > Subcategory 1"],
+        #     labels: ["label1", "label2"],
         #   },
-        #   "Category 2": {
-        #     "Subcategory 2": [
-        #       {
-        #         name: "Example 3",
-        #         description: "This is an example.",
-        #         tags: ["Examples > Category 2 > Subcategory 2"],
-        #         labels: ["label1", "label2"]
-        #       }
-        #     ]
-        #   }
-        # }
+        #   {
+        #     name: "Example 2",
+        #     description: "This is another example.",
+        #     tags: ["Examples > Category 1 > Subcategory 1"],
+        #     labels: ["label1", "label2"],
+        #   },
+        #   {
+        #     name: "Example 3",
+        #     description: "This is an example.",
+        #     tags: ["Examples > Category 2 > Subcategory 2"],
+        #     labels: ["label1", "label2"],
+        #   },
+        # ]
         #
         # We need to list which elements are new, so we need to compare the
         # previous week JSON file with the current week JSON file. We can do
         # this with jq, which is a command-line JSON processor.
+        # When doing the compare, for each element treat the name concatenated
+        # with the tags as the unique identifier. Do it for each tag.
         run: |
-          # Get the list of new examples
-          NEW_EXAMPLES=$(jq -s '.[1] as $new | .[0] as $old | $new | to_entries | map(select(.key as $category | $old | has($category) | not)) | map(.value | to_entries | map(select(.key as $subcategory | $old[$category] | has($subcategory) | not)) | map(.value | map(select(.name as $name | $old[$category][$subcategory] | map(.name) | index($name) | not)))) | flatten(2)' previous-week-examples.json new-examples.json)
+          # Get the list of new elements
+          NEW_ELEMENTS=$(jq -s '.[1] - .[0] | map({name: .name, tags: .tags})' previous-week-examples.json new-examples.json)
 
-          # Log the new examples
-          echo "$NEW_EXAMPLES"
+          # Log the new elements
+          echo "$NEW_ELEMENTS"
