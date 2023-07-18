@@ -53,9 +53,6 @@ jobs:
           COMPARE_DATE="${{ github.event.inputs.date }}"
           [[ -z "$COMPARE_DATE" ]] && COMPARE_DATE="1 week ago"
 
-          # For each, extract the repository url, the branch and the file path
-          # and then clone the repo, checkout the branch and get the file from
-          # the last week commit.
           i=0
           for repo in "${REPOS[@]}"; do
             github_url="https://github.com/nanlabs/$repo"
@@ -66,10 +63,10 @@ jobs:
             filename="$filename-$i.$extension"
             git clone "$github_url" --branch "$branch" --single-branch --depth 1 --quiet repo-$i
             cd repo-$i
-            git checkout $(git log --before="${COMPARE_DATE}" --format="%H" -n 1)
+            hash=$(git log --before="${COMPARE_DATE}" --format="%H" -n 1)
             cd ..
-            cp "repo-$i/$file_path" "$filename"
-            rm -rf "repo-$i"
+            rm -rf repo-$i
+            curl -s "https://raw.githubusercontent.com/nanlabs/$repo/$hash/$file_path" -o "$filename"
             i=$((i + 1))
           done
 
