@@ -46,6 +46,7 @@ This is a curated list of all the Open Source examples and projects we have at [
     - [Infrastructure from Code](#infrastructure-from-code)
       - [Klotho and more!](#klotho-and-more)
   - [Frontend](#frontend)
+    - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
     - [Microfrontend](#microfrontend)
   - [Backend](#backend)
@@ -202,6 +203,12 @@ This is a curated list of all the Open Source examples and projects we have at [
 | [Klotho](https://github.com/nanlabs/devops-reference/tree/main/examples/klotho-analysis/) | A complete analysis of the service and a Proof of Concept on how to integrate it with a GO application. | _AWS_, _Pulumi_, _Deployment_, _Klotho_ |
 
 ### Frontend
+
+#### Website Optimization and Performance
+
+| Name                                                                                                                                      | Description                                                                                                                                                                        | Keywords                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Supercharge Your Website with Core Web Vitals](https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals) | Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience. | _Core Web Vitals_, _SEO_, _Website Performance_, _User Experience_, _Google PageSpeed Insights_, _Lighthouse_, _Web Vitals Extension_ |
 
 #### React State Management
 
