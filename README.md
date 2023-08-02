@@ -45,6 +45,8 @@ This is a curated list of all the Open Source examples and projects we have at [
       - [Terraform](#terraform)
     - [Infrastructure from Code](#infrastructure-from-code)
       - [Klotho and more!](#klotho-and-more)
+    - [ThirdParty Integrations](#thirdparty-integrations)
+      - [Stripe](#stripe)
   - [Frontend](#frontend)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
@@ -201,6 +203,14 @@ This is a curated list of all the Open Source examples and projects we have at [
 | Name                                                                                      | Description                                                                                             | Keywords                                |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | [Klotho](https://github.com/nanlabs/devops-reference/tree/main/examples/klotho-analysis/) | A complete analysis of the service and a Proof of Concept on how to integrate it with a GO application. | _AWS_, _Pulumi_, _Deployment_, _Klotho_ |
+
+#### ThirdParty Integrations
+
+##### Stripe
+
+| Name                                                                                                                                                   | Description                                                                                                                                                                                                                                                                                    | Keywords                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| [Stripe Integration with Node.js and TypeScript](https://github.com/nanlabs/devops-reference/tree/main/examples/stripe-integration-nodejs-typescript/) | This project offers a seamless Stripe integration with Node.js and TypeScript, providing a powerful API for managing basic operations like customer creation, checkout sessions, and portal sessions. It empowers developers to effortlessly handle payment-related tasks with the Stripe API. | _Node.js_, _TypeScript_, _Stripe_, _Payment Gateway_, _API_, _Integration_, _Webhooks_ |
 
 ### Frontend
 
