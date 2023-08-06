@@ -167,7 +167,7 @@ jobs:
           # The link should be added to the name. Also concatenate the labels after joining
           # them with a comma.
 
-          SLACK_MESSAGE="@here :wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
+          SLACK_MESSAGE=":wave: Hi! Here are the new examples we added to Awesome NaN from our last update:\n"
 
           for row in $(echo "${NEW_ELEMENTS_SLICE}" | jq -r '.[] | @base64'); do
             _jq() {
