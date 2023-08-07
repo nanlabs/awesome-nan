@@ -19,11 +19,6 @@ on:
           - '3 weeks ago'
           - '4 weeks ago'
           - '8 weeks ago'
-      dry-run:
-        description: 'Dry run'
-        required: false
-        default: false
-        type: boolean
 
   schedule:
     # Weekly updates on Monday at 1:00 PM
@@ -201,7 +196,7 @@ jobs:
           echo "slack_message=$SLACK_MESSAGE" >> $GITHUB_OUTPUT
 
       - name: Send slack message
-        if: steps.slack-message.outputs.slack_message != '' && github.event.inputs.dry_run != 'true'
+        if: steps.slack-message.outputs.slack_message != ''
         run: |
           SLACK_USERNAME="Awesome NaN Bot"
           curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$SLACK_MESSAGE\",\"username\":\"$SLACK_USERNAME\"}" $SLACK_WEBHOOK
