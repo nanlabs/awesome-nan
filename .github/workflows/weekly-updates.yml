@@ -187,7 +187,7 @@ jobs:
           fi
 
           # Add a footer to the message
-          SLACK_MESSAGE="$SLACK_MESSAGE\n\n:wave: If you have any questions, please reach out to R&D team! :heart:"
+          SLACK_MESSAGE="$SLACK_MESSAGE\n\n:wave: If you have any questions, please reach out to the Research and Development team! :heart:"
 
           # Log the slack message
           echo "$SLACK_MESSAGE"
