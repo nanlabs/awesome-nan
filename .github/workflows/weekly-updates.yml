@@ -9,16 +9,16 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: 'Comparation date'
+        description: "Comparation date"
         required: true
-        default: '1 week ago'
+        default: "1 week ago"
         type: choice
         options:
-          - '1 week ago'
-          - '2 weeks ago'
-          - '3 weeks ago'
-          - '4 weeks ago'
-          - '8 weeks ago'
+          - "1 week ago"
+          - "2 weeks ago"
+          - "3 weeks ago"
+          - "4 weeks ago"
+          - "8 weeks ago"
 
   schedule:
     # Weekly updates on Monday at 1:00 PM
@@ -199,7 +199,7 @@ jobs:
         if: steps.slack-message.outputs.slack_message != ''
         run: |
           SLACK_USERNAME="Awesome NaN Bot"
-          curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$SLACK_MESSAGE\",\"username\":\"$SLACK_USERNAME\"}" $SLACK_WEBHOOK
+          curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$SLACK_MESSAGE\",\"username\":\"$SLACK_USERNAME\",\"link_names\":true}" $SLACK_WEBHOOK
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_MESSAGE: ${{ steps.slack-message.outputs.slack_message }}
