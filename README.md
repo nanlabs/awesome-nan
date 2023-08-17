@@ -52,6 +52,7 @@ This is a curated list of all the Open Source examples and projects we have at [
     - [React State Management](#react-state-management)
     - [Microfrontend](#microfrontend)
     - [Styling and CSS](#styling-and-css)
+    - [Virtual Dom](#virtual-dom)
   - [Backend](#backend)
     - [FastAPI](#fastapi)
 
@@ -264,6 +265,12 @@ This is a curated list of all the Open Source examples and projects we have at [
 | Name                                                                                                                                                                  | Description                                                                                                                                                       | Keywords                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
 | [Comparative Analysis between styled-components and Tailwind CSS](https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/) | Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries. | _styled-components_, _Tailwind CSS_, _CSS_, _CSS-in-JS_, _Analysis_ |
+
+#### Virtual Dom
+
+| Name                                                                                                                                                           | Description                                                                                                    | Keywords                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| [Proof of Concept: Million, The Virtual DOM Replacement for React.](https://github.com/nanlabs/frontend-reference/tree/main/examples/million-poc-performance/) | This is a POC that shows how to use Million and comparative analysis of Performance between Million and React. | _Performance_, _React_, _Virtual Dom_, _Rendering_, _Million_ |
 
 ### Backend
 
