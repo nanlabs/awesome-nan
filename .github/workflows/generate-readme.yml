@@ -39,7 +39,7 @@ jobs:
             https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
             https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
-            https://raw.githubusercontent.com/nanlabs/python-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/backend-reference/main/examples.json
           )
 
           # Download files preventing duplicated names (e.g. examples.json)
