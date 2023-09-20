@@ -45,7 +45,6 @@ jobs:
       - name: Download indexes from last week
         run: |
           REPOS=(
-            nancy.go
             frontend-reference
             devops-reference
             backend-reference
@@ -85,7 +84,6 @@ jobs:
       - name: Download current indexes
         run: |
           URLS=(
-            https://raw.githubusercontent.com/nanlabs/nancy.go/main/examples.json
             https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/backend-reference/main/examples.json
