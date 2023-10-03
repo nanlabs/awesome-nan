@@ -56,6 +56,7 @@ This is a curated list of all the Open Source examples and projects we have at [
     - [FastAPI](#fastapi)
     - [ThirdParty Integrations](#thirdparty-integrations)
       - [Stripe](#stripe)
+    - [Microservices](#microservices)
 
 - [Contributing](#contributing)
 
@@ -287,6 +288,12 @@ This is a curated list of all the Open Source examples and projects we have at [
 | Name                                                                                                                                                  | Description                                                                                                                                                                                                                                                                                    | Keywords                                                                               |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | [Stripe Integration with Node.js and TypeScript](https://github.com/nanlabs/backend-reference/tree/main/examples/stripe-integration-node-typescript/) | This project offers a seamless Stripe integration with Node.js and TypeScript, providing a powerful API for managing basic operations like customer creation, checkout sessions, and portal sessions. It empowers developers to effortlessly handle payment-related tasks with the Stripe API. | _Node.js_, _TypeScript_, _Stripe_, _Payment Gateway_, _API_, _Integration_, _Webhooks_ |
+
+#### Microservices
+
+| Name                                                                                                                                  | Description                                                                                                                                                                                                                       | Keywords                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| [NestJS REST-based Microservices with NATS](https://github.com/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/) | This project demonstrates the implementation of a microservices architecture using NestJS, a progressive Node.js framework, along with NATS for asynchronous event-based as well as synchronous request-reply messaging patterns. | _Microservices_, _Node.js_, _NestJS_, _NATS_, _REST_, _Messaging Patterns_, _Proof of Concept_ |
 
 ## Contributing
 
