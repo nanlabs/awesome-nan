@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,41,19
+/nanlabs/devops-reference/tree/main/examples,31,10
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,24,7
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,20,3
+/nanlabs/devops-reference/tree/main/examples/compose-localstack,15,2
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/serverless.yml,14,2
+/nanlabs/devops-reference/issues,12,6
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,12,4
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/schema.graphql,10,2
+/nanlabs/devops-reference/blob/a61d24898d6453afc790b1ec932f31ae34fa5b14/examples/terraform-vpc-rds-instance-bastion-starter/modules/vpc/versions.tf,8,3
