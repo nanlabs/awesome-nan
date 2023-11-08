@@ -1,0 +1,40 @@
+name: GitHub Repositories Stats
+
+concurrency: github-repositories-stats
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  schedule:
+    # Run this once per day, towards the end of the day for keeping the most
+    # recent data point most meaningful (hours are interpreted in UTC).
+    - cron: "0 23 * * *"
+
+jobs:
+  run-ghrs-with-matrix:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        # The repositories to generate reports for.
+        stats_repo:
+          - nanlabs/awesome-nan
+          - nanlabs/devops-reference
+          - nanlabs/frontend-reference
+          - nanlabs/backend-reference
+          - nanlabs/nancy.js
+          - nanlabs/terraform-aws-starter
+          - nanlabs/aws-glue-etl-boilerplate
+          - nanlabs/automation-seed
+          - Create-Node-App/create-node-app
+      # Do not cancel&fail all remaining jobs upon first job failure.
+      fail-fast: false
+      # Help avoid commit conflicts. Note(JP): this should not be
+      # necessary anymore, feedback appreciated
+      max-parallel: 1
+    steps:
+      - name: Run GitHub Repositories Stats
+        uses: jgehrcke/github-repo-stats@RELEASE
+        with:
+          repository: ${{ matrix.stats_repo }}
+          ghtoken: ${{ secrets.GHRS_GITHUB_TOKEN }}
