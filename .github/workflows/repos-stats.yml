@@ -27,6 +27,7 @@ jobs:
           - nanlabs/aws-glue-etl-boilerplate
           - nanlabs/automation-seed
           - Create-Node-App/create-node-app
+          - Create-Node-App/cna-templates
       # Do not cancel&fail all remaining jobs upon first job failure.
       fail-fast: false
       # Help avoid commit conflicts. Note(JP): this should not be
