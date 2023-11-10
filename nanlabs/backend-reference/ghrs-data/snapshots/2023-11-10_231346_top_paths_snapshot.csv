@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud/src,22,2
+/nanlabs/backend-reference,16,10
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud,13,2
+/nanlabs/backend-reference/pull/68,8,3
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/exceptions/database_exceptions.py,8,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud/src/core,7,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud/src/controllers,7,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud/src/exceptions,7,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud/src/db,5,1
+/nanlabs/backend-reference/tree/main/examples,4,2
