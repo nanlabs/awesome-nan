@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,11,3
+/Create-Node-App/cna-templates/blob/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-sqlite/src/db/drizzle.provider.ts,4,2
+/Create-Node-App/cna-templates/blob/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-sqlite/src/app.module.ts,4,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-drizzle-postgres/src/helpers/asm.ts,4,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/package/index.js,4,1
+/Create-Node-App/cna-templates/tree/main/extensions,4,1
+/Create-Node-App/cna-templates/tree/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-sqlite/src,3,1
+/Create-Node-App/cna-templates/tree/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-sqlite/src/db,3,1
+/Create-Node-App/cna-templates/blob/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/backend-compose/Dockerfile,2,1
+/Create-Node-App/cna-templates/blob/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-postgres/src/db/drizzle.provider.ts,2,1
