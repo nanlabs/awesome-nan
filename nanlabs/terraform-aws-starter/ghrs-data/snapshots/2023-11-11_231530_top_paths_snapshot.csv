@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/tree/main/live/core,32,5
+/nanlabs/terraform-aws-starter,25,10
+/nanlabs/terraform-aws-starter/tree/main/modules,22,5
+/nanlabs/terraform-aws-starter/blob/main/modules/rds-aurora/rds.tf,16,2
+/nanlabs/terraform-aws-starter/issues,13,2
+/nanlabs/terraform-aws-starter/tree/main/services,9,2
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,8,3
+/nanlabs/terraform-aws-starter/blob/main/live/core/main.tf,8,2
+/nanlabs/terraform-aws-starter/blob/main/modules/rds-aurora/variables.tf,8,1
+/nanlabs/terraform-aws-starter/tree/main/modules/rds-aurora,7,3
