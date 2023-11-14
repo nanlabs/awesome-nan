@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,29,9
+/nanlabs/devops-reference/tree/main/examples,19,7
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,18,4
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,16,5
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,14,4
+/nanlabs/devops-reference/tree/main/examples/serverless-localstack-with-s3-and-dynamodb,8,2
+/nanlabs/devops-reference/tree/main/.github,6,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy-custom-middleware,5,2
+/nanlabs/devops-reference/blob/a61d24898d6453afc790b1ec932f31ae34fa5b14/examples/terraform-vpc-rds-instance-bastion-starter/modules/vpc/versions.tf,4,2
+/nanlabs/devops-reference/tree/main/examples/serverless-cognito-local,4,2
