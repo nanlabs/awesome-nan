@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,31,16
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,30,9
+/nanlabs/devops-reference/tree/main/examples,20,6
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,17,5
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,16,3
+/nanlabs/devops-reference/tree/main/examples/serverless-glue,10,4
+/nanlabs/devops-reference/tree/main/examples/serverless-glue-full-boilerplate,9,3
+/nanlabs/devops-reference/tree/main/examples/serverless-appsync-node-typescript,9,2
+/nanlabs/devops-reference/blob/09e23977f5633a416fc75e9a469ef0e703d246db/examples/serverless-localstack-with-s3-and-dynamodb/src/rest/program.ts,9,1
+/nanlabs/devops-reference/tree/main/examples/serverless-localstack-with-s3-and-dynamodb,8,2
