@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,10,2
+/Create-Node-App/cna-templates/tree/main/templates,7,2
+/Create-Node-App/cna-templates/blob/main/templates.json,6,1
+/Create-Node-App/cna-templates/tree/main/extensions,6,1
+/Create-Node-App/cna-templates/tree/main/extensions/react-bootstrap,6,1
+/Create-Node-App/cna-templates/pull/48,5,2
+/Create-Node-App/cna-templates/blob/cd6ed90924845880269441bb7926a3bdea9a928d/extensions/nestjs-drizzle-sqlite/src/app.module.ts,4,1
+/Create-Node-App/cna-templates/tree/main/extensions/react-query/%5Bsrc%5D,4,1
+/Create-Node-App/cna-templates/tree/main/extensions/react-query/%5Bsrc%5D/components/DevTools,4,1
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter/package,4,1
