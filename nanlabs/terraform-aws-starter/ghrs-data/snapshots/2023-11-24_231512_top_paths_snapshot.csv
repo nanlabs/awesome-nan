@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/tree/main/live/core,34,4
+/nanlabs/terraform-aws-starter,29,14
+/nanlabs/terraform-aws-starter/tree/main/modules,18,5
+/nanlabs/terraform-aws-starter/blob/main/live/core/backend.tf,12,2
+/nanlabs/terraform-aws-starter/issues/18,10,3
+/nanlabs/terraform-aws-starter/blob/main/live/core/README.md,10,2
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,8,3
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/rds.tf,8,2
+/nanlabs/terraform-aws-starter/edit/main/live/core/README.md,8,1
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,7,3
