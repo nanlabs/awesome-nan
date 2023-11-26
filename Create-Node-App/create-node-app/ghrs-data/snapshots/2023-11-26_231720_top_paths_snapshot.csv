@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,100,69
+/Create-Node-App/create-node-app/tree/main/packages,50,13
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app,28,9
+/Create-Node-App/create-node-app/tree/main/packages/create-node-app-core,19,4
+/Create-Node-App/create-node-app/blob/main/package.json,16,6
+/Create-Node-App/create-node-app/tree/main/packages/eslint-config-ts,16,5
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app/src,14,7
+/Create-Node-App/create-node-app/blob/main/packages/create-node-app-core/package.json,14,2
+/Create-Node-App/create-node-app/blob/main/packages/eslint-config-ts/index.js,14,2
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/templates.ts,12,5
