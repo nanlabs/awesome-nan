@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed/issues/20,13,1
+/nanlabs/automation-seed/issues,4,1
+/nanlabs/automation-seed/tree/main/config,3,1
+/nanlabs/automation-seed,2,1
+/nanlabs/automation-seed/blob/main/config/env.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.capabilities.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.common.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.env.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.local.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.remote.conf.ts,2,1
