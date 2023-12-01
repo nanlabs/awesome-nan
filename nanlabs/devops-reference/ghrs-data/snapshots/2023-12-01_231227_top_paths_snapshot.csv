@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,22,5
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,19,4
+/nanlabs/devops-reference/blob/09e23977f5633a416fc75e9a469ef0e703d246db/examples/compose-cognito/compose.yml,18,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,17,6
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,17,3
+/nanlabs/devops-reference/tree/main/.github,11,1
+/nanlabs/devops-reference,9,5
+/nanlabs/devops-reference/blob/09e23977f5633a416fc75e9a469ef0e703d246db/examples/compose-cognito/setup-resources.sh,8,1
+/nanlabs/devops-reference/blob/09e23977f5633a416fc75e9a469ef0e703d246db/examples/serverless-python-fastapi/src/main.py,8,1
+/nanlabs/devops-reference/blob/main/examples/compose-nestjs/Dockerfile,8,1
