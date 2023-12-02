@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example,6,1
+/nanlabs/frontend-reference,5,4
+/nanlabs/frontend-reference/blob/main/.github/workflows/ci.yml,4,1
+/nanlabs/frontend-reference/blob/main/.github/workflows/lint.yml,4,1
+/nanlabs/frontend-reference/tree/main/examples/react-vite-electron-example,4,1
+/nanlabs/frontend-reference/tree/main/.github,4,1
+/nanlabs/frontend-reference/blob/main/examples/react-vite-electron-example/electron/main.js,2,1
+/nanlabs/frontend-reference/blob/main/examples/react-vite-electron-example/package.json,2,1
+/nanlabs/frontend-reference/blob/main/examples/react-vite-electron-example/vite.config.ts,2,1
+/nanlabs/frontend-reference/pulls,2,1
