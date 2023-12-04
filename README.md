@@ -220,9 +220,10 @@ This is a curated list of all the Open Source examples and projects we have at [
 
 ##### Kubernetes
 
-| Name                                                                                                  | Description                                                                                                                                  | Keywords                                            |
-| ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| [Ingress](https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example/) | Ingress example using NGINX Ingress Controller. You can run this example locally using [Minikube](https://minikube.sigs.k8s.io/docs/start/). | _Kubernetes_, _Ingress_, _NGINX Ingress Controller_ |
+| Name                                                                                                                           | Description                                                                                                                                  | Keywords                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Ingress](https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example/)                          | Ingress example using NGINX Ingress Controller. You can run this example locally using [Minikube](https://minikube.sigs.k8s.io/docs/start/). | _Kubernetes_, _Ingress_, _NGINX Ingress Controller_                          |
+| [Tilt + Minikube Development Environment](https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev/) | Seamless, efficient, and developer-friendly Kubernetes development environment using Tilt and Minikube.                                      | _Kubernetes_, _Tilt_, _Minikube_, _Development Environment_, _MicroServices_ |
 
 #### Low Code solutions
 
