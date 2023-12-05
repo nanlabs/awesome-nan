@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/tree/main/live/core,20,2
+/nanlabs/terraform-aws-starter/tree/main/modules,18,4
+/nanlabs/terraform-aws-starter,17,11
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/ami.tf,10,1
+/nanlabs/terraform-aws-starter/blob/main/live/core/README.md,8,2
+/nanlabs/terraform-aws-starter/tree/main/modules/bastion,8,1
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/ec2.tf,7,1
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,5,2
+/nanlabs/terraform-aws-starter/tree/main/tools,5,2
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/templates/cloud-init.yml,4,1
