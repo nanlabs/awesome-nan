@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,46,11
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,33,3
+/nanlabs/devops-reference,23,12
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,23,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,18,5
+/nanlabs/devops-reference/blob/09e23977f5633a416fc75e9a469ef0e703d246db/examples/compose-cognito/compose.yml,18,1
+/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example/serverless,18,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,17,3
+/nanlabs/devops-reference/tree/main/.github,16,2
+/nanlabs/devops-reference/tree/main/examples/serverless-glue-deployment,14,2
