@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,50,13
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,39,5
+/nanlabs/devops-reference,34,12
+/nanlabs/devops-reference/pull/178,28,6
+/nanlabs/devops-reference/pulls,26,4
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/README.md,12,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,10,4
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/Tiltfile,10,3
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,10,3
+/nanlabs/devops-reference/blob/main/examples/serverless-s3-local/serverless.yml,10,2
