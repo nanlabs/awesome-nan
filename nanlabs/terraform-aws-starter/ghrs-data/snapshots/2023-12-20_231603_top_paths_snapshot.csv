@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,28,10
+/nanlabs/terraform-aws-starter/pull/22,14,2
+/nanlabs/terraform-aws-starter/tree/main/modules/vpc,12,2
+/nanlabs/terraform-aws-starter/tree/main/modules,9,4
+/nanlabs/terraform-aws-starter/pulls,7,2
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/ssm.tf,4,2
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/vpc.tf,4,2
+/nanlabs/terraform-aws-starter/issues,4,2
+/nanlabs/terraform-aws-starter/tree/main/live,4,1
+/nanlabs/terraform-aws-starter/tree/main/modules/mongodb,4,1
