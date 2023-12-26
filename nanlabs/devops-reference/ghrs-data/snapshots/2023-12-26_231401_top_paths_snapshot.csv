@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,30,7
+/nanlabs/devops-reference,29,20
+/nanlabs/devops-reference/tree/main/examples,29,10
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,21,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy,17,5
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy-custom-middleware,17,3
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy-custom-middleware/src,17,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,16,4
+/nanlabs/devops-reference/pull/178,14,6
+/nanlabs/devops-reference/blob/main/examples/serverless-node-typescript-middy-custom-middleware/src/middlewares/custom.ts,13,2
