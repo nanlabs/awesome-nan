@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed/issues/20,12,2
+/nanlabs/automation-seed,5,5
+/nanlabs/automation-seed/actions/runs/3865782023,4,2
+/nanlabs/automation-seed/issues,4,1
+/nanlabs/automation-seed/tree/main/test/pageobjects,4,1
+/nanlabs/automation-seed/blob/main/test/pageobjects/login.page.ts,3,1
+/nanlabs/automation-seed/tree/main/test,3,1
+/nanlabs/automation-seed/blob/main/test/pageobjects/page.ts,2,1
+/nanlabs/automation-seed/blob/main/test/pageobjects/secure.page.ts,2,1
