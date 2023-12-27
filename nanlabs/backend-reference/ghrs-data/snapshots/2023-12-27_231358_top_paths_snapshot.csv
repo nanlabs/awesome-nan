@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,6,3
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,5,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-base,4,1
+/nanlabs/backend-reference/tree/main/examples,3,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-postgres-with-serverless/src/router/routes.py,2,1
+/nanlabs/backend-reference/commits/main/examples/fastapi-postgres-with-serverless,2,1
+/nanlabs/backend-reference/pulls,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless/postgres,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless/src/router,2,1
+/nanlabs/backend-reference/commit/24543835f896c8f02b212d9b619f2ac01e97fe9d,1,1
