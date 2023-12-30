@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed,9,5
+/nanlabs/automation-seed/issues/20,9,2
+/nanlabs/automation-seed/actions/runs/3865782023,4,2
+/nanlabs/automation-seed/pulls,4,2
+/nanlabs/automation-seed/blob/main/.github/workflows/automation_exec.yml,4,1
+/nanlabs/automation-seed/issues,4,1
+/nanlabs/automation-seed/tree/main/.github,4,1
+/nanlabs/automation-seed/tree/main/.github/workflows,4,1
+/nanlabs/automation-seed/blob/main/TESTS_DESIGN.md,3,1
+/nanlabs/automation-seed/blob/main/.github/workflows/pull_request.yml,2,1
