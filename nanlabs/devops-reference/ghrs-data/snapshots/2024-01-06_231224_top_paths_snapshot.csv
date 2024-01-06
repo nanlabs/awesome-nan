@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,32,13
+/nanlabs/devops-reference,26,14
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,18,6
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,15,7
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,13,5
+/nanlabs/devops-reference/tree/1a61a3d5f41b8b3f804188123bb15c83a9c19abf/examples/serverless-twilio-aws-lambdas-typescript,12,1
+/nanlabs/devops-reference/tree/main/examples/serverless,10,8
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,10,3
+/nanlabs/devops-reference/blob/main/examples/serverless-sqs-python/serverless.yml,10,2
+/nanlabs/devops-reference/tree/1a61a3d5f41b8b3f804188123bb15c83a9c19abf/examples/serverless-twilio-aws-lambdas-typescript/src,10,1
