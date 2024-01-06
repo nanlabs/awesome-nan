@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,10,5
+/nanlabs/backend-reference/tree/main/examples,8,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,7,3
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,6,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-base,4,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless/postgres,4,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-b,3,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-b/src,3,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-postgres-with-serverless/src/router/routes.py,2,1
+/nanlabs/backend-reference/blob/main/examples/nest-nats-microservices/compose.yaml,2,1
