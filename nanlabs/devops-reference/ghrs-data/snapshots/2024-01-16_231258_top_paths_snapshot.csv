@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,29,7
+/nanlabs/devops-reference/tree/main/examples,23,8
+/nanlabs/devops-reference,17,10
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,16,1
+/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres-vpc-plugin,14,3
+/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres,13,3
+/nanlabs/devops-reference/blob/main/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,10,3
+/nanlabs/devops-reference/blob/main/examples/serverless-sqs-python/serverless.yml,10,2
+/nanlabs/devops-reference/blob/1a61a3d5f41b8b3f804188123bb15c83a9c19abf/examples/serverless-s3-local/serverless.yml,8,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy,7,3
