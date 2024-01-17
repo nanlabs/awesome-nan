@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples,10,2
+/nanlabs/backend-reference,6,6
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,6,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-b,3,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-b/src,3,1
+/nanlabs/backend-reference/blob/124df78d5f41c9e8e704437c0d2b2ee45e1effbf/examples/nest-nats-microservices/service-a/src/app.module.ts,2,1
+/nanlabs/backend-reference/blob/main/examples/nest-nats-microservices/compose.yaml,2,1
+/nanlabs/backend-reference/blob/main/examples/nest-nats-microservices/service-b/src/main.ts,2,1
+/nanlabs/backend-reference/tree/main,2,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-a,2,1
