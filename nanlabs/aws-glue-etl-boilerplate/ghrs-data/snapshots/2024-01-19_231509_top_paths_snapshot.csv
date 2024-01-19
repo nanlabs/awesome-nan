@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs/etl,22,4
+/nanlabs/aws-glue-etl-boilerplate,19,11
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_postgresql.py,10,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local,10,3
+/nanlabs/aws-glue-etl-boilerplate/pulls,9,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/transform.py,7,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,6,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/glue.yml,6,2
+/nanlabs/aws-glue-etl-boilerplate/pull/26,5,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/serverless.yml,5,2
