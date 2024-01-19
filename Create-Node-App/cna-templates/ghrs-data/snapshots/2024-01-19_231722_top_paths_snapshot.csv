@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,4,3
+/Create-Node-App/cna-templates/blob/d29fd085267418c67c6b4eed212c4a298f7d28d2/extensions/nestjs-drizzle-postgres/src/db/drizzle.provider.ts,2,1
+/Create-Node-App/cna-templates/blob/d29fd085267418c67c6b4eed212c4a298f7d28d2/extensions/nestjs-drizzle-sqlite/src/db/drizzle.provider.ts,2,1
+/Create-Node-App/cna-templates/blob/main/templates/react-vite-starter/docs/PERFORMANCE.md,2,1
+/Create-Node-App/cna-templates/tree/d29fd085267418c67c6b4eed212c4a298f7d28d2/extensions/nestjs-drizzle-sqlite/src/db,2,1
+/Create-Node-App/cna-templates/tree/main/templates,2,1
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter,2,1
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter/docs,2,1
+/Create-Node-App/cna-templates/tree/main,1,1
