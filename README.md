@@ -38,6 +38,8 @@ This is a curated list of all the Open Source examples and projects we have at [
     - [Virtual Dom](#virtual-dom)
     - [Security Best Practices](#security-best-practices)
     - [NextJs](#nextjs)
+    - [React Native](#react-native)
+      - [Expo](#expo)
   - [DevOps](#devops)
     - [A/B Testing](#ab-testing)
     - [Shell Scripting and CLI Tools](#shell-scripting-and-cli-tools)
@@ -179,6 +181,14 @@ This is a curated list of all the Open Source examples and projects we have at [
 | Name                                                                                                        | Description                                                              | Keywords                               |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------- |
 | [NextJS with SWR](https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example) | This example shows how to use SWR with NextJS for data fetch and mutate. | _NextJS_, _SWR_, _React_, _TypeScript_ |
+
+#### React Native
+
+##### Expo
+
+| Name                                                                                                                                                  | Description                                                  | Keywords                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
+| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/react-native-expo-router/) | This example shows how to use expo router with React Native. | _React Native_, _Expo_, _React_ |
 
 ### DevOps
 
