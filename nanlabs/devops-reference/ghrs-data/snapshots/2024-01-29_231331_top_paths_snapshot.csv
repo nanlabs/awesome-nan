@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,25,12
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,24,1
+/nanlabs/devops-reference/tree/main/examples,23,5
+/nanlabs/devops-reference/tree/main/examples/embracing-the-power-of-localstack-for-aws-emulation,22,4
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,12,3
+/nanlabs/devops-reference/blob/main/examples/embracing-the-power-of-localstack-for-aws-emulation/README.md,10,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,9,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,8,2
+/nanlabs/devops-reference/blob/main/examples/serverless-documentdb/resource/DocumentDBSecrets.yml,8,1
+/nanlabs/devops-reference/blob/main/examples/serverless-documentdb/serverless.yml,8,1
