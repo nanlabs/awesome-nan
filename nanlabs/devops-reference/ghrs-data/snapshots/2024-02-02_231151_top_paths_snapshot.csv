@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,25,4
+/nanlabs/devops-reference/tree/main/examples/embracing-the-power-of-localstack-for-aws-emulation,22,4
+/nanlabs/devops-reference/tree/main/examples/serverless-glue-full-boilerplate,17,1
+/nanlabs/devops-reference/tree/c141b3dfe33f6f17cae27c626b699f9cb2d8c3fd/examples/serverless-glue-deployment,16,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,15,5
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,15,2
+/nanlabs/devops-reference/blob/main/examples/serverless-glue-full-boilerplate/serverless.yml,15,1
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,14,3
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,14,1
+/nanlabs/devops-reference,13,5
