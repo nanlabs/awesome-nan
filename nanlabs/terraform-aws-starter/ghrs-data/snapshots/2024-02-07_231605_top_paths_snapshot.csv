@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,15,12
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/README.md,10,2
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/main.tf,10,1
+/nanlabs/terraform-aws-starter/tree/main/modules,8,3
+/nanlabs/terraform-aws-starter/blob/72d830fbfb6671f5736ed7a97b11fd59d416c28e/tools/dac/live_core.py,8,1
+/nanlabs/terraform-aws-starter/blob/main/live/prod/us-west-2/app/backend.tf,8,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/backend.tf,8,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/example-rds-instance.tf,8,1
+/nanlabs/terraform-aws-starter/blob/72d830fbfb6671f5736ed7a97b11fd59d416c28e/tools/dac/live_prod_infrastructure.png,6,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/bastion.tf,6,1
