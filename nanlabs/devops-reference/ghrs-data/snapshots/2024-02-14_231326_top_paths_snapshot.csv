@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,34,7
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/k8s/ingress.yml,20,1
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,19,5
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,16,3
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/node-nestjs-app/k8s/service.yml,16,1
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,15,3
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/node-nestjs-app/k8s/deployment.yml,12,1
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/k8s/namespace.yml,12,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-glue,11,3
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/README.md,10,1
