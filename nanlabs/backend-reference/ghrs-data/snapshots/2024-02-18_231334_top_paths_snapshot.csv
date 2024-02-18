@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,4,1
+/nanlabs/backend-reference,3,3
+/nanlabs/backend-reference/blob/main/examples/cli-typer-base/README.md,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/core/config.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/main.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-gql/src/main.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-gql/src/services/company_service.py,2,1
+/nanlabs/backend-reference/tree/main/examples/cli-base,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-gql,2,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-a,2,1
