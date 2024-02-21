@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,21,7
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,20,6
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy,18,4
+/nanlabs/devops-reference,13,12
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,13,5
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-bundle,13,1
+/nanlabs/devops-reference/tree/main/examples/embracing-the-power-of-localstack-for-aws-emulation,12,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy-custom-middleware,12,3
+/nanlabs/devops-reference/tree/main/examples/compose-postgres,9,2
+/nanlabs/devops-reference/blob/main/examples.json,8,2
