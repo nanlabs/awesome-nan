@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/pull/80,9,2
+/nanlabs/backend-reference/pull/80/files,6,1
+/nanlabs/backend-reference/tree/main/examples,5,2
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/tree/main/examples/cli-base,4,2
+/nanlabs/backend-reference/pulls,4,1
+/nanlabs/backend-reference/blob/124df78d5f41c9e8e704437c0d2b2ee45e1effbf/examples/fastapi-mongo-with-docker-compose/compose.yml,2,1
+/nanlabs/backend-reference/blob/124df78d5f41c9e8e704437c0d2b2ee45e1effbf/examples/fastapi-mongo-with-docker-compose/Dockerfile,2,1
+/nanlabs/backend-reference/blob/124df78d5f41c9e8e704437c0d2b2ee45e1effbf/examples/fastapi-mongo-with-docker-compose/README.md,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/core/config.py,2,1
