@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/tree/main/modules,21,4
+/nanlabs/terraform-aws-starter/tree/main/modules/vpc,18,3
+/nanlabs/terraform-aws-starter,17,13
+/nanlabs/terraform-aws-starter/tree/main,11,4
+/nanlabs/terraform-aws-starter/tree/main/live,8,4
+/nanlabs/terraform-aws-starter/blob/8d17e6b1dae28ec093dffc32e82bbe000844c158/README.md,6,3
+/nanlabs/terraform-aws-starter/tree/main/live/prod/us-west-2/app,6,3
+/nanlabs/terraform-aws-starter/blob/8d17e6b1dae28ec093dffc32e82bbe000844c158/modules/rds-aurora/outputs.tf,6,1
+/nanlabs/terraform-aws-starter/blob/8d17e6b1dae28ec093dffc32e82bbe000844c158/modules/bastion/README.md,5,2
+/nanlabs/terraform-aws-starter/tree/main/tools,5,2
