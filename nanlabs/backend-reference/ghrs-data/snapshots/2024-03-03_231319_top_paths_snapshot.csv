@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/pull/80,10,2
+/nanlabs/backend-reference/tree/main/examples,7,3
+/nanlabs/backend-reference/pull/80/files,7,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud,6,1
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/pulls,4,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud/internal,4,1
+/nanlabs/backend-reference/blob/main/examples/golang-todo-rest-crud/go.mod,2,1
+/nanlabs/backend-reference/blob/main/examples/golang-todo-rest-crud/internal/todo/todo.go,2,1
+/nanlabs/backend-reference/tree/main/examples/cli-base,2,1
