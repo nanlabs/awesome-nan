@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,80,61
+/Create-Node-App/create-node-app/tree/main/packages,30,9
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app,17,4
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app/src,16,3
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/templates.ts,8,4
+/Create-Node-App/create-node-app/tree/main/.devcontainer,8,2
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/index.ts,6,2
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/options.ts,6,2
+/Create-Node-App/create-node-app/tree/main/packages/create-node-app-core,5,2
+/Create-Node-App/create-node-app/blob/main/package.json,4,2
