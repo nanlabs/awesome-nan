@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,14,2
+/nanlabs/backend-reference/pull/80,11,2
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/service-a/src,10,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,7,2
+/nanlabs/backend-reference/pull/80/files,7,1
+/nanlabs/backend-reference/tree/main/examples,6,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-base,6,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose,6,2
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud,6,1
+/nanlabs/backend-reference,5,5
