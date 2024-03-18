@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,24,1
+/nanlabs/devops-reference/blob/16fcdd582737c39e326348eff0f920c6c235fa86/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,16,1
+/nanlabs/devops-reference,13,6
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/config.py,12,1
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/main.py,12,1
+/nanlabs/devops-reference/blob/main/examples/shellcheck-for-shell-scripting/README.md,12,1
+/nanlabs/devops-reference/blob/main/README.md,12,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,10,2
+/nanlabs/devops-reference/blob/16fcdd582737c39e326348eff0f920c6c235fa86/examples/serverless-localstack-with-s3-and-dynamodb/serverless.yml,10,1
+/nanlabs/devops-reference/blob/16fcdd582737c39e326348eff0f920c6c235fa86/examples/serverless-rds-postgres-vpc-plugin/resource/RDSPostgres.yml,10,1
