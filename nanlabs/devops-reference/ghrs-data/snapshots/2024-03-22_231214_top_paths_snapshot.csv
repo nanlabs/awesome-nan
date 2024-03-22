@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,26,1
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,20,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,19,5
+/nanlabs/devops-reference/tree/main/examples,16,3
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/config.py,12,1
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/main.py,12,1
+/nanlabs/devops-reference,10,5
+/nanlabs/devops-reference/tree/main/examples/compose-glue,10,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-s3-local,9,3
+/nanlabs/devops-reference/blob/16fcdd582737c39e326348eff0f920c6c235fa86/examples/compose-mssql/entrypoint.sh,9,1
