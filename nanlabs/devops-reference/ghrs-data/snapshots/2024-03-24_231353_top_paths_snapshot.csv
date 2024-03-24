@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/commits/main,34,2
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,26,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,22,6
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,20,1
+/nanlabs/devops-reference/tree/main/examples,16,3
+/nanlabs/devops-reference,12,7
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/config.py,12,1
+/nanlabs/devops-reference/blob/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/app/main.py,12,1
+/nanlabs/devops-reference/tree/main/examples/compose-glue,10,3
+/nanlabs/devops-reference/blob/main/README.md,10,2
