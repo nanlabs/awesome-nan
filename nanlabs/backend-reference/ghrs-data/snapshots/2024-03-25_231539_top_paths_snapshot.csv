@@ -1,0 +1,8 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,6,4
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud,4,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud/test/integration,3,1
+/nanlabs/backend-reference/blob/main/examples/golang-todo-rest-crud/test/integration/integration_test.go,2,1
+/nanlabs/backend-reference/tree/main/examples,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud,2,1
+/nanlabs/backend-reference/issues/54,1,1
