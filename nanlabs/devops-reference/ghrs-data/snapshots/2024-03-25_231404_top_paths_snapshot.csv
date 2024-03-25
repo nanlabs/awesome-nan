@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/commits/main,34,2
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,26,1
+/nanlabs/devops-reference/tree/main/examples,18,4
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,17,4
+/nanlabs/devops-reference/tree/main/examples/compose-glue,10,3
+/nanlabs/devops-reference/blob/16fcdd582737c39e326348eff0f920c6c235fa86/examples/compose-mssql/entrypoint.sh,9,1
+/nanlabs/devops-reference,8,6
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,8,1
+/nanlabs/devops-reference/blob/main/README.md,6,2
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,6,2
