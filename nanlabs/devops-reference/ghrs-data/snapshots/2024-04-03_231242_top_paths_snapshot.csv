@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/commits/main,34,2
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,26,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,22,7
+/nanlabs/devops-reference/tree/feature/create-guide-security-assessments/examples/security-assessments-guide/scan,21,1
+/nanlabs/devops-reference,14,8
+/nanlabs/devops-reference/tree/main/examples,13,5
+/nanlabs/devops-reference/blob/main/examples/serverless-node-typescript-middy-custom-middleware/src/handlers/get.ts,11,2
+/nanlabs/devops-reference/tree/feature/create-guide-security-assessments/examples/security-assessments-guide,11,2
+/nanlabs/devops-reference/blob/main/.github/workflows/pr-review.yml,10,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,8,2
