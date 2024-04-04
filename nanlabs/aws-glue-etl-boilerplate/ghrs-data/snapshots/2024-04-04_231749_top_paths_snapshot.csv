@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,19,9
+/nanlabs/aws-glue-etl-boilerplate/blob/73e9e9ce5d5bf355282e393697f33f37d0bbe1f5/jobs/io/helpers.py,11,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs,6,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local,5,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,4,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.devcontainer,4,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs/aws,3,1
+/nanlabs/aws-glue-etl-boilerplate/blob/73e9e9ce5d5bf355282e393697f33f37d0bbe1f5/local/compose.yml,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/73e9e9ce5d5bf355282e393697f33f37d0bbe1f5/local/localstack/setup-resources.sh,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/73e9e9ce5d5bf355282e393697f33f37d0bbe1f5/resource/GlueResources.yml,2,1
