@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,80,62
+/Create-Node-App/create-node-app/tree/main/packages,34,9
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app,21,6
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app/src,14,5
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/templates.ts,9,4
+/Create-Node-App/create-node-app/tree/main/packages/eslint-config-ts,7,2
+/Create-Node-App/create-node-app/tree/main/.devcontainer,7,1
+/Create-Node-App/create-node-app/blob/main/package.json,6,3
+/Create-Node-App/create-node-app/tree/main/tools/danger,6,2
+/Create-Node-App/create-node-app/tree/main/packages/eslint-config-react,5,2
