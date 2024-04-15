@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/serverless-documentdb,30,1
+/nanlabs/devops-reference/tree/main/examples/serverless-documentdb/resource,27,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,22,5
+/nanlabs/devops-reference/tree/main/examples/serverless-appsync-node-typescript,22,4
+/nanlabs/devops-reference/tree/main/examples,18,6
+/nanlabs/devops-reference/blob/main/examples/serverless-documentdb/serverless.yml,16,1
+/nanlabs/devops-reference/blob/main/examples/serverless-documentdb/resource/DocumentDB.yml,10,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,9,3
+/nanlabs/devops-reference/tree/main/examples/serverless-localstack-with-s3-and-dynamodb,8,3
+/nanlabs/devops-reference/blob/main/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,8,1
