@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,36,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,22,6
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/serverless.yml,22,4
+/nanlabs/devops-reference/tree/main/examples/serverless-appsync-node-typescript,22,4
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,19,5
+/nanlabs/devops-reference/tree/main/examples,16,6
+/nanlabs/devops-reference/blob/main/examples/kubernetes-ingress-example/service.yaml,14,2
+/nanlabs/devops-reference/blob/main/examples/kubernetes-ingress-example/ingress.yaml,12,2
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/src/resolvers/handler.ts,10,2
+/nanlabs/devops-reference/blob/main/examples/kubernetes-ingress-example/deployment.yaml,10,1
