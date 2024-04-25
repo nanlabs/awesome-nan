@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed,7,6
+/nanlabs/automation-seed/pulls,6,1
+/nanlabs/automation-seed/tree/main/test,3,1
+/nanlabs/automation-seed/blob/main/config/env.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.env.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.local.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/config/wdio.remote.conf.ts,2,1
+/nanlabs/automation-seed/blob/main/dangerfile.ts,2,1
+/nanlabs/automation-seed/blob/main/.node-version,2,1
+/nanlabs/automation-seed/blob/main/package.json,2,1
