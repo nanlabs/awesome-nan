@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,38,2
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-secrets-management-for-developers,34,6
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,19,5
+/nanlabs/devops-reference/tree/main/examples,18,7
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,18,5
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/serverless.yml,16,1
+/nanlabs/devops-reference/blob/main/examples/kubernetes-ingress-example/service.yaml,14,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,12,4
+/nanlabs/devops-reference/blob/main/examples/kubernetes-ingress-example/ingress.yaml,12,2
+/nanlabs/devops-reference,10,5
