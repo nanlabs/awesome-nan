@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,34,19
+/nanlabs/aws-glue-etl-boilerplate/pulls,8,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local,5,2
+/nanlabs/aws-glue-etl-boilerplate/blob/ac73f36e2a272019a4fcc8b8e2a629050fc20b8b/libs/aws/s3.py,4,1
+/nanlabs/aws-glue-etl-boilerplate/blob/ac73f36e2a272019a4fcc8b8e2a629050fc20b8b/resource/GlueResources.yml,4,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local/postgres,3,1
+/nanlabs/aws-glue-etl-boilerplate/graphs/contributors,2,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Dockerfile,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/.github/CODE_OF_CONDUCT.md,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/.github/dependabot.yml,2,1
