@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/awesome-nan,20,10
+/nanlabs/awesome-nan/tree/main/.github/workflows,8,1
+/nanlabs/awesome-nan/tree/main/.github,5,1
+/nanlabs/awesome-nan/blob/main/examples.json,4,2
+/nanlabs/awesome-nan/tree/github-repo-stats,3,1
+/nanlabs/awesome-nan/blob/main/examples.schema.json,2,1
+/nanlabs/awesome-nan/blob/main/.github/workflows/ci.yml,2,1
+/nanlabs/awesome-nan/blob/main/.github/workflows/generate-readme.yml,2,1
+/nanlabs/awesome-nan/blob/main/.github/workflows/repos-stats.yml,2,1
+/nanlabs/awesome-nan/blob/main/tools/readme-generator/main.ts,2,1
