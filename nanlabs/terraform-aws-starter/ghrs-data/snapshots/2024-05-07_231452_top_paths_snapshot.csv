@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,35,16
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/context.tf,20,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/bastion.tf,18,1
+/nanlabs/terraform-aws-starter/tree/main/live,12,3
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/backend.tf,12,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/example-rds-instance.tf,10,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/main.tf,10,1
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/vpc.tf,8,3
+/nanlabs/terraform-aws-starter/tree/main/modules,8,3
+/nanlabs/terraform-aws-starter/blob/main/live/staging/us-west-2/app/outputs.tf,8,1
