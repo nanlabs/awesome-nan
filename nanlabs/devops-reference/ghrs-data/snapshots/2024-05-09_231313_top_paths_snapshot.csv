@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,32,9
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-secrets-management-for-developers,15,5
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,13,4
+/nanlabs/devops-reference,11,10
+/nanlabs/devops-reference/tree/main/examples/serverless-documentdb,11,2
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy-custom-middleware,10,1
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-rds-postgres,9,4
+/nanlabs/devops-reference/blob/71d6d160380e3e123a74d2fa0db81754b5336112/examples/compose-airflow-spark/airflow.Dockerfile,9,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy-custom-middleware,8,3
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-documentdb,8,2
