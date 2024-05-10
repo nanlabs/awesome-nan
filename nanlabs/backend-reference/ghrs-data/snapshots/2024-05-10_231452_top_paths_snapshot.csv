@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/repositories,14,1
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/repositories/company_repository.py,12,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src,11,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,7,3
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/repositories/employee_repository.py,6,1
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/db/database.py,5,1
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/blob/main/examples/fastapi-postgres-with-serverless/serverless.yml,4,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/factories,3,1
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/factories/companies_factory.py,2,1
