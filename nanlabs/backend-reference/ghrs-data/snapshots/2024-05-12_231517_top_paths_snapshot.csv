@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,7,3
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/blob/main/examples/fastapi-postgres-with-serverless/serverless.yml,4,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src,4,1
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/services/company_service.py,2,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/models,2,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/models/schemas,2,1
+/nanlabs/backend-reference/tree/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/repositories,2,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud,2,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud/docs,2,1
