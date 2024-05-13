@@ -193,9 +193,10 @@ This is a curated list of all the Open Source examples and projects we have at [
 
 ##### Expo
 
-| Name                                                                                                                        | Description                                                  | Keywords                        |
-| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
-| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/) | This example shows how to use expo router with React Native. | _React Native_, _Expo_, _React_ |
+| Name                                                                                                                                                             | Description                                                                    | Keywords                        |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------- |
+| [React Native with expo router](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/)                                      | This example shows how to use expo router with React Native.                   | _React Native_, _Expo_, _React_ |
+| [React Native with expo router and shared routes](https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router-with-shared-routes/) | This example shows how to use expo router with React Native and shared routes. | _React Native_, _Expo_, _React_ |
 
 #### Clipboard Integration
 
