@@ -1,0 +1,5 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,3,3
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,2,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud,2,1
+/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud/docs,2,1
