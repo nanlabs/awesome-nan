@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,40,18
+/nanlabs/terraform-aws-starter/tree/main/modules,21,6
+/nanlabs/terraform-aws-starter/tree/main/live,16,3
+/nanlabs/terraform-aws-starter/tree/main/modules/vpc,11,5
+/nanlabs/terraform-aws-starter/tree/main,8,4
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/vpc.tf,6,3
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,6,3
+/nanlabs/terraform-aws-starter/blob/main/live/prod/us-west-2/app/vpc.tf,6,2
+/nanlabs/terraform-aws-starter/tree/main/.github,6,2
+/nanlabs/terraform-aws-starter/tree/main/.github/workflows,6,2
