@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,32,11
+/nanlabs/terraform-aws-starter/tree/main/live,14,2
+/nanlabs/terraform-aws-starter/tree/main/modules,13,3
+/nanlabs/terraform-aws-starter/tree/main,7,2
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,6,3
+/nanlabs/terraform-aws-starter/tree/main/modules/rds-aurora,6,2
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/app.tf,6,1
+/nanlabs/terraform-aws-starter/tree/main/live/staging/us-west-2/app,5,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/README.md,4,2
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,4,2
