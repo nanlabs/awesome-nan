@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed,9,7
+/nanlabs/automation-seed/tree/main/test,7,3
+/nanlabs/automation-seed/blob/main/test/specs/example.e2e.ts,6,2
+/nanlabs/automation-seed/blob/main/test/pageobjects/login.page.ts,4,2
+/nanlabs/automation-seed/tree/main/test/pageobjects,4,2
+/nanlabs/automation-seed/tree/main/test/specs,4,2
+/nanlabs/automation-seed/blob/main/dangerfile.ts,2,1
+/nanlabs/automation-seed/blob/main/docs/app.js,2,1
+/nanlabs/automation-seed/blob/main/package.json,2,1
+/nanlabs/automation-seed/blob/main/tsconfig.json,2,1
