@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,9,6
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Pipfile,4,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.github,3,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local,3,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local/localstack,3,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.vscode,3,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Dockerfile,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/DEVELOPMENT.md,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/vscode-open-in-container.gif,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/.vscode/settings.json,2,1
