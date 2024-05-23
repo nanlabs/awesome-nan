@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,9,7
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local,5,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.github,3,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/local/localstack,3,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.vscode,3,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Dockerfile,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/DEVELOPMENT.md,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/vscode-open-in-container.gif,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/extract.py,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_documentdb.py,2,1
