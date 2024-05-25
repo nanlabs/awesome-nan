@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,34,11
+/nanlabs/devops-reference/tree/main/examples/terraform-aws-minecraft-server,18,1
+/nanlabs/devops-reference,12,10
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy,12,4
+/nanlabs/devops-reference/tree/main/examples/serverless-glue-full-boilerplate,10,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,9,2
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,8,3
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy,8,2
+/nanlabs/devops-reference/tree/main/examples/compose-cognito,7,1
+/nanlabs/devops-reference/tree/main/examples/compose-glue,7,1
