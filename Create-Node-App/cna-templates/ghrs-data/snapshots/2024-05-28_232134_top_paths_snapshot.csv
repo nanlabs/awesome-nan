@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates/tree/main/extensions/react-million,6,1
+/Create-Node-App/cna-templates/blob/main/extensions/all-github-setup/.github/workflows/pr-review.yml,4,1
+/Create-Node-App/cna-templates/blob/main/extensions/wdio-github-setup/.github/workflows/pr-review.yml,4,1
+/Create-Node-App/cna-templates/tree/main/extensions/react-million/%5Bsrc%5D,4,1
+/Create-Node-App/cna-templates/tree/main/extensions/react-million/%5Bsrc%5D/pages,4,1
+/Create-Node-App/cna-templates,2,2
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/package.json,2,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-electron-vite/package.json,2,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-global-state/package.json,2,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-hookstate/package.json,2,1
