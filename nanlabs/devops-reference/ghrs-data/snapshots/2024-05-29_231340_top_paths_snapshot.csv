@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy,23,2
+/nanlabs/devops-reference/tree/main/examples,18,6
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-middy,13,3
+/nanlabs/devops-reference/blob/main/examples/serverless-node-typescript-middy/src/handlers/post.ts,10,2
+/nanlabs/devops-reference/tree/main/examples/serverless/serverless-appsync-nodejs,9,2
+/nanlabs/devops-reference,8,8
+/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy/src/handlers,8,2
+/nanlabs/devops-reference/blob/main/examples/serverless-node-typescript-middy/package.json,7,1
+/nanlabs/devops-reference/tree/main/examples/_apps/serverless-glue,5,2
+/nanlabs/devops-reference/blob/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,4,2
