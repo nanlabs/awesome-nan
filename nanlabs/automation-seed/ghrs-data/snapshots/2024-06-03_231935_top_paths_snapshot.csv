@@ -1,0 +1,8 @@
+url_path,views_total,views_unique
+/nanlabs/automation-seed,5,3
+/nanlabs/automation-seed/tree/main/test,4,1
+/nanlabs/automation-seed/blob/main/test/pageobjects/login.page.ts,3,1
+/nanlabs/automation-seed/tree/main/test/pageobjects,3,1
+/nanlabs/automation-seed/blob/main/test/specs/example.e2e.ts,2,1
+/nanlabs/automation-seed/commits,2,1
+/nanlabs/automation-seed/tree/main/bin,2,1
