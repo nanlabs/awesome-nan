@@ -1,0 +1,9 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples,3,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud,3,1
+/nanlabs/backend-reference,2,2
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/golang-todo-rest-crud/internal/platform/mongo/mongo_registry.go,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/compose.yml,2,1
+/nanlabs/backend-reference/issues/41,2,1
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,2,1
+/nanlabs/backend-reference/pull/80/files,1,1
