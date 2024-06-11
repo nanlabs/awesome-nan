@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,5,4
+/nanlabs/backend-reference/blob/main/examples.json,4,1
+/nanlabs/backend-reference/pulls,4,1
+/nanlabs/backend-reference/pull/80,3,1
+/nanlabs/backend-reference/tree/main/examples,3,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud,3,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/compose.yml,2,1
+/nanlabs/backend-reference/blob/main/examples/golang-api-with-postgres-and-sqlc/README.md,2,1
+/nanlabs/backend-reference/edit/main/examples/golang-api-with-postgres-and-sqlc/README.md,2,1
+/nanlabs/backend-reference/edit/main/examples.json,2,1
