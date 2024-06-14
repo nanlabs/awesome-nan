@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example,18,2
+/nanlabs/devops-reference/tree/main/examples/compose-glue,12,2
+/nanlabs/devops-reference,10,8
+/nanlabs/devops-reference/tree/main/examples/devcontainer-glue,10,1
+/nanlabs/devops-reference/tree/main/examples,9,4
+/nanlabs/devops-reference/tree/main/examples/compose-postgres,8,1
+/nanlabs/devops-reference/blob/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,6,1
+/nanlabs/devops-reference/blob/main/README.md,6,1
+/nanlabs/devops-reference/tree/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/resource,6,1
+/nanlabs/devops-reference/tree/main/examples/compose-cognito,5,2
