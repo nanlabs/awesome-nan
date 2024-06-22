@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,12,2
+/nanlabs/devops-reference/tree/main/examples/compose-airflow,8,1
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,6,2
+/nanlabs/devops-reference/blob/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/serverless.yml,6,1
+/nanlabs/devops-reference/tree/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/resource,6,1
+/nanlabs/devops-reference/tree/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin,5,1
+/nanlabs/devops-reference,4,4
+/nanlabs/devops-reference/tree/main/examples/github-actions-with-dangerjs,4,2
+/nanlabs/devops-reference/blob/71d6d160380e3e123a74d2fa0db81754b5336112/examples/serverless-rds-postgres-vpc-plugin/resource/RDSPostgres.yml,4,1
+/nanlabs/devops-reference/tree/main/examples/compose-airflow-spark,4,1
