@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples,19,5
+/nanlabs/devops-reference/tree/main/examples/compose-airflow-spark,10,3
+/nanlabs/devops-reference,8,8
+/nanlabs/devops-reference/tree/main/examples/compose-airflow,8,1
+/nanlabs/devops-reference/tree/main/examples/devcontainers-intro,6,2
+/nanlabs/devops-reference/tree/main/examples/compose-glue,5,2
+/nanlabs/devops-reference/tree/main/examples/github-actions-with-dangerjs,4,2
+/nanlabs/devops-reference/blob/main/examples/compose-glue/compose.yml,4,1
+/nanlabs/devops-reference/blob/main/examples.json,4,1
+/nanlabs/devops-reference/tree/main/examples/compose-verdaccio,3,1
