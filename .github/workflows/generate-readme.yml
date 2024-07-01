@@ -57,8 +57,11 @@ jobs:
           # Get the list of examples previously downloaded
           EXAMPLES=$(ls examples-*.json)
 
+          # Generate the JSON file
+          ./tools/readme-generator/main.ts --json $EXAMPLES > examples.json
+
           # Generate the README
-          ./tools/readme-generator/main.ts README.md.tmpl examples.json $EXAMPLES
+          ./tools/readme-generator/main.ts README.md.tmpl examples.json
 
           # Remove the downloaded files
           rm examples-*.json
@@ -78,4 +81,4 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          message: "Update README"
+          message: "Update README.md and examples list"
