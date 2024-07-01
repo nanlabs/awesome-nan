@@ -30,18 +30,21 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Setup Deno
         uses: denolib/setup-deno@v2
         with:
-          deno-version: v1.30
+          deno-version: v1.44
 
+      # TODO: Update this job to use the examples.json file from the main branch
+      # and the examples.json file from the previous week without
+      # fetching the files from other repositories.
       - name: Download indexes from last week
         run: |
           REPOS=(
@@ -73,7 +76,7 @@ jobs:
           EXAMPLES=$(ls examples-*.json)
 
           # Generate the JSON file
-          ./tools/readme-generator/main.ts --json examples.json $EXAMPLES > previous-week-examples.json
+          ./tools/readme-generator/main.ts --json $(echo $EXAMPLES) > previous-week-examples.json
 
           # Remove the downloaded files
           rm examples-*.json
