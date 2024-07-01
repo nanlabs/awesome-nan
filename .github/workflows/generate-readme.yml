@@ -21,17 +21,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Setup Deno
-        uses: denolib/setup-deno@v2
+        uses: denolib/setup-deno@v2.3.0
         with:
-          deno-version: v1.30
+          deno-version: v1.44
 
       - name: Download indexes
         run: |
@@ -57,8 +57,19 @@ jobs:
           # Get the list of examples previously downloaded
           EXAMPLES=$(ls examples-*.json)
 
+          # Remove previous examples.json
+          rm -f examples.json
+
           # Generate the JSON file
-          ./tools/readme-generator/main.ts --json $EXAMPLES > examples.json
+          ./tools/readme-generator/main.ts --json $(echo $EXAMPLES) > examples-list.json
+
+          # Transform the JSON file from the format [{...}, {...}] to
+          # {
+          # "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
+          # "list": [{...}, {...}]
+          # }
+          # and pretty print it
+          echo "{ \"\$schema\": \"https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json\", \"list\": $(cat examples-list.json) }" | jq . > examples.json
 
           # Generate the README
           ./tools/readme-generator/main.ts README.md.tmpl examples.json
