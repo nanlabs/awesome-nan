@@ -2,10 +2,638 @@
   "$schema": "https://raw.githubusercontent.com/nanlabs/awesome-nan/main/examples.schema.json",
   "list": [
     {
+      "name": "Storybook Playground",
+      "description": "This app was created with the goal to have examples of ours React components, hooks and libraries that are created in different packages in the repository Nancy.js.",
+      "url": "https://github.com/nanlabs/nancy.js/tree/main/apps/playground/",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "React",
+        "Storybook",
+        "Nancy.js"
+      ]
+    },
+    {
+      "name": "@nanlabs/react-hooks",
+      "description": "This package contains different React hooks that can be used in different projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-hooks",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Hooks",
+        "Custom Hooks"
+      ]
+    },
+    {
+      "name": "@nanlabs/react-ui",
+      "description": "This library provides a set of React components that can be used in any React application",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-ui",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Components",
+        "UI",
+        "Design System"
+      ]
+    },
+    {
+      "name": "@nanlabs/react-thirdparty",
+      "description": "This library provides a set of React components that can be used in any React application. It provides integrations with third party libraries like Google ReCaptcha and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/react-thirdparty",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "React",
+        "Components",
+        "UI",
+        "Design System",
+        "Third Party"
+      ]
+    },
+    {
+      "name": "@nanlabs/thirdparty",
+      "description": "This library provides a set of tools that can be used in any web application. It provides integrations with third party libraries like Google ReCaptcha and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/thirdparty",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "Third Party"
+      ]
+    },
+    {
+      "name": "@nanlabs/fp",
+      "description": "This library provides a set of tools to help you write functional code in TypeScript. It includes tools for type guards, error handling, and more!",
+      "url": "https://www.npmjs.com/package/@nanlabs/fp",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "Functional Programming",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "@nanlabs/eslint-config",
+      "description": "This eslint config is used in our projects to enforce a consistent code style.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint"
+      ]
+    },
+    {
+      "name": "@nanlabs/eslint-config-ts",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for TypeScript projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-ts",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "@nanlabs/eslint-config-react",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for React projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-react",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "@nanlabs/eslint-config-next",
+      "description": "This eslint config is used in our projects to enforce a consistent code style for Next.js projects.",
+      "url": "https://www.npmjs.com/package/@nanlabs/eslint-config-next",
+      "tags": [
+        "Node Packages"
+      ],
+      "labels": [
+        "ESLint",
+        "Next.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "React Boilerplate",
+      "description": "A simple but powerful boilerplate to start a React project powered by Vite. Boilerplate generated using [create-awesome-node-app](https://www.npmjs.com/package/create-awesome-node-app) contains full CI/CD setup with GitHub Actions and Docker. It also contains a full local development setup with hot reload and production ready setup with minification and optimization. It also contains a full test setup with Jest and React Testing Library.",
+      "url": "https://github.com/nanlabs/react-boilerplate",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "TypeScript Monorepo Boilerplate",
+      "description": "A simple but powerful boilerplate to start a TypeScript monorepo project powered Turborepo.",
+      "url": "https://github.com/nanlabs/ts-monorepo-boilerplate",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "TypeScript",
+        "Turborepo",
+        "Monorepo",
+        "Boilerplate",
+        "React",
+        "NPM Workspaces",
+        "Changesets",
+        "ESLint",
+        "Prettier",
+        "Jest",
+        "Nest.js",
+        "Storybook"
+      ]
+    },
+    {
+      "name": "Supercharge Your Website with Core Web Vitals",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/seo-and-core-web-vitals",
+      "description": "Learn how to optimize your website's performance and improve SEO using Core Web Vitals. Discover the key metrics, tools, and techniques to deliver an exceptional user experience.",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Website Optimization and Performance"
+      ],
+      "labels": [
+        "Core Web Vitals",
+        "SEO",
+        "Website Performance",
+        "User Experience",
+        "Google PageSpeed Insights",
+        "Lighthouse",
+        "Web Vitals Extension"
+      ]
+    },
+    {
+      "name": "Prop Drilling",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-prop-drilling/",
+      "description": "This example shows how to pass data from a parent component to a child component using props.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "Context",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-context/",
+      "description": "This example shows how to use React Context to share data between components.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "Global State",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-global-state/",
+      "description": "This example shows how to use a global state using React Hooks.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "Hookstate",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-hookstate/",
+      "description": "This example shows how to use Hookstate to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "Teaful",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-teaful/",
+      "description": "This example shows how to use Teaful to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React"
+      ]
+    },
+    {
+      "name": "XState",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate/",
+      "description": "This example shows how to use XState to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "XState"
+      ]
+    },
+    {
+      "name": "React Query",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/api-react-query/",
+      "description": "This example shows how to use React Query to fetch data from an API.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "React Query"
+      ]
+    },
+    {
+      "name": "Effector",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-effector/",
+      "description": "This example shows how to use Effector to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Effector"
+      ]
+    },
+    {
+      "name": "Akita",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-akita/",
+      "description": "This example shows how to use Akita to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Akita"
+      ]
+    },
+    {
+      "name": "Rxjs",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-rxjs/",
+      "description": "This example shows how to use Rxjs to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Rxjs"
+      ]
+    },
+    {
+      "name": "Storeon",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/reactive-storeon/",
+      "description": "This example shows how to use Storeon to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Storeon"
+      ]
+    },
+    {
+      "name": "Jotai",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-jotai/",
+      "description": "This example shows how to use Jotai to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Jotai"
+      ]
+    },
+    {
+      "name": "Recoil",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-recoil/",
+      "description": "This example shows how to use Recoil to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Recoil"
+      ]
+    },
+    {
+      "name": "AgileTs",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-agilets/",
+      "description": "This example shows how to use AgileTs to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "AgileTs"
+      ]
+    },
+    {
+      "name": "Zustand",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-zustand/",
+      "description": "This example shows how to use Zustand to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Zustand"
+      ]
+    },
+    {
+      "name": "Redux Toolkit",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-redux-toolkit/",
+      "description": "This example shows how to use Redux Toolkit to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Redux Toolkit"
+      ]
+    },
+    {
+      "name": "Rematch",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-rematch/",
+      "description": "This example shows how to use Rematch to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Rematch"
+      ]
+    },
+    {
+      "name": "Unistore",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/unidirectional-unistore/",
+      "description": "This example shows how to use Unistore to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Unistore"
+      ]
+    },
+    {
+      "name": "MobX",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-mobx/",
+      "description": "This example shows how to use MobX to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "MobX"
+      ]
+    },
+    {
+      "name": "Valtio",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-valtio/",
+      "description": "This example shows how to use Valtio to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "Valtio"
+      ]
+    },
+    {
+      "name": "MobX State Tree",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-mobx-state-tree/",
+      "description": "This example shows how to use MobX State Tree to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "MobX State Tree"
+      ]
+    },
+    {
+      "name": "React Easy State",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/bidirectional-easy-state/",
+      "description": "This example shows how to use React Easy State to manage state.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "React Easy State"
+      ]
+    },
+    {
+      "name": "Microfrontend with Shared React Router and React Components",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-app-react-components/",
+      "description": "This example has a microfrontend project that demonstrates the usage of a shared router in a React application",
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
+    },
+    {
+      "name": "Microfrontend with Shared React Router and React Application",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-app-shared-routing/",
+      "description": "project that demonstrates the usage of a shared router in a container application made with React and an independent application made with React and Vite",
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
+    },
+    {
+      "name": "Microfrontend with Shared React Router and Vue Application",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/microfrontend-react-shell-react-vue-app/",
+      "description": "This example has a microfrontend project that demonstrates the usage of a shared router in a container application made with React and an independent application made with Vue and Vite",
+      "tags": [
+        "Examples > Frontend > Microfrontend"
+      ],
+      "labels": [
+        "React",
+        "Vue",
+        "Module federation",
+        "Vite",
+        "Webpack",
+        "Shared router",
+        "Microfrontend"
+      ]
+    },
+    {
+      "name": "Comparative Analysis between styled-components and Tailwind CSS",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/styled-components-vs-tailwindcss/",
+      "description": "Article that presents a comparative analysis of styled-components and Tailwind CSS, focusing on practical implementations of a UI Challenge using both libraries.",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Styling and CSS"
+      ],
+      "labels": [
+        "styled-components",
+        "Tailwind CSS",
+        "CSS",
+        "CSS-in-JS",
+        "Analysis"
+      ]
+    },
+    {
+      "name": "Proof of Concept: Million, The Virtual DOM Replacement for React.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/million-poc-performance/",
+      "description": "This is a POC that shows how to use Million and comparative analysis of Performance between Million and React.",
+      "tags": [
+        "Examples > Frontend > Virtual Dom"
+      ],
+      "labels": [
+        "Performance",
+        "React",
+        "Virtual Dom",
+        "Rendering",
+        "Million"
+      ]
+    },
+    {
+      "name": "React Security Best Practices Guide",
+      "description": "This checklist provides React security best practices to assist you and your team in identifying and addressing security issues within your React applications. Additionally, it includes guidance on how to automate security testing for your React code and automatically remedy any security-related issues.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-security-best-practices",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Security Best Practices"
+      ],
+      "labels": [
+        "React",
+        "Security",
+        "Best Practices",
+        "Frontend",
+        "Automated Testing",
+        "Security Issues"
+      ]
+    },
+    {
+      "name": "NextJS with SWR",
+      "description": "This example shows how to use SWR with NextJS for data fetch and mutate.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nextjs-with-swr-example",
+      "tags": [
+        "Examples > Frontend > React State Management",
+        "Examples > Frontend > NextJs"
+      ],
+      "labels": [
+        "NextJS",
+        "SWR",
+        "React",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "SWR",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/state-management/examples/api-swr/",
+      "description": "This example shows how to use SWR to fetch data from an API.",
+      "tags": [
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "SWR"
+      ]
+    },
+    {
+      "name": "React Native with expo router",
+      "description": "This example shows how to use expo router with React Native.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router/",
+      "tags": [
+        "Examples > Frontend > React Native > Expo"
+      ],
+      "labels": [
+        "React Native",
+        "Expo",
+        "React"
+      ]
+    },
+    {
+      "name": "React Native with expo router and shared routes",
+      "description": "This example shows how to use expo router with React Native and shared routes.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/react-native-expo-router-with-shared-routes/",
+      "tags": [
+        "Examples > Frontend > React Native > Expo"
+      ],
+      "labels": [
+        "React Native",
+        "Expo",
+        "React"
+      ]
+    },
+    {
+      "name": "The Ultimate React State Management Framework",
+      "description": "This article presents a step-by-step framework will lead you to make informed decisions, ensuring your app is both robust and maintainable. Let's enhance your tech stack!",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/the-ultimate-react-state-management-framework",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React State Management"
+      ],
+      "labels": [
+        "React",
+        "State Management",
+        "Framework",
+        "Best Practices",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Navigator Clipboard API Integration Guide",
+      "description": "Delve into our detailed guide to integrate the Navigator Clipboard API into your web applications. Learn to implement seamless content sharing through copying text, images, and HTML directly to the clipboard, enhancing user experience and productivity.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/navigator-clipboard-api-integration",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > Clipboard Integration"
+      ],
+      "labels": [
+        "Clipboard API",
+        "JavaScript",
+        "HTML5",
+        "User Experience",
+        "Frontend Development",
+        "Interactivity",
+        "Content Sharing",
+        "Web Standards",
+        "Accessibility",
+        "CSS3"
+      ]
+    },
+    {
       "name": "Automation Seed",
       "description": "Automation Seed is a e2e automation framework built on top of WebdriverIO v7 and Selenium that uses Selenoid for execution",
       "url": "https://github.com/nanlabs/automation-seed",
-      "tags": ["Apps and Boilerplates"],
+      "tags": [
+        "Apps and Boilerplates"
+      ],
       "labels": [
         "Automation",
         "Selenium",
@@ -15,6 +643,1143 @@
         "Typescript",
         "GitHub Actions",
         "GitHub Pages"
+      ]
+    },
+    {
+      "name": "AWS Glue ETL Boilerplate",
+      "description": "A complete example of an AWS Glue ETL job that uses the [Serverless Framework](https://www.serverless.com/) to deploy the infrastructure and DevContainers and/or Docker Compose to run the application locally with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI, among other tools. It provides jobs using Python Shell and PySpark.",
+      "url": "https://github.com/nanlabs/aws-glue-etl-boilerplate",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "Python",
+        "AWS",
+        "Glue",
+        "ETL",
+        "Serverless",
+        "DevContainers",
+        "Docker Compose"
+      ]
+    },
+    {
+      "name": "Basic AWS Glue ETL example app",
+      "description": "A basic but useful example of an AWS Glue application that uses the [Serverless Framework](https://www.serverless.com/) to deploy the infrastructure and DevContainers and/or Docker Compose to run the application locally with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI, among other tools. It provides jobs using Python Shell and PySpark.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-glue-full-boilerplate/",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "Python",
+        "AWS",
+        "Glue",
+        "ETL",
+        "Serverless",
+        "DevContainers",
+        "Docker Compose"
+      ]
+    },
+    {
+      "name": "AWS CloudWatch Evidently",
+      "description": "A complete analysis of the service and a Proof of Concept on how to integrate it with a Node.js application.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/aws-cloudwatch-evidently/",
+      "tags": [
+        "Examples > DevOps > A/B Testing"
+      ],
+      "labels": [
+        "Node.js",
+        "AWS",
+        "CloudWatch",
+        "CloudWatch Evidently",
+        "A/B Testing",
+        "Feature Flags"
+      ]
+    },
+    {
+      "name": "Feature flags post by Atlassian",
+      "description": "How to progressively expose your features with feature flags by IAN BUCHANNAN.",
+      "url": "https://www.atlassian.com/continuous-delivery/principles/feature-flags",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > A/B Testing"
+      ],
+      "labels": [
+        "Feature Flags"
+      ]
+    },
+    {
+      "name": "When to use Shell Scripts",
+      "description": "A guide from Google on when to use shell scripts.",
+      "url": "https://google.github.io/styleguide/shellguide.html#when-to-use-shell",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Shell Scripting and CLI Tools"
+      ],
+      "labels": [
+        "Shell Scripting",
+        "Utilities"
+      ]
+    },
+    {
+      "name": "Parsing Shell Script Arguments with Easy Options",
+      "description": "Easy options for shell scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/easy-options/",
+      "tags": [
+        "Examples > DevOps > Shell Scripting and CLI Tools"
+      ],
+      "labels": [
+        "Shell Scripting",
+        "Utilities",
+        "Easy Options"
+      ]
+    },
+    {
+      "name": "Bash as a Wrapper Utility",
+      "description": "Bash as a wrapper utility for other languages and tools.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/bash-as-a-wrapper-utility-basic/",
+      "tags": [
+        "Examples > DevOps > Shell Scripting and CLI Tools"
+      ],
+      "labels": [
+        "Shell Scripting",
+        "Utilities"
+      ]
+    },
+    {
+      "name": "Bash as a Wrapper Utility with Easy Options",
+      "description": "Bash as a wrapper utility for other languages and tools using Easy Options.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/bash-as-a-wrapper-utility-with-easy-options/",
+      "tags": [
+        "Examples > DevOps > Shell Scripting and CLI Tools"
+      ],
+      "labels": [
+        "Shell Scripting",
+        "Utilities",
+        "Easy Options"
+      ]
+    },
+    {
+      "name": "Actionlint Playground",
+      "description": "Static checker for GitHub Actions workflow files.",
+      "url": "https://rhysd.github.io/actionlint/",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Actionlint"
+      ]
+    },
+    {
+      "name": "Markdown Lint",
+      "description": "This workflow validates the Markdown files in the repository using the [markdownlint action](https://github.com/marketplace/actions/markdown-lint).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/markdownlint.yml",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Markdown Lint"
+      ]
+    },
+    {
+      "name": "Shell Check",
+      "description": "This workflow validates the shell scripts in the repository using the [shellcheck action](https://github.com/ludeeus/action-shellcheck).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/shellcheck.yml",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Shell Check"
+      ]
+    },
+    {
+      "name": "Terraform Check",
+      "description": "This workflow validates the Terraform files in the repository using the [terraform action](https://github.com/dflook/terraform-fmt-check).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/tf-check.yml",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Terraform"
+      ]
+    },
+    {
+      "name": "TODOs to GitHub Issues",
+      "description": "This tutorial shows how to create a GitHub Action that converts TODO comments into GitHub issues.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue/",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "TODOs",
+        "Issues"
+      ]
+    },
+    {
+      "name": "Automate Pull Requests Reviews using Danger",
+      "description": "This workflow automates the initial review of Pull Requests using [Danger.js](https://danger.systems/js/). This provides another logical step in your build, through this Danger can help lint your rote tasks in daily code review. You can use Danger to codify your teams norms. Leaving humans to think about harder problems.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/.github/workflows/pr-review.yml",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Danger.js"
+      ]
+    },
+    {
+      "name": "Automation Seed example",
+      "description": "Different workflows to validate the code and deploy an automation report page.",
+      "url": "https://github.com/nanlabs/automation-seed/tree/main/.github/workflows",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "Automation"
+      ]
+    },
+    {
+      "name": "React Boilerplate",
+      "description": "Different workflows to validate the code and deploy a React application.",
+      "url": "https://github.com/nanlabs/react-boilerplate/tree/main/.github/workflows",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "GitHub Actions",
+        "React"
+      ]
+    },
+    {
+      "name": "AWS Glue using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-glue/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "Localstack using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run Localstack locally with all the necessary services. This example also includes a script to create the necessary resources in Localstack. The provided examples are for DynamoDB, S3, SQS and Kinesis.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-localstack/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Localstack",
+        "DynamoDB",
+        "S3",
+        "SQS",
+        "Kinesis"
+      ]
+    },
+    {
+      "name": "MongoDB + Mongo Express using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run MongoDB and Mongo Express locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-mongodb/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "MongoDB",
+        "Mongo Express"
+      ]
+    },
+    {
+      "name": "Microsoft SQL Server using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run Microsoft SQL Server locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-mssql/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Microsoft SQL Server"
+      ]
+    },
+    {
+      "name": "AWS Neptune using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run AWS Neptune locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-neptune/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "AWS Neptune"
+      ]
+    },
+    {
+      "name": "PostgreSQL using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run PostgreSQL locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-postgres/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Python Buildpack",
+      "description": "Buildpack example for Python applications.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/buildpacks-python",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Buildpack",
+        "Python"
+      ]
+    },
+    {
+      "name": "Airflow and Spark environment using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run Airflow locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-airflow-spark/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Airflow",
+        "Spark"
+      ]
+    },
+    {
+      "name": "Exploring DevContainers: A Versatile Development Environment Solution",
+      "description": "Introduction to Development Containers (DevContainers), a solution to create development environments with a unique approach to address specific development environment needs",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers-intro/",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Development and Cloud Environments"
+      ],
+      "labels": [
+        "DevContainer",
+        "VSCode DevContainer",
+        "GitHub Codespaces",
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    {
+      "name": "AWS Glue",
+      "description": "DevContainer for AWS Glue development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop AWS Glue jobs such us AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers-glue/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Development and Cloud Environments"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "DevContainer",
+        "VSCode DevContainer",
+        "GitHub Codespaces",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "Ingress",
+      "description": "Ingress example using NGINX Ingress Controller. You can run this example locally using [Minikube](https://minikube.sigs.k8s.io/docs/start/).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-ingress-example/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Kubernetes"
+      ],
+      "labels": [
+        "Kubernetes",
+        "Ingress",
+        "NGINX Ingress Controller"
+      ]
+    },
+    {
+      "name": "AWS Amplify + NextJS 13",
+      "description": "AWS Amplify example to deploy a NextJS v13 application to the Cloud.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/amplify-nextjs-deployment/",
+      "tags": [
+        "Examples > DevOps > Low Code solutions > AWS Amplify"
+      ],
+      "labels": [
+        "AWS Amplify",
+        "NextJS",
+        "NextJS 13"
+      ]
+    },
+    {
+      "name": "AWS AppSync + TypeScript",
+      "description": "Serverless Framework example to deploy an AWS AppSync API using TypeScript. It also has a local development environment using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-appsync-node-typescript/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "AWS AppSync",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "AWS AppSync + Python",
+      "description": "Serverless Framework example to deploy an AWS AppSync API using Python. It also has a local development environment using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-appsync-python/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "AWS AppSync",
+        "Python"
+      ]
+    },
+    {
+      "name": "AWS Glue with Python Shell and PySpark Jobs",
+      "description": "Serverless Framework example to deploy an AWS Glue job using Python Shell and PySpark.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-glue-deployment/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "AWS Glue",
+        "Python Shell",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "Neo4j in EC2",
+      "description": "Serverless Framework example to deploy a Neo4j instance in EC2.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-neo4j-ec2/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Neo4j",
+        "EC2"
+      ]
+    },
+    {
+      "name": "Serverless S3 Local",
+      "description": "Serverless Framework example to run a lambda function locally using [Serverless S3 Local](https://www.serverless.com/plugins/serverless-s3-local).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-s3-local/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Serverless S3 Local"
+      ]
+    },
+    {
+      "name": "Serverless SQS offline + TypeScript + ElasticMQ Example",
+      "description": "Serverless Framework example to run lambda functions locally using [Serverless Offline SQS](https://www.serverless.com/plugins/serverless-offline-sqs) with ElasticMQ. It provides a full local development environment using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-sqs-node-typescript-offline-with-elasticmq/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "SQS",
+        "Serverless Offline",
+        "Serverless Offline SQS",
+        "ElasticMQ"
+      ]
+    },
+    {
+      "name": "Serverless SQS offline + Python + Localstack Example",
+      "description": "Serverless Framework example to run lambda functions locally using [Serverless Offline SQS](https://www.serverless.com/plugins/serverless-offline-sqs-external) with Localstack. It provides a full local development environment using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-sqs-python/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "SQS",
+        "Serverless Offline",
+        "Serverless Offline SQS",
+        "Localstack",
+        "Python"
+      ]
+    },
+    {
+      "name": "Start and Stop EC2 Instances with AWS Lambda",
+      "description": "Serverless Framework example to start and stop EC2 instances using AWS Lambda.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-start-stop-ec2-instance/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "EC2",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "name": "DocumentDB Cluster",
+      "description": "Serverless Framework example to deploy a DocumentDB cluster with all the necessary resources.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-documentdb/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "DocumentDB"
+      ]
+    },
+    {
+      "name": "RDS Postgres Instance",
+      "description": "Serverless Framework example to deploy a RDS Postgres instance with all the necessary resources.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "RDS Postgres"
+      ]
+    },
+    {
+      "name": "RDS Postgres Instance with Serverless VPC Plugin",
+      "description": "Serverless Framework example to deploy a RDS Postgres instance with all the necessary resources using [Serverless VPC Plugin](https://www.serverless.com/plugins/serverless-vpc-plugin).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres-vpc-plugin/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "RDS Postgres",
+        "Serverless VPC Plugin"
+      ]
+    },
+    {
+      "name": "Serverless Bundle Plugin Example",
+      "description": "Serverless Framework example to deploy a lambda function using [Middy](https://middy.js.org/), the stylish Node.js middleware engine for AWS Lambda and [Serverless Bundle Plugin](https://www.serverless.com/plugins/serverless-bundle).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-bundle/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Middy",
+        "Serverless Bundle Plugin",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Serverless Middy",
+      "description": "Serverless Framework example to deploy a lambda function using [Middy](https://middy.js.org/), the stylish Node.js middleware engine for AWS Lambda.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Middy"
+      ]
+    },
+    {
+      "name": "Serverless Middy with Custom Middleware",
+      "description": "Serverless Framework example to deploy a lambda function using [Middy](https://middy.js.org/), the stylish Node.js middleware engine for AWS Lambda.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-middy-custom-middleware/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Middy",
+        "Custom Middleware"
+      ]
+    },
+    {
+      "name": "Serverless Nest Application with TypeScript",
+      "description": "Serverless Framework example to deploy a NestJS application using TypeScript.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-node-typescript-nest/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "NestJS",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Terraform AWS Minecraft Server",
+      "description": "Terraform example to deploy a Minecraft server in AWS EC2 instance using Docker.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-aws-minecraft-server/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "AWS",
+        "Minecraft",
+        "Docker",
+        "EC2"
+      ]
+    },
+    {
+      "name": "AWS Cognito Local Example",
+      "description": "AWS Cognito local enviroment with Docker and Serverless offline",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-cognito-local/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Serverless Offline",
+        "AWS",
+        "Cognito",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Serverless Twilio + Typescript Lambda example",
+      "description": "Serverless Framework example to deploy a lambda function using Twilio and TypeScript.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-twilio-aws-lambdas-typescript/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Serverless Offline",
+        "AWS",
+        "Twilio",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "AWS Cognito local using Docker Compose",
+      "description": "compose.yml to run Cognito locally.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-cognito/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Cognito",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Serverless + FastAPI",
+      "description": "Serverless Framework example to deploy a FastAPI application using Python. It also has local development environment using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Serverless Offline",
+        "FastAPI",
+        "Python"
+      ]
+    },
+    {
+      "name": "Terraform Starter Kit for AWS VPC, RDS instance, and Bastion Host",
+      "description": "Terraform Starter kit for creating AWS infrastructure using Terraform that contains a VPC, RDS instance, and a bastion host.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-vpc-rds-instance-bastion-starter",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "AWS",
+        "VPC",
+        "RDS",
+        "Bastion"
+      ]
+    },
+    {
+      "name": "Terraform AWS VPC resources",
+      "description": "Terraform module for creating AWS VPC resources.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-vpc-rds-instance-bastion-starter/modules/vpc",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "AWS",
+        "VPC"
+      ]
+    },
+    {
+      "name": "Terraform AWS RDS Postgres instance",
+      "description": "Terraform module for creating AWS RDS Postgres instance.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-vpc-rds-instance-bastion-starter/modules/rds",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "AWS",
+        "RDS"
+      ]
+    },
+    {
+      "name": "Terraform Bastion Host",
+      "description": "Terraform module which creates an EC2 instance acting as a bastion host",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/terraform-vpc-rds-instance-bastion-starter/modules/bastion",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "AWS",
+        "Bastion"
+      ]
+    },
+    {
+      "name": "Using Serverless Framework with Terraform",
+      "description": "The definitive example of how to use Terraform and Serverless Framework together.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Terraform",
+        "AWS"
+      ]
+    },
+    {
+      "name": "Docker Compose NestJS Starter App",
+      "description": "Docker Compose starter app for NestJS.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-nestjs",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "NestJS",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Klotho",
+      "description": "A complete analysis of the service and a Proof of Concept on how to integrate it with a GO application.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/klotho-analysis/",
+      "tags": [
+        "Examples > DevOps > Infrastructure from Code > Klotho and more!"
+      ],
+      "labels": [
+        "AWS",
+        "Pulumi",
+        "Deployment",
+        "Klotho"
+      ]
+    },
+    {
+      "name": "Automating Pull Request Review using DangerJS and GitHub Actions",
+      "description": "Learn how to automate Pull Request (PR) reviews using DangerJS and GitHub Actions. Automating PR reviews helps enforce coding standards, catch potential issues, and improve code quality in your GitHub repository.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/github-actions-with-dangerjs",
+      "tags": [
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "Tutorial",
+        "GitHub Actions",
+        "DangerJS",
+        "Pull Request",
+        "Automation"
+      ]
+    },
+    {
+      "name": "ShellCheck for Shell Scripting",
+      "description": "Learn how to use ShellCheck to lint your shell scripts and catch potential issues before they become a problem.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/shellcheck-for-shell-scripting",
+      "tags": [
+        "Examples > DevOps > Shell Scripting and CLI Tools"
+      ],
+      "labels": [
+        "Tutorial",
+        "ShellCheck",
+        "Shell Scripting",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Node Package Managers",
+      "description": "Comparison of the most popular Node Package Managers: npm, yarn, pnpm.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/node-package-managers",
+      "tags": [
+        "Examples > DevOps > Dependency Management"
+      ],
+      "labels": [
+        "Node",
+        "npm",
+        "yarn",
+        "pnpm"
+      ]
+    },
+    {
+      "name": "WordPress Docker Compose Magic",
+      "description": "Experience the magic of WordPress with this Docker Compose configuration. It seamlessly combines the power of Nginx, WordPress, and MySQL/MariaDB to create a delightful web environment. The lightweight Nginx handles incoming requests, custom configurations shape the entrance to the WordPress realm, and MariaDB ensures a robust database foundation. Explore the enchanting WordPress Wonderland locally or deploy it to the cloud effortlessly.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-wordpress-mysql",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Docker Compose",
+        "Web Hosting",
+        "Content Management",
+        "PHP",
+        "Nginx Configuration",
+        "MariaDB Database",
+        "MySQL Database"
+      ]
+    },
+    {
+      "name": "Serverless LocalStack with S3 and DynamoDB",
+      "description": "Serverless Framework example to run lambda functions locally using [Serverless Offline](https://www.serverless.com/plugins/serverless-offline) with LocalStack. It provides a full local development environment using [Serverless LocalStack](https://www.serverless.com/plugins/serverless-localstack).",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-localstack-with-s3-and-dynamodb/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "Serverless Offline",
+        "Serverless LocalStack",
+        "LocalStack",
+        "S3",
+        "DynamoDB"
+      ]
+    },
+    {
+      "name": "Tilt + Minikube Development Environment",
+      "description": "Seamless, efficient, and developer-friendly Kubernetes development environment using Tilt and Minikube.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev/",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Kubernetes"
+      ],
+      "labels": [
+        "Kubernetes",
+        "Tilt",
+        "Minikube",
+        "Development Environment",
+        "MicroServices"
+      ]
+    },
+    {
+      "name": "Terraform AWS Starter",
+      "description": "Get started quickly with AWS infrastructure using a robust Terraform starter kit incorporating secure state management, VPC configuration, security groups, RDS provisioning, secrets management, SSM parameter store, and GitHub Actions integration!",
+      "url": "https://github.com/nanlabs/terraform-aws-starter",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > DevOps > Infrastructure as Code > Terraform"
+      ],
+      "labels": [
+        "Terraform",
+        "Terraform Modules",
+        "Infrastructure as Code",
+        "AWS",
+        "VPC",
+        "RDS",
+        "RDS Aurora",
+        "MongoDB",
+        "GitHub Actions",
+        "SSM Parameter Store",
+        "Secrets Management",
+        "Security Groups",
+        "Super Linter"
+      ]
+    },
+    {
+      "name": "The Ultimate Guide to Code Review Tools",
+      "description": "A guide where we present a curated selection of modern tools designed to revolutionize your code review process!",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Continuous Integration, Delivery and Deployment"
+      ],
+      "labels": [
+        "Code Review",
+        "Code Review Tools"
+      ]
+    },
+    {
+      "name": "Verdaccio with Docker Compose Example",
+      "description": "Verdaccio is a lightweight private npm proxy registry. This example shows how to run Verdaccio locally using Docker Compose.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-verdaccio/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)",
+        "Examples > DevOps > Dependency Management"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Verdaccio",
+        "Node Package Manager"
+      ]
+    },
+    {
+      "name": "Embracing the Power of LocalStack for AWS Emulation",
+      "description": "A comprehensive guide highlighting the benefits of using LocalStack for AWS service emulation. The blog post covers various LocalStack examples for Docker and Serverless setups and explores its application in local development, CI, and more.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/embracing-the-power-of-localstack-for-aws-emulation",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "LocalStack",
+        "AWS",
+        "Docker",
+        "Serverless",
+        "DevOps",
+        "CI",
+        "Local Development"
+      ]
+    },
+    {
+      "name": "The Ultimate Guide to Secrets Management for Developers",
+      "description": "Unlock the arcane art of secrets management with our comprehensive guide! Tailored for the average dev, this post is a treasure map leading to the best practices for storing and accessing sensitive data. Learn to navigate tools like AWS Parameter Store, `direnv`, `teller`, and more, with easy-to-follow examples that bring the theory to life. Perfect for those who've never realized the gravity of a leaked secret, this guide will be your enchanted scroll of wisdom.",
+      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-secrets-management-for-developers",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > DevOps > Security and Compliance",
+        "Examples > DevOps > Infrastructure as Code > Secrets Management"
+      ],
+      "labels": [
+        "Secrets Management",
+        "Cloud Secrets Management",
+        "direnv",
+        "teller",
+        "Security",
+        "DevOps",
+        "Best Practices",
+        "Environment Variables",
+        "Encryption",
+        "SOPS",
+        "Secure Configuration"
+      ]
+    },
+    {
+      "name": "Golang REST API boilerplate",
+      "description": "REST API to create, update and retrieve Entities, including graceful shutdown, rate limiting, structured logging, unit tests, integration tests, environment variables, health check and API documentation with swagger. Technologies: Golang 1.19, MongoDB (with Docker Compose), Gorilla Mux, Go Swagger, Tollbooth (rate limiting), Zap (logging), Viper, Mockery, Makefile, Pre-commit, and DockerTest (integration tests).",
+      "url": "https://github.com/nanlabs/nancy.go/tree/main/examples/golang-todo-rest-crud/",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "Golang",
+        "REST API",
+        "MongoDB",
+        "Gorilla Mux",
+        "Go Swagger",
+        "Tollbooth",
+        "Zap",
+        "Viper",
+        "Mockery",
+        "Makefile",
+        "Pre-commit",
+        "Docker",
+        "Docker Compose",
+        "DockerTest"
+      ]
+    },
+    {
+      "name": "Python CLI Basic Example",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-base",
+      "description": "Basic structure to create a command without passing the python command and the python file's path.",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "PyCMD"
+      ]
+    },
+    {
+      "name": "Python CLI with Typer + Rich Example",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-typer-base",
+      "description": "Interaction with an external API, to retrieve some currencies exchange rates, make conversion returning styled console output.",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "Requests",
+        "Rich",
+        "Typer"
+      ]
+    },
+    {
+      "name": "FastAPI Basic Example",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-base",
+      "description": "Rest API that retrieves mock data using Faker library.",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "Faker",
+        "Factory-Boy",
+        "FastAPI",
+        "Pydantic"
+      ]
+    },
+    {
+      "name": "FastAPI Complete CRUD Example",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-crud",
+      "description": "Rest API that allows to create, read, update and delete employees and companies in the db, besides that, has endpoints to populate the db with Mock Data using faker.",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "Faker",
+        "FastAPI",
+        "Pydantic",
+        "SQLAlchemy",
+        "Alembic",
+        "Docker",
+        "Docker Compose",
+        "PGAdmin",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "FastAPI GraphQL",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-gql",
+      "description": "GraphQL API that retrieves fake companies using Faker library.",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "Factory-boy",
+        "Faker",
+        "FastAPI",
+        "Pydantic",
+        "Strawberry-graphql"
+      ]
+    },
+    {
+      "name": "Stripe Integration with Node.js and TypeScript",
+      "description": "This project offers a seamless Stripe integration with Node.js and TypeScript, providing a powerful API for managing basic operations like customer creation, checkout sessions, and portal sessions. It empowers developers to effortlessly handle payment-related tasks with the Stripe API.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/stripe-integration-node-typescript/",
+      "tags": [
+        "Examples > Backend > ThirdParty Integrations > Stripe"
+      ],
+      "labels": [
+        "Node.js",
+        "TypeScript",
+        "Stripe",
+        "Payment Gateway",
+        "API",
+        "Integration",
+        "Webhooks"
+      ]
+    },
+    {
+      "name": "NestJS REST-based Microservices with NATS",
+      "description": "This project demonstrates the implementation of a microservices architecture using NestJS, a progressive Node.js framework, along with NATS for asynchronous event-based as well as synchronous request-reply messaging patterns.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/",
+      "tags": [
+        "Examples > Backend > Microservices"
+      ],
+      "labels": [
+        "Microservices",
+        "Node.js",
+        "NestJS",
+        "NATS",
+        "REST",
+        "Messaging Patterns",
+        "Proof of Concept"
+      ]
+    },
+    {
+      "name": "FastAPI Example with PostgreSQL and Serverless Framework",
+      "description": "This project demonstrates the implementation of a REST API using FastAPI, a modern, high-performance, web framework for building APIs with Python 3.6+ based on standard Python type hints. It also uses PostgreSQL as the database and the Serverless Framework to deploy the API to AWS Lambda.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Python3",
+        "Faker",
+        "FastAPI",
+        "Pydantic",
+        "SQLAlchemy",
+        "Alembic",
+        "Docker",
+        "Docker Compose",
+        "PGAdmin",
+        "PostgreSQL",
+        "Serverless Framework",
+        "AWS Lambda",
+        "AWS RDS",
+        "AWS API Gateway"
+      ]
+    },
+    {
+      "name": "FastAPI with MongoDB and Docker Compose",
+      "description": "This project demonstrates the implementation of a REST API using FastAPI, a modern, high-performance, web framework for building APIs with Python 3.6+ based on standard Python type hints. It also uses MongoDB as the database and Docker Compose to run the API and the database in containers.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "Pydantic",
+        "MongoDB",
+        "Mongo Express",
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    {
+      "name": "SQLC with Go, PostgreSQL, Docker Compose",
+      "description": "This project demonstrates the implementation of a REST API using Go, SQLC, and PostgreSQL. It uses Docker Compose to set up the development environment and includes examples of creating, reading, updating, and deleting records in the database.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-api-with-postgres-and-sqlc",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > SQLC",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Golang",
+        "SQLC",
+        "PostgreSQL",
+        "Docker",
+        "Docker Compose"
       ]
     }
   ]
