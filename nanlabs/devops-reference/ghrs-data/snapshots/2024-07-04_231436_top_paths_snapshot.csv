@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/commits/main,34,2
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,22,4
+/nanlabs/devops-reference,16,10
+/nanlabs/devops-reference/blob/main/examples.json,14,2
+/nanlabs/devops-reference/tree/main/examples,13,6
+/nanlabs/devops-reference/tree/main/examples/github-actions-with-dangerjs,10,2
+/nanlabs/devops-reference/tree/main/examples/compose-airflow-spark,6,2
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app/k8s,6,1
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev/apps/python-fastapi-app,5,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/compose.yml,4,1
