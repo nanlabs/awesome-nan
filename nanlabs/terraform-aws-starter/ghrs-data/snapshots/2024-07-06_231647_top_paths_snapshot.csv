@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,29,12
+/nanlabs/terraform-aws-starter/tree/main/live,19,4
+/nanlabs/terraform-aws-starter/tree/main/live/core-networking,16,3
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/main.tf,10,3
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,10,2
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,8,2
+/nanlabs/terraform-aws-starter/tree/main/modules,8,2
+/nanlabs/terraform-aws-starter/tree/main,6,2
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/vpc.tf,4,2
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/main.tf,4,2
