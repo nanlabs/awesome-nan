@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,27,10
+/nanlabs/terraform-aws-starter/tree/main/live/core-networking,16,3
+/nanlabs/terraform-aws-starter/tree/main/live,11,4
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/main.tf,10,3
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,10,2
+/nanlabs/terraform-aws-starter/blob/main/.github/workflows/lint.yml,6,2
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,6,1
+/nanlabs/terraform-aws-starter/issues,5,1
+/nanlabs/terraform-aws-starter/tree/main/modules,5,1
+/nanlabs/terraform-aws-starter/blob/main/.github/workflows/tf-docs.yml,4,2
