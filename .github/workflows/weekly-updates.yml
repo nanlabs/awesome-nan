@@ -107,7 +107,7 @@ jobs:
           EXAMPLES=$(ls examples-*.json)
 
           # Generate the JSON file
-          ./tools/readme-generator/main.ts --json examples.json $EXAMPLES > new-examples.json
+          ./tools/readme-generator/main.ts --json $EXAMPLES > new-examples.json
 
           # Remove the downloaded files
           rm examples-*.json
