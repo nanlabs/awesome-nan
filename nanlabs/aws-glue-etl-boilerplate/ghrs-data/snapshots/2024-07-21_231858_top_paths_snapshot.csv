@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,20,18
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,15,5
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs/common,10,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/pyspark_hello_world.py,8,4
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs,8,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/resource/GlueResources.yml,7,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/resource,7,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.devcontainer,7,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/extract.py,6,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_s3.py,6,2
