@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,25,8
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-security-assessment-tools,22,6
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,22,5
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,22,4
+/nanlabs/devops-reference/tree/main/examples/serverless-localstack-with-s3-and-dynamodb,22,1
+/nanlabs/devops-reference/tree/feature/the-ultimate-guide-to-pull-requests-and-code-reviews/examples/the-ultimate-guide-to-pull-requests-and-code-reviews,21,9
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-pull-requests-and-code-reviews,18,5
+/nanlabs/devops-reference/blob/main/examples/serverless-localstack-with-s3-and-dynamodb/serverless.yml,17,1
+/nanlabs/devops-reference/tree/main/examples,15,5
+/nanlabs/devops-reference/tree/main/examples/embracing-the-power-of-localstack-for-aws-emulation,14,4
