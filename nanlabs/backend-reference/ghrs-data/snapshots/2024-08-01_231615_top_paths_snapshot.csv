@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/blob/3a206eff501f676ff54c02fbadfa8534e1a3a0d0/examples/nest-nats-microservices/service-b/src/app.module.ts,7,1
+/nanlabs/backend-reference/tree/main/examples/cli-base,7,1
+/nanlabs/backend-reference/blob/3a206eff501f676ff54c02fbadfa8534e1a3a0d0/examples/nest-nats-microservices/service-b/src/app.controller.ts,4,1
+/nanlabs/backend-reference/blob/3a206eff501f676ff54c02fbadfa8534e1a3a0d0/examples/nest-nats-microservices/service-b/src/main.ts,4,1
+/nanlabs/backend-reference/blob/main/examples/cli-base/install,4,1
+/nanlabs/backend-reference/blob/main/examples/cli-base/setup.py,4,1
+/nanlabs/backend-reference/blob/main/examples/nest-nats-microservices/service-a/src/resource1/events/created.event.ts,4,1
+/nanlabs/backend-reference/tree/main/examples/cli-base/src,3,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,3,1
+/nanlabs/backend-reference,2,2
