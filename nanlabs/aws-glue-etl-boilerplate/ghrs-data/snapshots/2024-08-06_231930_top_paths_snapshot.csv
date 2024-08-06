@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate/blob/main/serverless.yml,26,4
+/nanlabs/aws-glue-etl-boilerplate,18,12
+/nanlabs/aws-glue-etl-boilerplate/blob/main/glue.yml,15,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,13,5
+/nanlabs/aws-glue-etl-boilerplate/tree/main/resource,11,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.github,9,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/extract.py,8,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/resource/GlueResources.yml,8,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs/etl,8,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_s3.py,6,3
