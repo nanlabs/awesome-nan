@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,16,14
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,7,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs/etl,6,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/extract.py,4,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_s3.py,4,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/transform.py,4,2
+/nanlabs/aws-glue-etl-boilerplate/pulls,3,1
+/nanlabs/aws-glue-etl-boilerplate/blob/ac73f36e2a272019a4fcc8b8e2a629050fc20b8b/local/compose.yml,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/glue.yml,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/etl/load_postgresql.py,2,1
