@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/tree/main/live,10,4
+/nanlabs/terraform-aws-starter,8,6
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,8,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/rds.tf,6,1
+/nanlabs/terraform-aws-starter/tree/main/modules,5,1
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/README.md,4,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/ssm.tf,4,1
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,4,1
+/nanlabs/terraform-aws-starter/blob/main/live/common-infra/README.md,3,1
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/.terraform.lock.hcl,2,1
