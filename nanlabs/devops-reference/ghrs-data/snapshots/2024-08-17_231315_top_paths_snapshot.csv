@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,12,9
+/nanlabs/devops-reference/tree/main/examples/compose-mongodb,10,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-cognito/compose.yml,10,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-cognito/setup-resources.sh,8,1
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,8,1
+/nanlabs/devops-reference/tree/main/examples,7,3
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-cognito/.env.local,6,1
+/nanlabs/devops-reference/blob/main/examples/shellcheck-for-shell-scripting/README.md,6,1
+/nanlabs/devops-reference/blob/main/README.md,6,1
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-security-assessment-tools,5,2
