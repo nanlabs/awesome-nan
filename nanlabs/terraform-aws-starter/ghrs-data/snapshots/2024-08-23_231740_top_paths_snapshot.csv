@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,22,14
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,9,2
+/nanlabs/terraform-aws-starter/blob/5b570989ab91d14850929bc3fbd8aae54765d3ff/modules/eks/variables.tf,9,1
+/nanlabs/terraform-aws-starter/tree/main/live,4,2
+/nanlabs/terraform-aws-starter/tree/main/modules,4,2
+/nanlabs/terraform-aws-starter/blob/main/scripts/connect-to-core-networking-bastion-host.sh,4,1
+/nanlabs/terraform-aws-starter/tree/main/scripts,4,1
+/nanlabs/terraform-aws-starter/tree/main,3,2
+/nanlabs/terraform-aws-starter/blob/5b570989ab91d14850929bc3fbd8aae54765d3ff/live/aws-iam-management/iam-role-admin.tf,3,1
+/nanlabs/terraform-aws-starter/blob/5b570989ab91d14850929bc3fbd8aae54765d3ff/live/aws-iam-management/main.tf,3,1
