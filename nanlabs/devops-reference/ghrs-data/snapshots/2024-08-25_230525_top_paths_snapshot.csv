@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,6,6
+/nanlabs/devops-reference/tree/main/examples/github-actions-todo-to-issue,6,1
+/nanlabs/devops-reference/tree/main/examples,5,2
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/.cognito/config.json,5,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,5,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/compose.yml,3,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/.env.local,3,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/.gitignore,3,1
+/nanlabs/devops-reference/tree/main/examples/compose-cognito,3,1
+/nanlabs/devops-reference/tree/main/examples/compose-localstack,3,1
