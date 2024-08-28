@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,5,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless/src,5,1
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/services/company_service.py,2,1
+/nanlabs/backend-reference/blob/main/examples/golang-todo-rest-crud/Makefile,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose/app,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless/src/router,2,1
+/nanlabs/awesome-nan,1,1
