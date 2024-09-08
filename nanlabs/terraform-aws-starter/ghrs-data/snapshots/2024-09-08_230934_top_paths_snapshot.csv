@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,9,7
+/nanlabs/terraform-aws-starter/tree/main/modules,8,3
+/nanlabs/terraform-aws-starter/tree/main/live,4,2
+/nanlabs/terraform-aws-starter/issues,3,1
+/nanlabs/terraform-aws-starter/issues/30,3,1
+/nanlabs/terraform-aws-starter/tree/main/modules/eks,3,1
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,3,1
+/nanlabs/terraform-aws-starter/blob/0880c1deb14d30326f42faa4d7c4c980c6c4a9a1/live/services-platform/eks-access-entries.tf,2,1
+/nanlabs/terraform-aws-starter/blob/main/live/common-infra/context.tf,2,1
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,2,1
