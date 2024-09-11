@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-security-assessment-tools,19,6
+/nanlabs/devops-reference,6,4
+/nanlabs/devops-reference/tree/main/examples,6,3
+/nanlabs/devops-reference/blob/main/examples/serverless-node-typescript-bundle/src/handlers/get.ts,6,1
+/nanlabs/devops-reference/blob/main/examples/the-ultimate-guide-to-pull-requests-and-code-reviews/README.md,5,3
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/deploylib.ts,5,1
+/nanlabs/devops-reference/blob/main/examples/compose-wordpress-mysql/nginx/default.conf,4,1
+/nanlabs/devops-reference/tree/main/examples/compose-wordpress-mysql/nginx,4,1
+/nanlabs/devops-reference/tree/main/examples/kubernetes-tilt-dev,4,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/iac/api_gateway.ts,3,1
