@@ -1,0 +1,6 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,4,3
+/nanlabs/backend-reference/blob/main/examples/fastapi-mongo-with-docker-compose/Dockerfile,4,1
+/nanlabs/backend-reference/blob/bdb51d800b83283f7b9b270d338a1bed85444dbe/examples/fastapi-crud/src/services/company_service.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-mongo-with-docker-compose/compose.prod.yml,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-mongo-with-docker-compose/compose.yml,2,1
