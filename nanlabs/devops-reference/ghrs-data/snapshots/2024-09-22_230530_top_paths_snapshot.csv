@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/blob/main/examples/serverless-python-fastapi/serverless.yml,12,2
+/nanlabs/devops-reference,11,5
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,8,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres/resource/RDSPostgresSecrets.yml,7,1
+/nanlabs/devops-reference/blob/main/examples/serverless-python-fastapi/src/main.py,6,2
+/nanlabs/devops-reference/tree/main/examples/bash-as-a-wrapper-utility-with-easy-options,6,1
+/nanlabs/devops-reference/tree/main/examples/easy-options,5,1
+/nanlabs/devops-reference/tree/main/examples/serverless-glue,5,1
+/nanlabs/devops-reference/blob/main/examples/serverless-python-fastapi/src/router/routes.py,4,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-cognito-local/README.md,4,1
