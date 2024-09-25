@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,18,13
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/main.tf,10,1
+/nanlabs/terraform-aws-starter/tree/main/modules,9,3
+/nanlabs/terraform-aws-starter/tree/main/scripts,9,3
+/nanlabs/terraform-aws-starter/tree/main/live,8,3
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,6,2
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/rds.tf,6,1
+/nanlabs/terraform-aws-starter/tree/main/tools,6,1
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,4,2
+/nanlabs/terraform-aws-starter/tree/main/live/aws-iam-management,4,2
