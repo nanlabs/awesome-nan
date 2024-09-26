@@ -1801,6 +1801,24 @@
       ]
     },
     {
+      "name": "FastAPI Simple example with Docker Compose and PIP",
+      "description": "This project demonstrates the implementation of a REST API using FastAPI, a modern, high-performance, web framework for building APIs with Python 3.+ based on standard Python type hints. It also uses Docker Compose to run the API in a container and PIP to manage Python packages.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "Pydantic",
+        "Docker",
+        "Docker Compose",
+        "PIP"
+      ]
+    },
+    {
       "name": "SQLC with Go, PostgreSQL, Docker Compose",
       "description": "This project demonstrates the implementation of a REST API using Go, SQLC, and PostgreSQL. It uses Docker Compose to set up the development environment and includes examples of creating, reading, updating, and deleting records in the database.",
       "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-api-with-postgres-and-sqlc",
