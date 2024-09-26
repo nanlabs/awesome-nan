@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip,10,3
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/compose.yml,4,1
+/nanlabs/backend-reference,3,3
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/main.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/types.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/utils.py,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/compose.prod.yml,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/Dockerfile,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/docs/.gitkeep,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/.flake8,2,1
