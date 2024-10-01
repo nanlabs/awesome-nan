@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,15,13
+/nanlabs/terraform-aws-starter/tree/main/modules,15,5
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/main.tf,10,1
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,9,2
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/rds.tf,7,2
+/nanlabs/terraform-aws-starter/tree/main/scripts/easy-options,7,2
+/nanlabs/terraform-aws-starter/tree/main/scripts,6,3
+/nanlabs/terraform-aws-starter/tree/main/live,6,2
+/nanlabs/terraform-aws-starter/tree/main/tools,6,1
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/main.tf,5,2
