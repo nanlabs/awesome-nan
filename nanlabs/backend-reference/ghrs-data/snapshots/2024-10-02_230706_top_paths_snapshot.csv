@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip,20,5
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/README.md,11,2
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/Pipfile,9,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/main.py,8,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/compose.yml,6,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/Dockerfile,5,2
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/utils.py,5,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/scripts/ctl,5,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/app/config.py,4,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-simple-docker-pip/scripts/easy-options/easyoptions.sh,4,1
