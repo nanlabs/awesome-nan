@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/blob/main/examples/compose-glue/gluelibs.Dockerfile,15,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/compose.yml,14,1
+/nanlabs/devops-reference/tree/main/examples/compose-glue,12,1
+/nanlabs/devops-reference/tree/main/examples/devcontainer-glue,9,3
+/nanlabs/devops-reference/blob/main/examples/compose-glue/requirements.txt,9,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/pyspark_example.py,8,1
+/nanlabs/devops-reference/blob/main/examples/serverless-python-fastapi/serverless.yml,8,1
+/nanlabs/devops-reference/tree/main/examples/devcontainer-glue/.devcontainer,8,1
+/nanlabs/devops-reference/tree/main/examples/serverless-python-fastapi,7,2
+/nanlabs/devops-reference/actions/metrics/usage,7,1
