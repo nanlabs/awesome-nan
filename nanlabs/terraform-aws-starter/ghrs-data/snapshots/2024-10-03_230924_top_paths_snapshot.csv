@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,11,11
+/nanlabs/terraform-aws-starter/tree/main/modules,11,4
+/nanlabs/terraform-aws-starter/tree/main/scripts/easy-options,7,2
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,7,1
+/nanlabs/terraform-aws-starter/tree/main/scripts,6,3
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,4,2
+/nanlabs/terraform-aws-starter/blob/eb5cd1e6df3a67bd67a3e2a93b51e65de5b1af67/modules/mongodb/cluster.tf,4,1
+/nanlabs/terraform-aws-starter/tree/main/live,4,1
+/nanlabs/terraform-aws-starter/tree/main/modules/bastion,3,1
+/nanlabs/terraform-aws-starter/pulls,2,2
