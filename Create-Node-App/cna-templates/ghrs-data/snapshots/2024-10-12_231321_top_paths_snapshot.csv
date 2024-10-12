@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,3,3
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/docs/DEPLOYMENT.md.template,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/docs/README.md.append,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/serverless.yml,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/src/lambda.ts,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-serverless/tsconfig.bundle.json,1,1
+/Create-Node-App/cna-templates/blob/main/templates.json,1,1
+/Create-Node-App/cna-templates/issues/8,1,1
+/Create-Node-App/cna-templates/tree/main/extensions,1,1
+/Create-Node-App/cna-templates/tree/main/extensions/nestjs-serverless,1,1
