@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main,4,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip,2,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/alembic_migrations/versions/11bd0063b0af_specified_not_nullable_fields_in_.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/auth/__init__.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/controllers/company_controllers.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/controllers/employee_controllers.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/controllers/__init__.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/exceptions/database_exceptions.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/exceptions/__init__.py,1,1
