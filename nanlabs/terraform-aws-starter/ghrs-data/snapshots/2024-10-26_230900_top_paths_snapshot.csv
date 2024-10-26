@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,12,8
+/nanlabs/terraform-aws-starter/tree/main/modules,6,4
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/README.md,6,2
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,3,3
+/nanlabs/terraform-aws-starter/tree/main/modules/bastion,3,2
+/nanlabs/terraform-aws-starter/blob/5ddcc7cbdc4bc38dbeeef2bbc259917d93aeb4af/modules/amplify-app/main.tf,2,1
+/nanlabs/terraform-aws-starter/tree/main/live,2,1
+/nanlabs/terraform-aws-starter/tree/main/scripts,2,1
+/nanlabs/terraform-aws-starter/tree/main/scripts/easy-options,2,1
+/nanlabs/terraform-aws-starter/blob/5ddcc7cbdc4bc38dbeeef2bbc259917d93aeb4af/modules/amplify-app/variables.tf,1,1
