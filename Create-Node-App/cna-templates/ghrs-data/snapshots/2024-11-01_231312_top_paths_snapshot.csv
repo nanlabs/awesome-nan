@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,8,7
+/Create-Node-App/cna-templates/tree/main/templates,2,2
+/Create-Node-App/cna-templates/blob/6fd8d13f876cd88cbcd19e8e01cc1a440dc5e7ac/extensions/react-android-tools/develop.Dockerfile,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-mongoose/.env.local.append,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-mongoose/package.json,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-mongoose/src/app.module.ts,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-openapi/package.json,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-openapi/src/main.ts,1,1
+/Create-Node-App/cna-templates/blob/main/README.md,1,1
+/Create-Node-App/cna-templates/blob/main/templates.json,1,1
