@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-security-assessment-tools,6,4
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-pull-requests-and-code-reviews,5,1
+/nanlabs/devops-reference/blob/main/examples/the-ultimate-guide-to-pull-requests-and-code-reviews/README.md,4,2
+/nanlabs/devops-reference,3,3
+/nanlabs/devops-reference/tree/main/examples/serverless-glue,3,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/deploylib.ts,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/iac/eks.ts,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/compose.yml,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/gluelibs.Dockerfile,1,1
