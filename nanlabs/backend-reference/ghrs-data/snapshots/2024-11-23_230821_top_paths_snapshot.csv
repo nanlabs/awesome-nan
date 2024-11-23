@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/src/main.py,5,1
+/nanlabs/backend-reference,4,4
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/requirements.dev.txt,3,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/requirements.txt,3,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/src/core/config.py,3,1
+/nanlabs/backend-reference/blob/main/examples/golang-todo-rest-crud/Makefile,3,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/compose.yml,2,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/src/exceptions/database_exceptions.py,2,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/src/logging.conf,2,1
+/nanlabs/backend-reference/blob/a213a836915844e152c304db50371d22c5266c27/examples/fastapi-crud/Dockerfile,1,1
