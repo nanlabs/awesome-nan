@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres/resource,5,1
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496,4,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-documentdb/serverless.yml,3,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres/resource/VPCSubnets.yml,2,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,2,1
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496/examples,2,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-postgres/compose.yml,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-wordpress-mysql/compose.yml,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/compose-wordpress-mysql/nginx/default.conf,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-documentdb/resource/Cloud9env.yml,1,1
