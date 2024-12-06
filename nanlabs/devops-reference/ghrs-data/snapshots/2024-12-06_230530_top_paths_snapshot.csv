@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres/resource,5,1
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496,4,2
+/nanlabs/devops-reference/tree/main/examples,3,2
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-secrets-management-for-developers,3,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres/resource/VPCSubnets.yml,2,1
+/nanlabs/devops-reference/blob/main/examples/compose-glue/gluelibs.Dockerfile,2,1
+/nanlabs/devops-reference/blob/main/.github/workflows/pr-review.yml,2,1
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496/examples,2,1
+/nanlabs/devops-reference/tree/main/examples/github-actions-with-dangerjs,2,1
+/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-code-review-tools,2,1
