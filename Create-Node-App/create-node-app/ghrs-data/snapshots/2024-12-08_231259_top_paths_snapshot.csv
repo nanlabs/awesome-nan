@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,68,58
+/Create-Node-App/create-node-app/tree/main/packages,11,9
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app,7,5
+/Create-Node-App/create-node-app/tree/main,5,2
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/package.json,4,3
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app/src,4,3
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/index.ts,3,3
+/Create-Node-App/create-node-app/tree/main/packages/create-node-app-core,3,3
+/Create-Node-App/create-node-app/tree/main/tools/danger,3,3
+/Create-Node-App/create-node-app/blob/main/.devcontainer/base.Dockerfile,2,2
