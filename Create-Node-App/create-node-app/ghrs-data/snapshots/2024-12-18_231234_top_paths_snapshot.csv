@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,49,42
+/Create-Node-App/create-node-app/tree/main/.devcontainer,6,3
+/Create-Node-App/create-node-app/tree/main/packages,6,3
+/Create-Node-App/create-node-app/tree/main/tools/danger,5,4
+/Create-Node-App/create-node-app/tree/main/packages/create-node-app-core,5,2
+/Create-Node-App/create-node-app/blob/main/package.json,4,3
+/Create-Node-App/create-node-app/tree/main/packages/create-awesome-node-app,4,3
+/Create-Node-App/create-node-app/blob/main/packages/create-node-app-core/installer.ts,3,2
+/Create-Node-App/create-node-app/tree/main/.husky,3,2
+/Create-Node-App/create-node-app/blob/main/.devcontainer/base.Dockerfile,2,2
