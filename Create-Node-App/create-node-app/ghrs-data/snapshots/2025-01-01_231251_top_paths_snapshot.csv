@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,41,37
+/Create-Node-App/create-node-app/tree/main/packages,4,3
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/options.ts,2,1
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/templates.ts,2,1
+/create-node-app/create-node-app,1,1
+/Create-Node-App/create-node-app/blob/main/.devcontainer/devcontainer.json,1,1
+/Create-Node-App/create-node-app/blob/main/.devcontainer/Dockerfile,1,1
+/Create-Node-App/create-node-app/blob/main/.husky/pre-commit,1,1
+/Create-Node-App/create-node-app/blob/main/package.json,1,1
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/src/index.ts,1,1
