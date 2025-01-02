@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,12,7
+/nanlabs/terraform-aws-starter/tree/main/modules,4,2
+/nanlabs/terraform-aws-starter/tree/main/live,3,2
+/nanlabs/terraform-aws-starter/pulls,2,2
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,2,2
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,2,2
+/nanlabs/terraform-aws-starter/tree/main,2,1
+/nanlabs/terraform-aws-starter/blob/7d85b999fac99a96cfeeaa1db8b69f5e3e2d10d6/modules/mongodb/cluster.tf,1,1
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/backend.tf,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/eks/main.tf,1,1
