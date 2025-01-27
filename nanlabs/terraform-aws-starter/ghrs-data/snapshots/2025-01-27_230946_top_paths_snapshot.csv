@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,27,16
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/main.tf,12,3
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/variables.tf,11,2
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/variables.tf,10,2
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/vpc.tf,10,2
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/configs/develop.tfvars,10,1
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/bastion.tf,8,2
+/nanlabs/terraform-aws-starter/tree/main/modules,7,5
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/backend.tf,7,1
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/vpc.tf,7,1
