@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,4,2
+/nanlabs/backend-reference/tree/main/examples,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-gql/src/factories/company_factory.py,1,1
+/nanlabs/backend-reference/commit/a94258d857d44494568dab62bda32ba91edcdf55,1,1
+/nanlabs/backend-reference/issues,1,1
+/nanlabs/backend-reference/pulls,1,1
+/nanlabs/backend-reference/tree/main,1,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-gql,1,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-gql/src,1,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-gql/src/factories,1,1
