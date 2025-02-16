@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples,11,1
+/nanlabs/backend-reference/pulls,7,2
+/nanlabs/backend-reference,6,2
+/nanlabs/backend-reference/pull/107,4,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-crud,4,1
+/nanlabs/backend-reference/blob/a94258d857d44494568dab62bda32ba91edcdf55/examples/golang-todo-rest-crud/internal/platform/mongo/mongo_registry.go,2,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-gql/src/factories/company_factory.py,2,1
+/nanlabs/backend-reference/compare,2,1
+/nanlabs/backend-reference/pull/80,2,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose,2,1
