@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,21,16
+/nanlabs/terraform-aws-starter/tree/main/modules,7,5
+/nanlabs/terraform-aws-starter/blob/main/modules/iam-role/main.tf,7,2
+/nanlabs/terraform-aws-starter/blob/main/modules/iam-role/outputs.tf,7,1
+/nanlabs/terraform-aws-starter/tree/main/live,6,3
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/main.tf,5,1
+/nanlabs/terraform-aws-starter/blob/main/modules/iam-role/variables.tf,5,1
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,5,1
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/iam-role-developer.tf,4,1
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/outputs.tf,4,1
