@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,5,3
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-localstack-with-s3-and-dynamodb/serverless.yml,4,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/iac/api_gateway.ts,2,1
+/nanlabs/devops-reference/actions,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-localstack-with-s3-and-dynamodb/resource/DynamoDB.yml,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,1,1
+/nanlabs/devops-reference/fork,1,1
+/nanlabs/devops-reference/projects,1,1
+/nanlabs/devops-reference/pulls,1,1
+/nanlabs/devops-reference/tree/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-localstack-with-s3-and-dynamodb,1,1
