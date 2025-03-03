@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,5,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/deploylib.ts,2,2
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/klotho-analysis/klotho-go-example/_compiled/iac/api_gateway.ts,2,1
+/nanlabs/devops-reference/tree/main/examples/serverless-glue,2,1
+/nanlabs/devops-reference/actions,1,1
+/nanlabs/devops-reference/blob/36d92e00355a288e62fb7c8483162cb72d772496/examples/serverless-rds-postgres-vpc-plugin/resource/RDSPostgresSecrets.yml,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,1,1
+/nanlabs/devops-reference/fork,1,1
+/nanlabs/devops-reference/projects,1,1
+/nanlabs/devops-reference/pulls,1,1
