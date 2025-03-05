@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,16,12
+/nanlabs/terraform-aws-starter/tree/main/modules,8,5
+/nanlabs/terraform-aws-starter/tree/main/live,4,4
+/nanlabs/terraform-aws-starter/tree/main/modules/vpc,3,3
+/nanlabs/terraform-aws-starter/tree/main,3,2
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,3,2
+/nanlabs/terraform-aws-starter/tree/b1b62ef4ebd3e72b02b1b4c6c083896d48f27c6b/modules/rds,3,1
+/nanlabs/terraform-aws-starter/tree/main/scripts,2,2
+/nanlabs/terraform-aws-starter/blob/b1b62ef4ebd3e72b02b1b4c6c083896d48f27c6b/modules/rds/variables.tf,2,1
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/tf-backend.tf,2,1
