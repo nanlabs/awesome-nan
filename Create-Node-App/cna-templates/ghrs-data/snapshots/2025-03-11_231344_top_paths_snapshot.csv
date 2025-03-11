@@ -1,0 +1,10 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,2,2
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/Dockerfile,2,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/compose.prod.yml,1,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/compose.yml,1,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/docker/docker-compose.sh,1,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/.dockerignore,1,1
+/Create-Node-App/cna-templates/edit/main/templates/nestjs-starter/Dockerfile,1,1
+/Create-Node-App/cna-templates/tree/main/extensions,1,1
+/Create-Node-App/cna-templates/tree/main/templates/nextjs-starter,1,1
