@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference/tree/main/examples/fastapi-base,12,1
+/nanlabs/backend-reference,10,3
+/nanlabs/backend-reference/pull/111,9,3
+/nanlabs/backend-reference/pulls,8,3
+/nanlabs/backend-reference/pull/112,7,3
+/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices,6,2
+/nanlabs/backend-reference/tree/main/examples,6,1
+/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless,6,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-postgres-with-serverless/src/router/routes.py,4,1
+/nanlabs/backend-reference/blob/main/.github/workflows/generate-readme.yml,4,1
