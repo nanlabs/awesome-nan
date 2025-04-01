@@ -21,7 +21,7 @@
 
 </div>
 
-This is a curated list of all the Open Source examples and projects we have at [NaN Labs](https://www.nan-labs.com/).
+This is a curated list of all the Open Source examples and projects we have at [NaN Labs](https://www.nanlabs.com/).
 
 ## Contents
 
