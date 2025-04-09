@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/awesome-nan,11,5
+/nanlabs/awesome-nan/actions,3,1
+/nanlabs/awesome-nan/actions/runs/14165562582,2,1
+/nanlabs/awesome-nan/actions/runs/14165562582/job/39678038494,2,1
+/nanlabs/awesome-nan/actions/workflows/generate-readme.yml,2,1
+/nanlabs/awesome-nan/blob/main/README.md.tmpl,2,1
+/nanlabs/awesome-nan/tree/main,2,1
+/nanlabs/awesome-nan/blob/main/examples.json,1,1
+/nanlabs/awesome-nan/blob/main/examples.schema.json,1,1
+/nanlabs/awesome-nan/blob/main/README.md,1,1
