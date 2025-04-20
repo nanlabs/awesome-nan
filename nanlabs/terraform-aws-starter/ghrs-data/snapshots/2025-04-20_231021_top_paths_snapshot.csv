@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,26,13
+/nanlabs/terraform-aws-starter/tree/main,13,5
+/nanlabs/terraform-aws-starter/tree/main/modules,12,5
+/nanlabs/terraform-aws-starter/blob/main/live/iam-management/README.md,10,1
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/README.md,8,3
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra,8,3
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,8,2
+/nanlabs/terraform-aws-starter/tree/main/live,7,3
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend/configs,6,2
+/nanlabs/terraform-aws-starter/tree/main/scripts,5,2
