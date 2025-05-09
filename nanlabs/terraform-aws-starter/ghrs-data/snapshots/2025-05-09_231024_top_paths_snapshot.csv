@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,22,14
+/nanlabs/terraform-aws-starter/tree/main/.github/workflows,5,3
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/README.md,4,2
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/README.md,4,2
+/nanlabs/terraform-aws-starter/tree/main/modules,3,3
+/nanlabs/terraform-aws-starter/tree/main/scripts,3,3
+/nanlabs/terraform-aws-starter/tree/main/live,3,2
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/README.md,3,1
+/nanlabs/terraform-aws-starter/blob/main/modules/docdb/README.md,3,1
+/nanlabs/terraform-aws-starter/actions,2,2
