@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,26,16
+/nanlabs/terraform-aws-starter/tree/main,18,6
+/nanlabs/terraform-aws-starter/tree/main/modules,14,8
+/nanlabs/terraform-aws-starter/tree/main/live,11,4
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/context.tf,7,2
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/README.md,7,2
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/iam-role-developer.tf,6,1
+/nanlabs/terraform-aws-starter/tree/main/live/terraform-backend,5,3
+/nanlabs/terraform-aws-starter/blob/main/live/aws-iam-management/iam-role-read-only.tf,5,1
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,4,3
