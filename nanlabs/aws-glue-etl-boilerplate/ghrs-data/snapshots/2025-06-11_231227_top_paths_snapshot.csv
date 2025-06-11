@@ -1,0 +1,5 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,5,5
+/nanlabs/aws-glue-etl-boilerplate/blob/ac73f36e2a272019a4fcc8b8e2a629050fc20b8b/local/compose.yml,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/DEVELOPMENT.md,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/pyspark_hello_world.py,1,1
