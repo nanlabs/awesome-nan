@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,5,4
+/Create-Node-App/cna-templates/tree/main/templates,3,3
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter,3,1
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter/package,3,1
+/Create-Node-App/cna-templates/blob/main/templates/react-vite-starter/docs/COMPONENTS_AND_STYLING.md,2,1
+/Create-Node-App/cna-templates/tree/main/extensions/all-devcontainer,2,1
+/Create-Node-App/cna-templates/blob/main/extensions/all-devcontainer/package.json,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-easy-state/package.json,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-hook-form/package.json,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-ionic-capacitor/package.json,1,1
