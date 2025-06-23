@@ -1657,7 +1657,7 @@
     {
       "name": "Golang REST API boilerplate",
       "description": "A comprehensive REST API boilerplate in Golang, featuring CRUD operations, structured logging, rate limiting, unit and integration tests, and API documentation with Swagger. Includes Docker Compose for MongoDB setup and tools like Gorilla Mux, Zap, and Mockery for streamlined development.",
-      "url": "https://github.com/nanlabs/nancy.go/tree/main/examples/golang-todo-rest-crud/",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud",
       "tags": [
         "Apps and Boilerplates"
       ],
@@ -1876,6 +1876,33 @@
         "Docker",
         "RAG",
         "Retrieval Augmented Generation"
+      ]
+    },
+    {
+      "name": "Geospatial Python Urban Analysis with PostGIS",
+      "description": "A comprehensive geospatial data analysis project for urban environments, featuring analysis of pedestrian zones, transportation networks, census data, and geographic boundaries. Built with PostgreSQL/PostGIS, Docker, and GeoPandas for efficient spatial queries, ETL pipelines, and geospatial machine learning models.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/geospatial-python-urban-analysis-with-postgis",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Data Science and Machine Learning > Geospatial Analysis",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "GeoPandas",
+        "PostGIS",
+        "PostgreSQL",
+        "Docker",
+        "Geospatial Analysis",
+        "Urban Planning",
+        "ETL",
+        "Machine Learning",
+        "Jupyter Notebooks",
+        "Folium",
+        "Matplotlib",
+        "Scikit-learn",
+        "Rasterio",
+        "GIS"
       ]
     }
   ]
