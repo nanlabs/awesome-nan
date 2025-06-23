@@ -29,7 +29,6 @@ This is a curated list of all the Open Source examples and projects we have at [
 - [Node Packages](#node-packages)
 - [Guides, Tutorials and Best Practices](#guides-tutorials-and-best-practices)
 - [Examples](#examples)
-
   - [Frontend](#frontend)
     - [Website Optimization and Performance](#website-optimization-and-performance)
     - [React State Management](#react-state-management)
