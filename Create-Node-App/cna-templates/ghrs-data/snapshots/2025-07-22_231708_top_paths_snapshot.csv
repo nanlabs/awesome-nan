@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/cna-templates,7,5
+/Create-Node-App/cna-templates/tree/main/templates,6,4
+/Create-Node-App/cna-templates/tree/main/extensions,2,2
+/Create-Node-App/cna-templates/tree/main/templates/react-vite-starter,2,2
+/Create-Node-App/cna-templates/tree/main/extensions/all-github-setup,2,1
+/Create-Node-App/cna-templates/tree/main/templates/webextension-react-vite-starter,2,1
+/Create-Node-App/cna-templates/blob/main/extensions/nestjs-openapi/.cursor/rules/openapi-rules.mdc.template,1,1
+/Create-Node-App/cna-templates/blob/main/extensions/react-ant-design/.cursor/rules/ant-design-rules.mdc.template,1,1
+/Create-Node-App/cna-templates/blob/main/templates/nestjs-starter/docker/docker-compose.sh,1,1
+/Create-Node-App/cna-templates/blob/main/templates/react-vite-starter/index.html.template,1,1
