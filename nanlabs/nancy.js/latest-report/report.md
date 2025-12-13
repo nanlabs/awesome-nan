@@ -1,5 +1,5 @@
 % Statistics for nanlabs/nancy.js
-% Generated for [nanlabs/nancy.js](https://github.com/nanlabs/nancy.js) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2025-12-12 23:11 UTC.
+% Generated for [nanlabs/nancy.js](https://github.com/nanlabs/nancy.js) with [jgehrcke/github-repo-stats](https://github.com/jgehrcke/github-repo-stats) at 2025-12-13 23:11 UTC.
 
 
 ## Views
@@ -90,7 +90,7 @@ Top 15 referrers: 01: `github.com`, 02: `Google`, 03: `search.brave.com`, 04: `l
 
 <div id="chart_paths_top_n_alltime" class="full-width-chart"></div>
 
-Top 15 paths: 01: `/`, 02: `/issues`, 03: `/pull/111`, 04: `/pull/103`, 05: `/tree/main/packages`, 06: `/pull/98`, 07: `/tree/main/packages/react-hooks`, 08: `/pulls`, 09: `/tree/main/apps/playground`, 10: `/pull/102`, 11: `/discussions`, 12: `/pull/102/files`, 13: `/pull/111/files`, 14: `/pull/103/files`, 15: `/labels/bug`
+Top 15 paths: 01: `/`, 02: `/issues`, 03: `/pull/111`, 04: `/pull/103`, 05: `/tree/main/packages`, 06: `/pull/98`, 07: `/tree/main/packages/react-hooks`, 08: `/pulls`, 09: `/pull/111/files`, 10: `/discussions`, 11: `/pull/102/files`, 12: `/tree/main/apps/playground`, 13: `/pull/102`, 14: `/actions/runs/7122855510`, 15: `/pull/103/files`
 
 
 <script type="text/javascript">
