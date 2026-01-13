@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,6,5
+/nanlabs/devops-reference/issues,3,3
+/nanlabs/devops-reference/discussions,2,1
+/nanlabs/devops-reference/activity,1,1
+/nanlabs/devops-reference/blob/1ebabd05e52fb595390a1241dffa63ee0eefe739/examples/terraform-vpc-rds-instance-bastion-starter/modules/bastion/templates/cloud-init-docker.yml,1,1
+/nanlabs/devops-reference/blob/main/.github/workflows/pr-review.yml,1,1
+/nanlabs/devops-reference/blob/main/.github/workflows/todo.yml,1,1
+/nanlabs/devops-reference/commit/2f4cc5443a4b9ee3af16cb7c67a6c3a4584d3cc3,1,1
+/nanlabs/devops-reference/commit/ca9420c2c484d268d359423f87514a0b49da0347,1,1
+/nanlabs/devops-reference/tree/main/.github,1,1
