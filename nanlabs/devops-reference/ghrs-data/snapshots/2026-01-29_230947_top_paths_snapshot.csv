@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,6,5
+/nanlabs/devops-reference/tree/main/examples/compose-postgres,3,1
+/nanlabs/devops-reference/pulls,2,2
+/nanlabs/devops-reference/blob/main/examples/compose-postgres/compose.yml,2,1
+/nanlabs/devops-reference/tree/main/examples,2,1
+/nanlabs/devops-reference/tree/main/examples/compose-localstack,2,1
+/nanlabs/devops-reference/blob/main/.github/CODE_OF_CONDUCT.md,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-postgres/.env.example,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-postgres/pgadmin-bootstrap/server.json,1,1
+/nanlabs/devops-reference/blob/main/examples/terraform-aws-minecraft-server/cloudwatch.tf,1,1
