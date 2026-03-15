@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,16,10
+/nanlabs/terraform-aws-starter/issues,2,2
+/nanlabs/terraform-aws-starter/blob/main/live/terraform-backend/README.md,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/eks/README.md,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds-aurora/README.md,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc/README.md,1,1
+/nanlabs/terraform-aws-starter/issues/30,1,1
+/nanlabs/terraform-aws-starter/issues/5,1,1
+/nanlabs/terraform-aws-starter/tree/main,1,1
+/nanlabs/terraform-aws-starter/tree/main/live/aws-iam-management,1,1
