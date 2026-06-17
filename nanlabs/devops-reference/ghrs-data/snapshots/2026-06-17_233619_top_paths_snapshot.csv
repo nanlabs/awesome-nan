@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference/tree/main/examples/docker/localstack,2,2
+/nanlabs/devops-reference,2,1
+/nanlabs/devops-reference/blob/1ebabd05e52fb595390a1241dffa63ee0eefe739/examples/the-ultimate-guide-to-security-assessment-tools/CONTINUOUS_INTEGRATION_WITH_AWS_CODE_PIPELINE.md,1,1
+/nanlabs/devops-reference/blob/7ca072b5b118c52dae16fbb49b006fdbc4eaed87/.github/CODEOWNERS,1,1
+/nanlabs/devops-reference/commit/145d1a136fe8866910f3e3e1dafc82f78a9fb9b4,1,1
+/nanlabs/devops-reference/commit/3796ef1bc9d7f2450e31dce19a2e4c434fc7a680,1,1
+/nanlabs/devops-reference/commit/79f9aef0e1a85ad2aa16c1de5c7a084bfd11e790,1,1
+/nanlabs/devops-reference/commit/7ca072b5b118c52dae16fbb49b006fdbc4eaed87,1,1
+/nanlabs/devops-reference/issues/7,1,1
+/nanlabs/devops-reference/labels/hacktoberfest-accepted,1,1
