@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,5,3
+/nanlabs/devops-reference/blob/main/examples/serverless-terraform-example/serverless/handler.js,4,1
+/nanlabs/devops-reference/blob/main/examples/serverless-terraform-example/serverless/serverless.yml,3,1
+/nanlabs/devops-reference/pulls,2,2
+/nanlabs/devops-reference/tree/main/examples/docker/localstack,2,2
+/nanlabs/devops-reference/tree/main,2,1
+/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example,2,1
+/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example/serverless,2,1
+/nanlabs/devops-reference/actions/workflows/github-code-scanning/codeql,1,1
+/nanlabs/devops-reference/blob/1ebabd05e52fb595390a1241dffa63ee0eefe739/examples/the-ultimate-guide-to-security-assessment-tools/CONTINUOUS_INTEGRATION_WITH_AWS_CODE_PIPELINE.md,1,1
