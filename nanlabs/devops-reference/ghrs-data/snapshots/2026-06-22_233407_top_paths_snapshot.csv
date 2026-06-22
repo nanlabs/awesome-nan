@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,6,4
+/nanlabs/devops-reference/tree/main,6,2
+/nanlabs/devops-reference/blob/main/examples/serverless-terraform-example/serverless/handler.js,5,2
+/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example,5,2
+/nanlabs/devops-reference/pulls,3,3
+/nanlabs/devops-reference/tree/main/examples/serverless-terraform-example/serverless,3,2
+/nanlabs/devops-reference/blob/main/examples/serverless-terraform-example/serverless/serverless.yml,3,1
+/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres,3,1
+/nanlabs/devops-reference/tree/main/examples/serverless-rds-postgres-vpc-plugin,3,1
+/nanlabs/devops-reference/tree/main/examples/docker/localstack,2,2
