@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,7,7
+/nanlabs/terraform-aws-starter/pulls,7,3
+/nanlabs/terraform-aws-starter/blob/main/.github/PULL_REQUEST_TEMPLATE.md,1,1
+/nanlabs/terraform-aws-starter/blob/main/.github/workflows/todo.yml,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/docdb/README.md,1,1
+/nanlabs/terraform-aws-starter/tree/main,1,1
+/nanlabs/terraform-aws-starter/tree/main/.github,1,1
+/nanlabs/terraform-aws-starter/tree/main/.github/workflows,1,1
+/nanlabs/terraform-aws-starter/tree/main/live/common-infra/docs,1,1
+/nanlabs/terraform-aws-starter/tree/main/modules,1,1
