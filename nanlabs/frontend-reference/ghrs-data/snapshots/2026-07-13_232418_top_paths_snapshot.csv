@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/frontend-reference,4,4
+/nanlabs/frontend-reference/tree/main/examples/state-management/examples/fsm-xstate,2,2
+/nanlabs/frontend-reference/tree/main/examples/state-management/examples/hooks-hookstate,2,2
+/nanlabs/frontend-reference/tree/main/examples/state-management/examples/atomic-jotai,2,1
+/nanlabs/frontend-reference/actions/workflows/ci.yml,1,1
+/nanlabs/frontend-reference/blob/main/examples/state-management/examples/atomic-jotai/package.json,1,1
+/nanlabs/frontend-reference/blob/main/examples/state-management/examples/atomic-jotai/yarn.lock,1,1
+/nanlabs/frontend-reference/blob/main/examples/state-management/examples/atomic-recoil/index.html,1,1
+/nanlabs/frontend-reference/blob/main/examples/state-management/examples/atomic-recoil/tailwind.config.js,1,1
+/nanlabs/frontend-reference/blob/main/examples/state-management/examples/fsm-xstate/postcss.config.js,1,1
