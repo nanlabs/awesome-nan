@@ -2141,6 +2141,37 @@
         "Rasterio",
         "GIS"
       ]
+    },
+    {
+      "name": "Dagster AI Orchestration Framework - Case Study & Architecture Evaluation",
+      "description": "Comprehensive architectural evaluation of POC-Dagster data orchestration project, examining suitability for evolution into a 4-layer AI Agent platform. Includes gap analysis (18% completeness), production-ready code templates for all 5 layers (Frontend/Orchestration/Runtime/Data/Validation), and decision framework for archival vs fresh start.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/dagster-ai-orchestration-framework",
+      "tags": [
+        "Architecture",
+        "Case Study",
+        "AI Agents",
+        "Decision Framework"
+      ],
+      "labels": [
+        "Dagster",
+        "Data Orchestration",
+        "LangGraph",
+        "AI Agents",
+        "Architecture Evaluation",
+        "4-Layer Stack",
+        "Vercel AI SDK",
+        "Okta",
+        "Cedar",
+        "MCP",
+        "Embeddings",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Prompt Evals",
+        "Decision Framework",
+        "Reference Architecture"
+      ]
     }
   ]
 }
