@@ -471,3 +471,12 @@ This is a curated list of all the Open Source examples and projects we have at [
 [licensebadge]: https://img.shields.io/badge/License-MIT-blue.svg
 [ciurl]: https://github.com/nanlabs/awesome-nan/actions/workflows/ci.yml
 [licenseurl]: https://github.com/nanlabs/awesome-nan/blob/main/LICENSE
+
+
+## 👥 Contributors
+
+<a href="https://github.com/nanlabs/awesome-nan/contributors">
+  <img src="https://contrib.rocks/image?repo=nanlabs/awesome-nan"/>
+</a>
+
+Made with [contributors-img](https://contrib.rocks).
