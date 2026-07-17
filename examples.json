@@ -1892,6 +1892,19 @@
       ]
     },
     {
+      "name": "Python CLI with Click Example",
+      "description": "A basic Python CLI tool built with Click, demonstrating how to create commands with help and version options.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-click",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "Click",
+        "CLI"
+      ]
+    },
+    {
       "name": "Golang REST API boilerplate",
       "description": "A comprehensive REST API boilerplate in Golang, featuring CRUD operations, structured logging, rate limiting, unit and integration tests, and API documentation with Swagger. Includes Docker Compose for MongoDB setup and tools like Gorilla Mux, Zap, and Mockery for streamlined development.",
       "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud",
