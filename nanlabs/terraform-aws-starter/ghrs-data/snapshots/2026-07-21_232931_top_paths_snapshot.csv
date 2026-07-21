@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/issues,9,3
+/nanlabs/terraform-aws-starter,7,5
+/nanlabs/terraform-aws-starter/issues/5,7,4
+/nanlabs/terraform-aws-starter/pulls,7,3
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,4,1
+/nanlabs/terraform-aws-starter/actions/workflows/danger.yml,2,1
+/nanlabs/terraform-aws-starter/tree/main/apps,2,1
+/nanlabs/terraform-aws-starter/actions,1,1
+/nanlabs/terraform-aws-starter/actions/workflows/tf-docs.yml,1,1
+/nanlabs/terraform-aws-starter/blame/main/CONTRIBUTING.md,1,1
