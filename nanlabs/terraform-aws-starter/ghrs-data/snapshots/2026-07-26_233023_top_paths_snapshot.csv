@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/issues/5,15,8
+/nanlabs/terraform-aws-starter/issues,10,3
+/nanlabs/terraform-aws-starter,8,5
+/nanlabs/terraform-aws-starter/pulls,7,3
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/versions.tf,4,1
+/nanlabs/terraform-aws-starter/tree/main/apps/start-stop-ec2-instances,4,1
+/nanlabs/terraform-aws-starter/tree/main/modules,3,1
+/nanlabs/terraform-aws-starter/actions/workflows/tf-docs.yml,2,2
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/README.md,2,2
+/nanlabs/terraform-aws-starter/tree/main/modules/rds,2,2
