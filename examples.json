@@ -155,6 +155,21 @@
       ]
     },
     {
+      "name": "Markstream React Streaming Markdown",
+      "description": "A React + Vite example showing how to progressively render incomplete Markdown as an AI response arrives. It uses a local mock stream and markstream-react.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/markstream-react-example",
+      "tags": [
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "React",
+        "Vite",
+        "Streaming Markdown",
+        "AI Chat",
+        "Markstream"
+      ]
+    },
+    {
       "name": "TypeScript Monorepo Boilerplate",
       "description": "A boilerplate for creating TypeScript monorepo projects using Turborepo, with support for NPM workspaces, Changesets, and a complete development setup.",
       "url": "https://github.com/nanlabs/ts-monorepo-boilerplate",
