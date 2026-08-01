@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,11,9
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Makefile,7,6
+/nanlabs/aws-glue-etl-boilerplate/blob/main/tests/conftest.py,6,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/libs/pyshell/pyshell_job_base.py,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/assets/samples,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs/common,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/libs/pyshell,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/tests,4,3
+/nanlabs/aws-glue-etl-boilerplate/tree/main/tests/integration,4,3
