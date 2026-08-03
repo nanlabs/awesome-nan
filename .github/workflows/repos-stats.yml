@@ -25,9 +25,11 @@ jobs:
           - nanlabs/nancy.js
           - nanlabs/terraform-aws-starter
           - nanlabs/aws-glue-etl-boilerplate
-          - nanlabs/automation-seed
+          - nanlabs/terraform-aws-modules
           - Create-Node-App/create-node-app
           - Create-Node-App/cna-templates
+          - Create-Python-App/create-python-app
+          - Create-Python-App/cpa-templates
       # Do not cancel&fail all remaining jobs upon first job failure.
       fail-fast: false
       # Help avoid commit conflicts. Note(JP): this should not be
