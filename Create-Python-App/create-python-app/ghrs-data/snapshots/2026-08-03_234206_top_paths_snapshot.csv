@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Python-App/create-python-app,19,4
+/Create-Python-App/create-python-app/actions/workflows/smoke-distribution.yml,5,5
+/Create-Python-App/create-python-app/actions/workflows/smoke-distribution.yml/badg,5,5
+/Create-Python-App/create-python-app/pulls,5,2
+/Create-Python-App/create-python-app/actions/workflows/test.yml,4,4
+/Create-Python-App/create-python-app/blob/main/docs/TROUBLESHOOTING.md,4,4
+/Create-Python-App/create-python-app/pulse,4,4
+/Create-Python-App/create-python-app/issues,4,2
+/Create-Python-App/create-python-app/actions/workflows/lint.yml,3,3
+/Create-Python-App/create-python-app/actions/workflows/mega-linter.yml,3,3
