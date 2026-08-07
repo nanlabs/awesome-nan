@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter/issues/5,10,5
+/nanlabs/terraform-aws-starter/blob/3a495ce7b9f0234423e22a0b091f29e9e5e3efd6/modules/rds-postgresql/README.md,9,9
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/README.md,8,2
+/nanlabs/terraform-aws-starter,6,4
+/nanlabs/terraform-aws-starter/issues,5,4
+/nanlabs/terraform-aws-starter/pulls,5,2
+/nanlabs/terraform-aws-starter/blob/main/modules/bastion/versions.tf,4,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/docs/MODULE.md,3,2
+/nanlabs/terraform-aws-starter/tree/main/modules,3,1
+/nanlabs/terraform-aws-starter/tree/main/live,2,2
