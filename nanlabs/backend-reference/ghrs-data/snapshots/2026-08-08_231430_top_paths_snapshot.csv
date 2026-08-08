@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/backend-reference,2,2
+/nanlabs/backend-reference/tree/main/examples/fastapi-base,2,2
+/nanlabs/backend-reference/blob/b58acf50f1b7d6306091e6ba70587bc957bd606f/.github/CODEOWNERS,1,1
+/nanlabs/backend-reference/blob/main/LICENSE,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/models/models.py,1,1
+/nanlabs/backend-reference/blob/main/examples/fastapi-crud/src/routes/__init__.py,1,1
+/nanlabs/backend-reference/labels/dependencies,1,1
+/nanlabs/backend-reference/pull/135,1,1
+/nanlabs/backend-reference/pull/135/checks,1,1
+/nanlabs/backend-reference/pull/139,1,1
