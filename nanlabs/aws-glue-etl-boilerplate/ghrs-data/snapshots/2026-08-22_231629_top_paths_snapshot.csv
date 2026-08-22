@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,3,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/raw/public_api_raw_job.py,2,2
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs,2,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/bronze/public_api_bronze_job.py,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/raw/README.md,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/jobs/raw/__init__.py,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/serverless.yml,1,1
+/nanlabs/aws-glue-etl-boilerplate/commit/82e097dbc356ad77e417614ea80fb1bed6fa2a97,1,1
+/nanlabs/aws-glue-etl-boilerplate/pulls,1,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main,1,1
