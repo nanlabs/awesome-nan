@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,19,9
+/nanlabs/terraform-aws-starter/pulls,6,3
+/nanlabs/terraform-aws-starter/pull/60,6,1
+/nanlabs/terraform-aws-starter/issues,4,3
+/nanlabs/terraform-aws-starter/issues/5,4,2
+/nanlabs/terraform-aws-starter/branches,2,1
+/nanlabs/terraform-aws-starter/pull/60/changes/BASE..99ec09466a819caadf6baeb54a9b772c95d289d8,2,1
+/nanlabs/terraform-aws-starter/actions/workflows/tf-sec.yml,1,1
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/README.md,1,1
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/README.md,1,1
