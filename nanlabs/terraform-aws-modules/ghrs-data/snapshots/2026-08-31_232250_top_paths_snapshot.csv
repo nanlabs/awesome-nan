@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-modules/tree/main/modules,4,1
+/nanlabs/terraform-aws-modules/tree/main/modules/__template__,2,1
+/nanlabs/terraform-aws-modules,1,1
+/nanlabs/terraform-aws-modules/actions/metrics/usage,1,1
+/nanlabs/terraform-aws-modules/blob/main/README.md,1,1
+/nanlabs/terraform-aws-modules/blob/main/modules/__template__/README.md,1,1
+/nanlabs/terraform-aws-modules/commit/c6f1e912b474911d3aa69ce80fb0b429d0ab857a,1,1
+/nanlabs/terraform-aws-modules/commit/f43ef85951491bb2c80793223a808f088b425bf3,1,1
+/nanlabs/terraform-aws-modules/issues/19,1,1
+/nanlabs/terraform-aws-modules/tree/main/modules/aws-amplify-app,1,1
