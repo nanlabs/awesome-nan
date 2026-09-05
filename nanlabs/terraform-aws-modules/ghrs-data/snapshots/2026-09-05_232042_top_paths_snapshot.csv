@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-modules/tree/main/examples/complete-enterprise-setup,3,1
+/nanlabs/terraform-aws-modules,2,2
+/nanlabs/terraform-aws-modules/actions/metrics/usage,1,1
+/nanlabs/terraform-aws-modules/blob/main/examples/complete-enterprise-setup/main.tf,1,1
+/nanlabs/terraform-aws-modules/blob/main/examples/data-processing-pipeline/main.tf,1,1
+/nanlabs/terraform-aws-modules/commit/4f09064fd59672fed829a9a5f142fd69a7dfc758,1,1
+/nanlabs/terraform-aws-modules/commit/c6f1e912b474911d3aa69ce80fb0b429d0ab857a,1,1
+/nanlabs/terraform-aws-modules/commits/main,1,1
+/nanlabs/terraform-aws-modules/tree/main/examples,1,1
+/nanlabs/terraform-aws-modules/tree/main/examples/data-processing-pipeline,1,1
