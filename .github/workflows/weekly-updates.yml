@@ -51,6 +51,7 @@ jobs:
             frontend-reference
             devops-reference
             backend-reference
+            data-ai-reference
           )
 
           COMPARE_DATE="${{ github.event.inputs.date }}"
@@ -90,6 +91,7 @@ jobs:
             https://raw.githubusercontent.com/nanlabs/frontend-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/devops-reference/main/examples.json
             https://raw.githubusercontent.com/nanlabs/backend-reference/main/examples.json
+            https://raw.githubusercontent.com/nanlabs/data-ai-reference/main/examples.json
           )
 
           # Download files preventing duplicated names (e.g. examples.json)

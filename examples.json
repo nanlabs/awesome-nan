@@ -679,6 +679,222 @@
       ]
     },
     {
+      "name": "Python CLI with Click Example",
+      "description": "A basic Python CLI tool built with Click, demonstrating how to create commands with help and version options.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-click",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "Click",
+        "CLI"
+      ]
+    },
+    {
+      "name": "Golang REST API boilerplate",
+      "description": "A comprehensive REST API boilerplate in Golang, featuring CRUD operations, structured logging, rate limiting, unit and integration tests, and API documentation with Swagger. Includes Docker Compose for MongoDB setup and tools like Gorilla Mux, Zap, and Mockery for streamlined development.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud",
+      "tags": [
+        "Apps and Boilerplates"
+      ],
+      "labels": [
+        "Golang",
+        "REST API",
+        "MongoDB",
+        "Gorilla Mux",
+        "Go Swagger",
+        "Tollbooth",
+        "Zap",
+        "Viper",
+        "Mockery",
+        "Makefile",
+        "Pre-commit",
+        "Docker",
+        "Docker Compose",
+        "DockerTest",
+        "Swagger",
+        "Rate Limiting",
+        "Logging",
+        "Testing"
+      ]
+    },
+    {
+      "name": "Python CLI Basic Example",
+      "description": "A minimal Python CLI example showcasing how to create commands without requiring the explicit use of the Python interpreter or script path.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-base",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "CLI",
+        "Command Line"
+      ]
+    },
+    {
+      "name": "Python CLI with Typer + Rich Example",
+      "description": "A Python CLI tool built with Typer and Rich, demonstrating interaction with external APIs for currency exchange rates and styled console outputs.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-typer-base",
+      "tags": [
+        "Examples > Backend > CLI Tools"
+      ],
+      "labels": [
+        "Python3",
+        "Typer",
+        "Rich",
+        "API Integration",
+        "CLI"
+      ]
+    },
+    {
+      "name": "FastAPI Basic Example",
+      "description": "A simple REST API built with FastAPI that retrieves mock data using the Faker library, showcasing basic API development.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-base",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "Faker",
+        "Mock Data",
+        "Pydantic"
+      ]
+    },
+    {
+      "name": "FastAPI Complete CRUD Example",
+      "description": "A complete CRUD API built with FastAPI, featuring endpoints for managing employees and companies, along with database population using Faker.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-crud",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "CRUD",
+        "SQLAlchemy",
+        "Alembic",
+        "Docker",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "FastAPI GraphQL",
+      "description": "A GraphQL API built with FastAPI and Strawberry, retrieving mock company data using the Faker library.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-gql",
+      "tags": [
+        "Examples > Backend > FastAPI"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "GraphQL",
+        "Strawberry",
+        "Faker"
+      ]
+    },
+    {
+      "name": "Stripe Integration with Node.js and TypeScript",
+      "description": "A robust Stripe integration example using Node.js and TypeScript, enabling operations like customer creation, checkout sessions, and webhook handling.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/stripe-integration-node-typescript/",
+      "tags": [
+        "Examples > Backend > ThirdParty Integrations > Stripe"
+      ],
+      "labels": [
+        "Node.js",
+        "TypeScript",
+        "Stripe",
+        "Payments",
+        "Webhooks",
+        "API Integration"
+      ]
+    },
+    {
+      "name": "NestJS REST-based Microservices with NATS",
+      "description": "A microservices architecture example using NestJS and NATS, demonstrating asynchronous messaging and request-reply patterns.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/",
+      "tags": [
+        "Examples > Backend > Microservices"
+      ],
+      "labels": [
+        "Node.js",
+        "NestJS",
+        "Microservices",
+        "NATS",
+        "Messaging",
+        "REST"
+      ]
+    },
+    {
+      "name": "FastAPI Example with PostgreSQL and Serverless Framework",
+      "description": "A REST API built with FastAPI and PostgreSQL, deployed to AWS Lambda using the Serverless Framework. Includes database migrations with Alembic.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "PostgreSQL",
+        "Serverless",
+        "AWS Lambda",
+        "Alembic"
+      ]
+    },
+    {
+      "name": "FastAPI with MongoDB and Docker Compose",
+      "description": "A REST API built with FastAPI and MongoDB, containerized using Docker Compose for seamless development and deployment.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "MongoDB",
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    {
+      "name": "FastAPI Simple example with Docker Compose and PIP",
+      "description": "A lightweight FastAPI example demonstrating containerization with Docker Compose and dependency management with PIP.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > FastAPI",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "Docker",
+        "PIP"
+      ]
+    },
+    {
+      "name": "SQLC with Go, PostgreSQL, Docker Compose",
+      "description": "A REST API built with Go and SQLC, showcasing database operations with PostgreSQL and containerized development using Docker Compose.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-api-with-postgres-and-sqlc",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Backend > SQLC",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Golang",
+        "SQLC",
+        "PostgreSQL",
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    {
       "name": "Automation Seed",
       "description": "A robust end-to-end automation framework built on WebdriverIO v7 and Selenium, leveraging Selenoid for execution. It includes features like Allure reporting, TypeScript support, and CI/CD integration with GitHub Actions.",
       "url": "https://github.com/nanlabs/automation-seed",
@@ -712,39 +928,6 @@
         "DevContainers",
         "Docker Compose",
         "Jupyter Notebook"
-      ]
-    },
-    {
-      "name": "Basic AWS Glue ETL example app",
-      "description": "A simplified yet practical example of an AWS Glue application. It uses the Serverless Framework for infrastructure deployment and supports local development with DevContainers or Docker Compose.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-glue-full-boilerplate/",
-      "tags": [
-        "Apps and Boilerplates"
-      ],
-      "labels": [
-        "AWS Glue",
-        "ETL",
-        "Python",
-        "PySpark",
-        "Serverless Framework",
-        "DevContainers",
-        "Docker Compose",
-        "Jupyter Notebook"
-      ]
-    },
-    {
-      "name": "AWS CloudWatch Evidently",
-      "description": "An in-depth analysis and proof of concept demonstrating how to integrate AWS CloudWatch Evidently with a Node.js application for A/B testing and feature flag management.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/aws-cloudwatch-evidently/",
-      "tags": [
-        "Examples > DevOps > A/B Testing"
-      ],
-      "labels": [
-        "AWS CloudWatch",
-        "CloudWatch Evidently",
-        "A/B Testing",
-        "Feature Flags",
-        "Node.js"
       ]
     },
     {
@@ -910,7 +1093,7 @@
       ]
     },
     {
-      "name": "React Boilerplate",
+      "name": "React Boilerplate CI Workflows",
       "description": "Different workflows to validate the code and deploy a React application.",
       "url": "https://github.com/nanlabs/react-boilerplate/tree/main/.github/workflows",
       "tags": [
@@ -920,22 +1103,6 @@
         "GitHub Actions",
         "React",
         "CI/CD"
-      ]
-    },
-    {
-      "name": "AWS Glue using Docker and Docker Compose",
-      "description": "Dockerfile and compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-glue/",
-      "tags": [
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Docker",
-        "Docker Compose",
-        "AWS Glue",
-        "Spark",
-        "Jupyter Notebook",
-        "AWS CLI"
       ]
     },
     {
@@ -1021,20 +1188,6 @@
       ]
     },
     {
-      "name": "Airflow and Spark environment using Docker and Docker Compose",
-      "description": "Dockerfile and compose.yml to run Airflow locally with initialization scripts.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/compose-airflow-spark/",
-      "tags": [
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Docker",
-        "Docker Compose",
-        "Airflow",
-        "Spark"
-      ]
-    },
-    {
       "name": "Exploring DevContainers: A Versatile Development Environment Solution",
       "description": "Introduction to Development Containers (DevContainers), a solution to create development environments with a unique approach to address specific development environment needs",
       "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers-intro/",
@@ -1048,25 +1201,6 @@
         "GitHub Codespaces",
         "Docker",
         "Docker Compose"
-      ]
-    },
-    {
-      "name": "AWS Glue",
-      "description": "DevContainer for AWS Glue development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop AWS Glue jobs such us AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/devcontainers-glue/",
-      "tags": [
-        "Examples > DevOps > Containers, Orchestration and Serverless > Development and Cloud Environments"
-      ],
-      "labels": [
-        "Docker",
-        "Docker Compose",
-        "DevContainer",
-        "VSCode DevContainer",
-        "GitHub Codespaces",
-        "AWS Glue",
-        "Spark",
-        "Jupyter Notebook",
-        "AWS CLI"
       ]
     },
     {
@@ -1119,20 +1253,6 @@
         "Serverless Framework",
         "AWS AppSync",
         "Python"
-      ]
-    },
-    {
-      "name": "AWS Glue with Python Shell and PySpark Jobs",
-      "description": "Serverless Framework example to deploy an AWS Glue job using Python Shell and PySpark.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-glue-deployment/",
-      "tags": [
-        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
-      ],
-      "labels": [
-        "Serverless Framework",
-        "AWS Glue",
-        "Python Shell",
-        "PySpark"
       ]
     },
     {
@@ -1310,7 +1430,7 @@
     },
     {
       "name": "AWS Cognito Local Example",
-      "description": "AWS Cognito local enviroment with Docker and Serverless offline",
+      "description": "AWS Cognito local environment with Docker and Serverless offline",
       "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/serverless-cognito-local/",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
@@ -1686,9 +1806,9 @@
       ]
     },
     {
-      "name": "nanlabs/terraform-modules",
+      "name": "nanlabs/terraform-aws-modules",
       "description": "A comprehensive collection of reusable, production-ready Terraform modules and infrastructure examples for AWS and MongoDB Atlas, following best practices for security, scalability, and cost optimization.",
-      "url": "https://github.com/nanlabs/terraform-modules",
+      "url": "https://github.com/nanlabs/terraform-aws-modules",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1702,7 +1822,7 @@
     {
       "name": "Terraform Modules by nanlabs",
       "description": "Battle-tested, security-first, and cost-optimized Terraform modules for AWS and MongoDB Atlas. Includes VPC, EKS, RDS, Aurora, MSK, Bastion, IAM, Amplify, and more.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1722,7 +1842,7 @@
     {
       "name": "Terraform Examples by nanlabs",
       "description": "End-to-end infrastructure examples using the nanlabs Terraform modules, covering simple web apps, medium-complexity microservices, and full enterprise setups.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/examples",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1735,7 +1855,7 @@
     {
       "name": "aws-vpc (Terraform Module)",
       "description": "Complete wrapper around the official terraform-aws-modules/vpc/aws module with opinionated defaults, security best practices, and SSM Parameter Store integration.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-vpc",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-vpc",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1749,7 +1869,7 @@
     {
       "name": "aws-eks (Terraform Module)",
       "description": "Opinionated wrapper for EKS clusters with VPC CNI optimization, node group management, OIDC integration, and production-ready defaults.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-eks",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-eks",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform",
         "Examples > DevOps > Containers, Orchestration and Serverless > Kubernetes"
@@ -1764,7 +1884,7 @@
     {
       "name": "aws-rds (Terraform Module)",
       "description": "Complete wrapper for RDS with enhanced security, monitoring, SSM Parameter Store integration, and simplified configuration for PostgreSQL/MySQL.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-rds",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-rds",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1778,7 +1898,7 @@
     {
       "name": "aws-rds-aurora (Terraform Module)",
       "description": "Fully customizable wrapper for Aurora clusters, supporting Serverless v2, SSM integration, and production-grade configuration.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-rds-aurora",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-rds-aurora",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1792,7 +1912,7 @@
     {
       "name": "aws-msk (Terraform Module)",
       "description": "Opinionated wrapper for Amazon MSK (Kafka) with enhanced security, DNS integration, logging, and production defaults.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-msk",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-msk",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1806,7 +1926,7 @@
     {
       "name": "aws-bastion (Terraform Module)",
       "description": "Custom implementation for a secure, zero-trust bastion host using SSM, EC2 Instance Connect, VPC endpoints, and CloudWatch logging.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-bastion",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-bastion",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1820,7 +1940,7 @@
     {
       "name": "aws-docdb (Terraform Module)",
       "description": "Custom DocumentDB cluster module with integrated AWS Secrets Manager, SSM Parameter Store, and production-ready defaults.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-docdb",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-docdb",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1834,7 +1954,7 @@
     {
       "name": "aws-iam-role (Terraform Module)",
       "description": "Flexible IAM role module supporting custom trust policies, inline/managed policies, and advanced security conditions.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-iam-role",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-iam-role",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1848,7 +1968,7 @@
     {
       "name": "aws-amplify-app (Terraform Module)",
       "description": "Opinionated wrapper for AWS Amplify App with integrated GitHub PAT management, optimized for React/Node.js apps.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/aws-amplify-app",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/aws-amplify-app",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform",
         "Examples > DevOps > Low Code solutions > AWS Amplify"
@@ -1863,7 +1983,7 @@
     {
       "name": "mongodb-atlas-cluster (Terraform Module)",
       "description": "Custom MongoDB Atlas cluster module with project/team management, VPC peering, AWS integration, and secure connection details.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/modules/mongodb-atlas-cluster",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/modules/mongodb-atlas-cluster",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1878,7 +1998,7 @@
     {
       "name": "Simple Web App (Terraform Example)",
       "description": "Deploy a simple web application using AWS Amplify and a custom VPC. Demonstrates frontend hosting, GitHub integration, and secure infrastructure.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/examples/simple-web-app",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/simple-web-app",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform",
         "Examples > DevOps > Low Code solutions > AWS Amplify"
@@ -1893,7 +2013,7 @@
     {
       "name": "Medium Complexity Infrastructure (Terraform Example)",
       "description": "Medium-complexity setup with EKS, RDS, Bastion, and custom IAM. Shows microservices infrastructure with best practices.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/examples/medium-complexity-infrastructure",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/medium-complexity-infrastructure",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform",
         "Examples > DevOps > Containers, Orchestration and Serverless > Kubernetes"
@@ -1908,7 +2028,7 @@
     {
       "name": "Complete Enterprise Setup (Terraform Example)",
       "description": "Enterprise-grade infrastructure example with EKS, Aurora, MSK, DocumentDB, Bastion, IAM, monitoring, and security best practices.",
-      "url": "https://github.com/nanlabs/terraform-modules/tree/main/examples/complete-enterprise-setup",
+      "url": "https://github.com/nanlabs/terraform-aws-modules/tree/main/examples/complete-enterprise-setup",
       "tags": [
         "Examples > DevOps > Infrastructure as Code > Terraform"
       ],
@@ -1923,278 +2043,29 @@
       ]
     },
     {
-      "name": "Python CLI with Click Example",
-      "description": "A basic Python CLI tool built with Click, demonstrating how to create commands with help and version options.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-click",
-      "tags": [
-        "Examples > Backend > CLI Tools"
-      ],
-      "labels": [
-        "Python3",
-        "Click",
-        "CLI"
-      ]
-    },
-    {
-      "name": "Golang REST API boilerplate",
-      "description": "A comprehensive REST API boilerplate in Golang, featuring CRUD operations, structured logging, rate limiting, unit and integration tests, and API documentation with Swagger. Includes Docker Compose for MongoDB setup and tools like Gorilla Mux, Zap, and Mockery for streamlined development.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-todo-rest-crud",
+      "name": "Agent Toolkit",
+      "description": "NaNLABS skills, agents, plugins, MCP integrations and reusable workflows for AI agents across Claude Code, Cursor, Copilot, OpenCode and other compatible clients.",
+      "url": "https://github.com/nanlabs/agent-toolkit",
       "tags": [
         "Apps and Boilerplates"
       ],
       "labels": [
-        "Golang",
-        "REST API",
-        "MongoDB",
-        "Gorilla Mux",
-        "Go Swagger",
-        "Tollbooth",
-        "Zap",
-        "Viper",
-        "Mockery",
-        "Makefile",
-        "Pre-commit",
-        "Docker",
-        "Docker Compose",
-        "DockerTest",
-        "Swagger",
-        "Rate Limiting",
-        "Logging",
-        "Testing"
-      ]
-    },
-    {
-      "name": "Python CLI Basic Example",
-      "description": "A minimal Python CLI example showcasing how to create commands without requiring the explicit use of the Python interpreter or script path.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-base",
-      "tags": [
-        "Examples > Backend > CLI Tools"
-      ],
-      "labels": [
-        "Python3",
-        "CLI",
-        "Command Line"
-      ]
-    },
-    {
-      "name": "Python CLI with Typer + Rich Example",
-      "description": "A Python CLI tool built with Typer and Rich, demonstrating interaction with external APIs for currency exchange rates and styled console outputs.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/cli-typer-base",
-      "tags": [
-        "Examples > Backend > CLI Tools"
-      ],
-      "labels": [
-        "Python3",
-        "Typer",
-        "Rich",
-        "API Integration",
-        "CLI"
-      ]
-    },
-    {
-      "name": "FastAPI Basic Example",
-      "description": "A simple REST API built with FastAPI that retrieves mock data using the Faker library, showcasing basic API development.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-base",
-      "tags": [
-        "Examples > Backend > FastAPI"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "Faker",
-        "Mock Data",
-        "Pydantic"
-      ]
-    },
-    {
-      "name": "FastAPI Complete CRUD Example",
-      "description": "A complete CRUD API built with FastAPI, featuring endpoints for managing employees and companies, along with database population using Faker.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-crud",
-      "tags": [
-        "Examples > Backend > FastAPI"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "CRUD",
-        "SQLAlchemy",
-        "Alembic",
-        "Docker",
-        "PostgreSQL"
-      ]
-    },
-    {
-      "name": "FastAPI GraphQL",
-      "description": "A GraphQL API built with FastAPI and Strawberry, retrieving mock company data using the Faker library.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-gql",
-      "tags": [
-        "Examples > Backend > FastAPI"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "GraphQL",
-        "Strawberry",
-        "Faker"
-      ]
-    },
-    {
-      "name": "Stripe Integration with Node.js and TypeScript",
-      "description": "A robust Stripe integration example using Node.js and TypeScript, enabling operations like customer creation, checkout sessions, and webhook handling.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/stripe-integration-node-typescript/",
-      "tags": [
-        "Examples > Backend > ThirdParty Integrations > Stripe"
-      ],
-      "labels": [
-        "Node.js",
-        "TypeScript",
-        "Stripe",
-        "Payments",
-        "Webhooks",
-        "API Integration"
-      ]
-    },
-    {
-      "name": "NestJS REST-based Microservices with NATS",
-      "description": "A microservices architecture example using NestJS and NATS, demonstrating asynchronous messaging and request-reply patterns.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/nest-nats-microservices/",
-      "tags": [
-        "Examples > Backend > Microservices"
-      ],
-      "labels": [
-        "Node.js",
-        "NestJS",
-        "Microservices",
-        "NATS",
-        "Messaging",
-        "REST"
-      ]
-    },
-    {
-      "name": "FastAPI Example with PostgreSQL and Serverless Framework",
-      "description": "A REST API built with FastAPI and PostgreSQL, deployed to AWS Lambda using the Serverless Framework. Includes database migrations with Alembic.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-postgres-with-serverless",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Backend > FastAPI",
-        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "PostgreSQL",
-        "Serverless",
-        "AWS Lambda",
-        "Alembic"
-      ]
-    },
-    {
-      "name": "FastAPI with MongoDB and Docker Compose",
-      "description": "A REST API built with FastAPI and MongoDB, containerized using Docker Compose for seamless development and deployment.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-mongo-with-docker-compose",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Backend > FastAPI",
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "MongoDB",
-        "Docker",
-        "Docker Compose"
-      ]
-    },
-    {
-      "name": "FastAPI Simple example with Docker Compose and PIP",
-      "description": "A lightweight FastAPI example demonstrating containerization with Docker Compose and dependency management with PIP.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/fastapi-simple-docker-pip",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Backend > FastAPI",
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "Docker",
-        "PIP"
-      ]
-    },
-    {
-      "name": "SQLC with Go, PostgreSQL, Docker Compose",
-      "description": "A REST API built with Go and SQLC, showcasing database operations with PostgreSQL and containerized development using Docker Compose.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/golang-api-with-postgres-and-sqlc",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Backend > SQLC",
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Golang",
-        "SQLC",
-        "PostgreSQL",
-        "Docker",
-        "Docker Compose"
-      ]
-    },
-    {
-      "name": "LangGraph SLS FastAPI RAG",
-      "description": "A Proof of Concept (POC) for a Retrieval Augmented Generation (RAG) system using LangGraph, deployed with the Serverless Framework on AWS Lambda. It integrates FastAPI for API development and DynamoDB for state management.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/langgraph-sls-fastapi-rag",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Backend > FastAPI",
-        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
-      ],
-      "labels": [
-        "Python3",
-        "FastAPI",
-        "LangGraph",
-        "Serverless Framework",
-        "AWS Lambda",
-        "DynamoDB",
-        "Docker",
-        "RAG",
-        "Retrieval Augmented Generation"
-      ]
-    },
-    {
-      "name": "Geospatial Python Urban Analysis with PostGIS",
-      "description": "A comprehensive geospatial data analysis project for urban environments, featuring analysis of pedestrian zones, transportation networks, census data, and geographic boundaries. Built with PostgreSQL/PostGIS, Docker, and GeoPandas for efficient spatial queries, ETL pipelines, and geospatial machine learning models.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/geospatial-python-urban-analysis-with-postgis",
-      "tags": [
-        "Apps and Boilerplates",
-        "Examples > Data Science and Machine Learning > Geospatial Analysis",
-        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
-      ],
-      "labels": [
-        "Python3",
-        "GeoPandas",
-        "PostGIS",
-        "PostgreSQL",
-        "Docker",
-        "Geospatial Analysis",
-        "Urban Planning",
-        "ETL",
-        "Machine Learning",
-        "Jupyter Notebooks",
-        "Folium",
-        "Matplotlib",
-        "Scikit-learn",
-        "Rasterio",
-        "GIS"
+        "AI Agents",
+        "MCP",
+        "Skills",
+        "Plugins",
+        "Workflows",
+        "Claude Code",
+        "Python"
       ]
     },
     {
       "name": "Dagster AI Orchestration Framework - Case Study & Architecture Evaluation",
       "description": "Comprehensive architectural evaluation of POC-Dagster data orchestration project, examining suitability for evolution into a 4-layer AI Agent platform. Includes gap analysis (18% completeness), production-ready code templates for all 5 layers (Frontend/Orchestration/Runtime/Data/Validation), and decision framework for archival vs fresh start.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/dagster-ai-orchestration-framework",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/dagster-ai-orchestration-framework",
       "tags": [
-        "Architecture",
-        "Case Study",
-        "AI Agents",
-        "Decision Framework"
+        "Examples > Data & AI > Orchestration",
+        "Examples > Data & AI > AI Agents"
       ],
       "labels": [
         "Dagster",
@@ -2211,10 +2082,161 @@
         "FastAPI",
         "Next.js",
         "TypeScript",
-        "Python",
+        "Python3",
         "Prompt Evals",
         "Decision Framework",
         "Reference Architecture"
+      ]
+    },
+    {
+      "name": "Geospatial Python Urban Analysis with PostGIS",
+      "description": "A comprehensive geospatial data analysis project for urban environments, featuring analysis of pedestrian zones, transportation networks, census data, and geographic boundaries. Built with PostgreSQL/PostGIS, Docker, and GeoPandas for efficient spatial queries, ETL pipelines, and geospatial machine learning models.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/geospatial-python-urban-analysis-with-postgis",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Data & AI > Geospatial Analysis",
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)"
+      ],
+      "labels": [
+        "Python3",
+        "GeoPandas",
+        "PostGIS",
+        "PostgreSQL",
+        "Docker",
+        "Geospatial Analysis",
+        "Urban Planning",
+        "ETL",
+        "Machine Learning",
+        "Jupyter Notebook",
+        "Folium",
+        "Matplotlib",
+        "Scikit-learn",
+        "Rasterio",
+        "GIS"
+      ]
+    },
+    {
+      "name": "LangGraph SLS FastAPI RAG",
+      "description": "A Proof of Concept (POC) for a Retrieval Augmented Generation (RAG) system using LangGraph, deployed with the Serverless Framework on AWS Lambda. It integrates FastAPI for API development and DynamoDB for state management.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/langgraph-sls-fastapi-rag",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Data & AI > RAG",
+        "Examples > Data & AI > AI Agents",
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation"
+      ],
+      "labels": [
+        "Python3",
+        "FastAPI",
+        "LangGraph",
+        "Serverless Framework",
+        "AWS Lambda",
+        "DynamoDB",
+        "Docker",
+        "RAG",
+        "Retrieval Augmented Generation"
+      ]
+    },
+    {
+      "name": "AWS CloudWatch Evidently",
+      "description": "An in-depth analysis and proof of concept demonstrating how to integrate AWS CloudWatch Evidently with a Node.js application for A/B testing and feature flag management.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/aws-cloudwatch-evidently/",
+      "tags": [
+        "Examples > DevOps > A/B Testing",
+        "Examples > Data & AI > Evaluation"
+      ],
+      "labels": [
+        "AWS CloudWatch",
+        "CloudWatch Evidently",
+        "A/B Testing",
+        "Feature Flags",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Airflow and Spark environment using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml to run Airflow locally with initialization scripts.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/compose-airflow-spark/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)",
+        "Examples > Data & AI > Data Engineering"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "Airflow",
+        "Spark"
+      ]
+    },
+    {
+      "name": "AWS Glue using Docker and Docker Compose",
+      "description": "Dockerfile and compose.yml for AWS Glue development with AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/compose-glue/",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Containers and Compositions (Docker, Docker Compose, Buildpacks and more)",
+        "Examples > Data & AI > Data Engineering"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "AWS Glue",
+      "description": "DevContainer for AWS Glue development. Uses `docker-compose` to run VSCode attached to a container with all the necessary tools to develop AWS Glue jobs such as AWS Glue Libs, Spark, Jupyter Notebook, AWS CLI among other tools.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/devcontainer-glue",
+      "tags": [
+        "Examples > DevOps > Containers, Orchestration and Serverless > Development and Cloud Environments",
+        "Examples > Data & AI > Data Engineering"
+      ],
+      "labels": [
+        "Docker",
+        "Docker Compose",
+        "DevContainers",
+        "VSCode DevContainer",
+        "GitHub Codespaces",
+        "AWS Glue",
+        "Spark",
+        "Jupyter Notebook",
+        "AWS CLI"
+      ]
+    },
+    {
+      "name": "AWS Glue with Python Shell and PySpark Jobs",
+      "description": "Serverless Framework example to deploy an AWS Glue job using Python Shell and PySpark.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/serverless-glue-deployment/",
+      "tags": [
+        "Examples > DevOps > Infrastructure as Code > Serverless Framework, SAM and CloudFormation",
+        "Examples > Data & AI > Data Engineering"
+      ],
+      "labels": [
+        "Serverless Framework",
+        "AWS Glue",
+        "Python Shell",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "Basic AWS Glue ETL example app",
+      "description": "A simplified yet practical example of an AWS Glue application. It uses the Serverless Framework for infrastructure deployment and supports local development with DevContainers or Docker Compose.",
+      "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/serverless-glue-full-boilerplate/",
+      "tags": [
+        "Apps and Boilerplates",
+        "Examples > Data & AI > Data Engineering"
+      ],
+      "labels": [
+        "AWS Glue",
+        "ETL",
+        "Python3",
+        "PySpark",
+        "Serverless Framework",
+        "DevContainers",
+        "Docker Compose",
+        "Jupyter Notebook"
       ]
     }
   ]
