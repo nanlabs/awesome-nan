@@ -22,6 +22,7 @@ jobs:
           - nanlabs/devops-reference
           - nanlabs/frontend-reference
           - nanlabs/backend-reference
+          - nanlabs/data-ai-reference
           - nanlabs/nancy.js
           - nanlabs/terraform-aws-starter
           - nanlabs/aws-glue-etl-boilerplate
