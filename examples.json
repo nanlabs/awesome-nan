@@ -679,6 +679,54 @@
       ]
     },
     {
+      "name": "Nielsen Heuristics Evaluation Guide",
+      "description": "Score any interface against Jakob Nielsen's 10 usability heuristics with a practical 1-5 rubric for design reviews and QA.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nielsen-heuristics-evaluation-guide",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Usability",
+        "Heuristics",
+        "UX",
+        "Accessibility",
+        "Best Practices"
+      ]
+    },
+    {
+      "name": "GenAI Conversational UI Patterns",
+      "description": "Design patterns for AI chat experiences: citations, personalization, privacy, accessibility, chunking, multimodality, memory, feedback, and errors.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/genai-conversational-ui-patterns",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "GenAI",
+        "Chat",
+        "Conversational UI",
+        "UX Patterns",
+        "AI"
+      ]
+    },
+    {
+      "name": "Visual UI Code Generation Tools Matrix",
+      "description": "When to use v0, Plasmic, Builder.io, or Locofy for design-to-code, with a comparative matrix and use-case recommendations.",
+      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/visual-ui-code-generation-tools-matrix",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Frontend > React"
+      ],
+      "labels": [
+        "Code Generation",
+        "Figma",
+        "v0",
+        "Prototyping",
+        "Best Practices"
+      ]
+    },
+    {
       "name": "Automation Seed",
       "description": "A robust end-to-end automation framework built on WebdriverIO v7 and Selenium, leveraging Selenoid for execution. It includes features like Allure reporting, TypeScript support, and CI/CD integration with GitHub Actions.",
       "url": "https://github.com/nanlabs/automation-seed",
@@ -2060,6 +2108,22 @@
       ]
     },
     {
+      "name": "API Design Guidelines",
+      "description": "Design, document, version, and error-handle HTTP APIs: OpenAPI discipline, versioning and sunset policy, uniform error envelope, scaling patterns, and dependency hygiene.",
+      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/api-design-guidelines",
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Backend > Microservices"
+      ],
+      "labels": [
+        "API Design",
+        "OpenAPI",
+        "Versioning",
+        "Error Handling",
+        "Best Practices"
+      ]
+    },
+    {
       "name": "Dagster AI Orchestration Framework - Case Study & Architecture Evaluation",
       "description": "Comprehensive architectural evaluation of POC-Dagster data orchestration project, examining suitability for evolution into a 4-layer AI Agent platform. Includes gap analysis (18% completeness), production-ready code templates for all 5 layers (Frontend/Orchestration/Runtime/Data/Validation), and decision framework for archival vs fresh start.",
       "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/dagster-ai-orchestration-framework",
@@ -2240,178 +2304,19 @@
       ]
     },
     {
-      "name": "The Ultimate Guide to Incident Management and RCA",
-      "description": "Bug vs incident, escalation rules, incident report template, and two worked examples with root cause analysis.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-incident-management-and-rca",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Security and Compliance"],
-      "labels": [
-        "Incidents",
-        "RCA",
-        "Postmortems",
-        "Reliability"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Architecture Decision Records",
-      "description": "When to write ADRs, standard structure, review process, blank template, and a worked example.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-architecture-decision-records",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "ADRs",
-        "Architecture",
-        "Documentation"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Branching Strategies",
-      "description": "Trunk-based, feature branch, Gitflow, GitHub Flow, GitLab Flow, and centralized workflows compared, with MVP guidance and conventional commits.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-branching-strategies",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Git",
-        "Branching",
-        "Gitflow"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to PRD and TRD",
-      "description": "Product vs technical requirements documents: what goes in each, best practices, and copy-paste templates.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-prd-and-trd",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "PRD",
-        "TRD",
-        "Requirements"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Task Templates and Estimation",
-      "description": "Epic, task, and bug templates plus story-point estimation tables, techniques, and iteration capacity planning.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-task-templates-and-estimation",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Estimation",
-        "Story Points",
-        "Agile"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Project Assessments",
-      "description": "Maturity-based project evaluation: management and technical units, 1-5 rubrics per domain, and AI-native readiness.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-project-assessments",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Assessments",
-        "Maturity",
-        "Governance"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Definition of Ready and Done",
-      "description": "Task lifecycle, DoR/DoD checklists, and the six-layer validation model for continuous quality.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-definition-of-ready-and-done",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Definition of Ready",
-        "Definition of Done",
-        "Validation"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to AI-Assisted Development",
-      "description": "Principles, guardrails, redaction rules, per-stage AI workflows, and a copy-paste prompt library.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-ai-assisted-development",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "AI",
-        "Guardrails",
-        "Prompts"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Meetings and Decision Logs",
-      "description": "Meeting templates, lifecycle, AI-assisted minutes workflow, and decision log and agreement templates.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-meetings-and-decision-logs",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Meetings",
-        "Decision Log"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Team Onboarding",
-      "description": "Role-based onboarding checklists for developers and PMs, with environment, access, and first-task guidance.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-team-onboarding",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Onboarding",
-        "Checklists"
-      ]
-    },
-    {
-      "name": "The Ultimate Guide to Multi-Squad Engineering",
-      "description": "Scaling to autonomous squads: shared vs local practices, transition playbook, sync routines, and Spotify model comparison.",
-      "url": "https://github.com/nanlabs/devops-reference/tree/main/examples/the-ultimate-guide-to-multi-squad-engineering",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > DevOps > Continuous Integration, Delivery and Deployment"],
-      "labels": [
-        "Squads",
-        "Scaling",
-        "Governance"
-      ]
-    },
-    {
-      "name": "Nielsen Heuristics Evaluation Guide",
-      "description": "Score any interface against Jakob Nielsen's 10 usability heuristics with a practical 1-5 rubric.",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/nielsen-heuristics-evaluation-guide",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > Frontend > React"],
-      "labels": [
-        "Usability",
-        "Heuristics",
-        "UX"
-      ]
-    },
-    {
-      "name": "GenAI Conversational UI Patterns",
-      "description": "Design patterns for AI chat experiences: citations, personalization, privacy, accessibility, chunking, multimodality, memory, feedback, and errors.",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/genai-conversational-ui-patterns",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > Frontend > React"],
-      "labels": [
-        "GenAI",
-        "Chat",
-        "Conversational UI"
-      ]
-    },
-    {
-      "name": "Visual UI Code Generation Tools Matrix",
-      "description": "When to use v0, Plasmic, Builder.io, or Locofy for design-to-code, with a comparative matrix.",
-      "url": "https://github.com/nanlabs/frontend-reference/tree/main/examples/visual-ui-code-generation-tools-matrix",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > Frontend > React"],
-      "labels": [
-        "Code Generation",
-        "Figma",
-        "Prototyping"
-      ]
-    },
-    {
-      "name": "API Design Guidelines",
-      "description": "Design, document, version, and error-handle HTTP APIs: OpenAPI discipline, versioning policy, error envelope, and scaling patterns.",
-      "url": "https://github.com/nanlabs/backend-reference/tree/main/examples/api-design-guidelines",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > Backend > Microservices"],
-      "labels": [
-        "API Design",
-        "OpenAPI",
-        "Versioning"
-      ]
-    },
-    {
       "name": "Data Quality Framework Checklist",
-      "description": "Trustworthy data platforms checklist: contracts, reliability, validation, lineage, observability, and governance scoring.",
+      "description": "Trustworthy data platforms checklist: contracts, orchestration reliability, validation, lineage, observability, governance, security, and scalability scoring.",
       "url": "https://github.com/nanlabs/data-ai-reference/tree/main/examples/data-quality-framework-checklist",
-      "tags": ["Guides, Tutorials and Best Practices", "Examples > Data & AI > Data Engineering"],
+      "tags": [
+        "Guides, Tutorials and Best Practices",
+        "Examples > Data & AI > Data Engineering"
+      ],
       "labels": [
         "Data Quality",
         "Lineage",
-        "Governance"
+        "Observability",
+        "Governance",
+        "Best Practices"
       ]
     }
   ]
