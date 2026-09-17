@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,21,10
+/nanlabs/terraform-aws-starter/issues,5,4
+/nanlabs/terraform-aws-starter/issues/5,5,3
+/nanlabs/terraform-aws-starter/pulls,4,4
+/nanlabs/terraform-aws-starter/pull/64,4,1
+/nanlabs/terraform-aws-starter/blob/main/scripts/README.md,3,3
+/nanlabs/terraform-aws-starter/tree/main/apps,3,2
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/main.tf,3,1
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,2,2
+/nanlabs/terraform-aws-starter/blob/main/tools/danger/dangerfile.ts,2,2
