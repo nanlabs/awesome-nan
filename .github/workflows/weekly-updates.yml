@@ -67,9 +67,17 @@ jobs:
             git clone "$github_url" repo-$i
             cd repo-$i
             hash=$(git log --before="${COMPARE_DATE}" --format="%H" -n 1)
+            if [[ -z "$hash" ]]; then
+              hash=$(git rev-list --max-parents=0 HEAD | tail -n 1)
+            fi
             cd ..
             rm -rf repo-$i
-            curl -s "https://raw.githubusercontent.com/nanlabs/$repo/$hash/$file_path" -o "$filename"
+            if ! curl -fsSL "https://raw.githubusercontent.com/nanlabs/$repo/$hash/$file_path" -o "$filename"; then
+              echo "[]" > "$filename"
+            fi
+            if ! jq empty "$filename" > /dev/null 2>&1; then
+              echo "[]" > "$filename"
+            fi
             i=$((i + 1))
           done
 
