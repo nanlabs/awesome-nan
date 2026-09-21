@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/devops-reference,25,17
+/nanlabs/devops-reference/discussions,4,2
+/nanlabs/devops-reference/pull/363,4,2
+/nanlabs/devops-reference/blob/main/README.md,3,3
+/nanlabs/devops-reference/actions,1,1
+/nanlabs/devops-reference/blob/1ebabd05e52fb595390a1241dffa63ee0eefe739/.github/CODE_OF_CONDUCT.md,1,1
+/nanlabs/devops-reference/blob/main/CONTRIBUTING.md,1,1
+/nanlabs/devops-reference/blob/main/examples/compose-cognito/setup-resources.sh,1,1
+/nanlabs/devops-reference/blob/main/examples/serverless-appsync-node-typescript/.env.local,1,1
+/nanlabs/devops-reference/blob/main/tools/danger/dangerfile.js,1,1
