@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,13,7
+/nanlabs/terraform-aws-starter/pulls,5,3
+/nanlabs/terraform-aws-starter/blob/main/modules/vpc-endpoint/README.md,3,3
+/nanlabs/terraform-aws-starter/issues,3,3
+/nanlabs/terraform-aws-starter/tree/main/apps,3,2
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,2,2
+/nanlabs/terraform-aws-starter/blob/main/modules/rds-aurora/README.md,2,2
+/nanlabs/terraform-aws-starter/issues/94,2,2
+/nanlabs/terraform-aws-starter/tree/main/modules,2,2
+/nanlabs/terraform-aws-starter/pull/64,2,1
