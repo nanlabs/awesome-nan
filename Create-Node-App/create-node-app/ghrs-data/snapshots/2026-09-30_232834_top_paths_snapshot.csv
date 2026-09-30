@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,21,13
+/Create-Node-App/create-node-app/blob/main/CONTRIBUTING.md,2,2
+/Create-Node-App/create-node-app/releases,2,2
+/Create-Node-App/create-node-app/issues/324,2,1
+/Create-Node-App/create-node-app/pull/331,2,1
+/Create-Node-App/create-node-app/pull/335,2,1
+/Create-Node-App/create-node-app/actions,1,1
+/Create-Node-App/create-node-app/actions/workflows/lint.yml,1,1
+/Create-Node-App/create-node-app/actions/workflows/shellcheck.yml,1,1
+/Create-Node-App/create-node-app/actions/workflows/type-check.yml,1,1
