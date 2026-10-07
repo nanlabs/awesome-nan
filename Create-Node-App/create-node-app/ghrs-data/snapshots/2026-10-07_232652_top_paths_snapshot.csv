@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/Create-Node-App/create-node-app,19,14
+/Create-Node-App/create-node-app/issues/370,9,9
+/Create-Node-App/create-node-app/blob/main/.github/CODE_OF_CONDUCT.md,2,2
+/Create-Node-App/create-node-app/blob/main/README.md,2,2
+/Create-Node-App/create-node-app/issues,2,2
+/Create-Node-App/create-node-app/blob/main/packages/create-awesome-node-app/README.md,2,1
+/Create-Node-App/create-node-app/actions/workflows/lint.yml,1,1
+/Create-Node-App/create-node-app/actions/workflows/mega-linter.yml,1,1
+/Create-Node-App/create-node-app/actions/workflows/shellcheck.yml,1,1
+/Create-Node-App/create-node-app/actions/workflows/smoke-distribution.yml,1,1
