@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,6,5
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,4,4
+/nanlabs/terraform-aws-starter/blob/main/modules/docdb/README.md,4,4
+/nanlabs/terraform-aws-starter/blob/main/modules/rds/README.md,3,3
+/nanlabs/terraform-aws-starter/forks,3,3
+/nanlabs/terraform-aws-starter/pulls,3,3
+/nanlabs/terraform-aws-starter/blob/main/live/iam-management/README.md,2,2
+/nanlabs/terraform-aws-starter/graphs/commit-activity,2,2
+/nanlabs/terraform-aws-starter/pull/36,2,2
+/nanlabs/terraform-aws-starter/issues,2,1
