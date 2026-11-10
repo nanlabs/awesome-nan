@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/terraform-aws-starter,8,5
+/nanlabs/terraform-aws-starter/blob/main/modules/amplify-app/README.md,5,5
+/nanlabs/terraform-aws-starter/blob/main/live/iam-management/README.md,4,4
+/nanlabs/terraform-aws-starter/blob/main/modules/docdb/README.md,3,3
+/nanlabs/terraform-aws-starter/pull/22/files/de7c4591f1849ce3a2bf84583ce953f1e5b9aa35,3,3
+/nanlabs/terraform-aws-starter/pulls,3,2
+/nanlabs/terraform-aws-starter/blob/main/live/common-infra/README.md,2,2
+/nanlabs/terraform-aws-starter/blob/main/live/core-networking/README.md,2,2
+/nanlabs/terraform-aws-starter/blob/main/modules/__template__/README.md,2,2
+/nanlabs/terraform-aws-starter/blob/main/modules/msk/README.md,2,2
