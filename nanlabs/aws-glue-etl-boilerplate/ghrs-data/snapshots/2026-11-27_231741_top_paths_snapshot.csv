@@ -1,0 +1,11 @@
+url_path,views_total,views_unique
+/nanlabs/aws-glue-etl-boilerplate,7,5
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/DEVELOPMENT.md,4,4
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/DEPLOYMENT.md,4,3
+/nanlabs/aws-glue-etl-boilerplate/blob/main/README.md,2,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/docs/ARCHITECTURE.md,2,2
+/nanlabs/aws-glue-etl-boilerplate/blob/main/.devcontainer/compose.yml,2,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/.devcontainer/docker/awsglue,2,1
+/nanlabs/aws-glue-etl-boilerplate/tree/main/jobs/bronze,2,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/.devcontainer/docker/awsglue/start-development.sh,1,1
+/nanlabs/aws-glue-etl-boilerplate/blob/main/Makefile,1,1
